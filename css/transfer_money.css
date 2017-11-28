@@ -1,0 +1,118 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-bg-white {
+  background: #fff;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.bxg-inp-delete {
+  display: none;
+  position: absolute;
+  top: 0.39583333rem;
+  right: 0.41666667rem;
+  width: 0.58333333rem;
+  height: 0.58333333rem;
+  border-radius: 50%;
+  background: url(../images/transfer_delete.png) no-repeat center center;
+  background-size: 0.58333333rem 0.58333333rem;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.73611111rem;
+}
+.bxg-friend {
+  font-size: 0.55555556rem;
+  text-align: center;
+  color: #333;
+}
+.bxg-avactor {
+  margin: 0 auto;
+  width: 2.77777778rem;
+  height: 2.77777778rem;
+  background: #12b7f5;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.bxg-avactor img {
+  width: 100%;
+  height: 100%;
+}
+.bxg-friend .bxg-name {
+  margin: 0.41666667rem auto 1.11111111rem;
+}
+.bxg-transfer-money {
+  padding: 0.45833333rem 0.27777778rem 0.20833333rem;
+}
+.bxg-title {
+  font-size: 0.58333333rem;
+  color: #333;
+}
+.bxg-inp-money {
+  margin-top: 0.41666667rem;
+  position: relative;
+}
+.bxg-inp-money span {
+  display: inline-block;
+  height: 0.58333333rem;
+  line-height: 0.58333333rem;
+  font-size: 0.70833333rem;
+  color: #aaa;
+}
+.bxg-inp-money input {
+  display: inline-block;
+  height: 0.58333333rem;
+  line-height: 0.58333333rem;
+  font-size: 0.55555556rem;
+  border: none;
+}
+.bxg-transfer-remark {
+  margin-top: 0.20833333rem;
+  padding: 0 0.41666667rem 0.34722222rem;
+  position: relative;
+}
+.bxg-remark {
+  padding: 0.34722222rem 0;
+  font-size: 0.41666667rem;
+  color: #aaa;
+}
+.bxg-transfer-remark textarea {
+  margin: 0 auto;
+  display: block;
+  padding: 0.13888889rem;
+  width: 9.16666667rem;
+  height: 100%;
+  font-size: 0.41666667rem;
+  border: 1px solid #f0f0f0;
+  overflow: hidden;
+  resize: none;
+  background: none;
+}
+.bxg-transfer-remark .bxg-inp-delete {
+  top: 0.27777778rem;
+}
+.bxg-affirm {
+  margin: 0.69444444rem auto 0;
+  width: 9.16666667rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  font-size: 0.55555556rem;
+  text-align: center;
+  color: #fff;
+  background: #12b7f5;
+  border-radius: 0.11111111rem;
+}

@@ -2,9 +2,9 @@
 ! function(e) {
 	function t() {
 		e.rem = m.getBoundingClientRect().width /10, m.style.fontSize = e.rem + "px";
-//		if(m.getBoundingClientRect().width >960){
-//			e.rem = 96, m.style.fontSize = e.rem + "px";
-//		}
+		if(m.getBoundingClientRect().width >960){
+			e.rem = 96, m.style.fontSize = e.rem + "px";
+		}
 	}
 	var i, n = e.devicePixelRatio,
 		a = 1,

@@ -1,0 +1,100 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-bg-white {
+  background: #fff;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  overflow: hidden;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-tabs {
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.bxg-tabs a {
+  width: 50%;
+  font-size: 0.44444444rem;
+  color: #333;
+  text-align: center;
+}
+.bxg-tabs a.bxg-active {
+  color: #12B7F5;
+  border-bottom: 1px solid #12B7F5;
+}
+.bxg-content-slide {
+  margin-top: 0.13888889rem;
+}
+.bxg-asset-list {
+  margin-top: 0.13888889rem;
+  margin-bottom: 0.41666667rem;
+  width: 100%;
+}
+.bxg-asset-list ul li {
+  padding: 0 0.41666667rem;
+  height: 1.11111111rem;
+  line-break: 1.11111111rem;
+  line-height: 1.11111111rem;
+  font-size: 0.44444444rem;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f2;
+}
+.bxg-asset-list ul li:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.bxg-asset-list ul li span:nth-child(3) {
+  float: right;
+}
+.bxg-cir-icon {
+  margin: 0.30555556rem 0.41666667rem 0.30555556rem 0;
+  float: left;
+  display: block;
+  width: 0.51388889rem;
+  height: 0.51388889rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.bxg-asset-list ul li:first-child .bxg-cir-icon {
+  border: 0.11111111rem solid #0bffdc;
+}
+.bxg-asset-list ul li:nth-child(2) .bxg-cir-icon {
+  border: 0.11111111rem solid #8803e8;
+}
+.bxg-asset-list ul li:nth-child(3) .bxg-cir-icon {
+  border: 0.11111111rem solid #f7ad19;
+}
+.bxg-asset-list ul li:nth-child(4) .bxg-cir-icon {
+  border: 0.11111111rem solid #03b2ff;
+}
+.bxg-asset-list ul li:nth-child(5) .bxg-cir-icon {
+  border: 0.11111111rem solid #ff5206;
+}
+.bxg-asset-list ul li:nth-child(6) .bxg-cir-icon {
+  border: 0.11111111rem solid #08ff2b;
+}
+.bxg-asset-list ul li:nth-child(7) .bxg-cir-icon {
+  border: 0.11111111rem solid #000dff;
+}
+.bxg-asset-list ul li:nth-child(8) .bxg-cir-icon {
+  border: 0.11111111rem solid #ff0025;
+}
+.bxg-asset-list ul li:nth-child(9) .bxg-cir-icon {
+  border: 0.11111111rem solid #ec00ff;
+}
+.bxg-asset-list ul:nth-child(2) li {
+  margin-top: 0.13888889rem;
+}

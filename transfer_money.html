@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	<title>可爱的人</title>
+    	
+    	<link rel="stylesheet" href="public/css/reset.css"/>
+    	<link rel="stylesheet" href="css/head.css"/>
+    	<link rel="stylesheet" href="css/transfer_money.css" />
+    	<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			可爱的人
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<div class="bxg-content">
+			<div class="bxg-friend">
+				<div class="bxg-avactor">
+					<img src="http://img.dongqiudi.com/uploads/avatar/2015/07/25/QM387nh7As_thumb_1437790672318.jpg" alt="" />
+				</div>
+				<div class="bxg-name">伟（*伟）</div>
+			</div>
+			
+			<div class="bxg-transfer-money bxg-bg-white">
+				<div class="bxg-title">转账金额</div>
+				<div class="bxg-inp-money">
+					<span>￥</span>
+					<input type="number" name="money" placeholder="请输入转账金额"/>
+					<i class="bxg-inp-delete"></i>
+				</div>
+				
+			</div>
+			
+			<div class="bxg-transfer-remark bxg-bg-white">
+				<div class="bxg-remark">备注(50字以内)</div>
+				<textarea name="remark" rows="3"></textarea>
+				<i class="bxg-inp-delete"></i>
+			</div>
+			
+			<div class="bxg-affirm">确认转账</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/transfer.money.js" ></script>
+	</body>
+</html>

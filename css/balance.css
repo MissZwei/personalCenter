@@ -89,8 +89,12 @@ body {
   background: #fff;
 }
 .bxg-serve ul li {
+  padding: 0.52777778rem 0 0.66666667rem;
   float: left;
   width: 33.33333333%;
+  border-bottom: 1px solid #f0f0f2;
+  border-right: 1px solid #f0f0f2;
+  box-sizing: border-box;
 }
 .bxg-serve ul li a {
   display: block;
@@ -101,7 +105,7 @@ body {
 .bxg-serve ul li a i {
   display: block;
   height: 1rem;
-  margin: 0.52777778rem auto 0.66666667rem;
+  margin: 0 auto 0.83333333rem;
 }
 .bxg-serve ul li:first-child i {
   width: 1.34722222rem;
@@ -109,10 +113,10 @@ body {
 }
 .bxg-serve ul li:nth-child(2) i {
   width: 0.70833333rem;
-  background-position: -3.44444444rem 0;
+  background-position: -3.45138889rem 0;
 }
 .bxg-serve ul li:nth-child(3) i {
-  width: 0.86111111rem;
+  width: 0.875rem;
   background-position: 0 -1.08333333rem;
 }
 .bxg-serve ul li:nth-child(4) i {
@@ -121,7 +125,7 @@ body {
 }
 .bxg-serve ul li:nth-child(5) i {
   width: 1.06944444rem;
-  background-position: -1.95833333rem -1.08333333rem;
+  background-position: -1.94444444rem -1.08333333rem;
 }
 .bxg-serve ul li:nth-child(6) i {
   width: 1.13888889rem;
@@ -134,4 +138,12 @@ body {
 .bxg-serve ul li:nth-child(8) i {
   width: 1.09722222rem;
   background-position: -1.18055556rem -2.19444444rem;
+}
+.bxg-footer {
+  margin-top: 0.41666667rem;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  font-size: 0.375rem;
+  text-align: center;
+  background: #fff;
 }

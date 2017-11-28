@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/transfer.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			转到百信购账户
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<div class="bxg-content">
+			<div class="bxg-account">
+				<span class="">对方账户</span>
+				<input type="text" name="account" placeholder="请输入对方账户"/>
+				<i class="bxg-inp-delete"></i>
+			</div>
+			<div class="bxg-account-tip">
+				钱转入到对方账户，不能退换
+			</div>
+			<div class="bxg-next">下一步</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/transfer.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	<title>资产分析</title>
+    	
+    	<link rel="stylesheet" href="public/css/reset.css"/>
+    	<link rel="stylesheet" href="css/head.css"/>
+    	<link rel="stylesheet" href="public/css/swiper.min.css" />
+    	<link rel="stylesheet" href="css/asset.analysis.css" />
+    	<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			资产分析
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<div class="bxg-content">
+			<div class="bxg-tabs bxg-between bxg-bg-white">
+		        <a href="#" hidefocus="true" class="bxg-active">资产分布</a>
+		        <a href="#" hidefocus="true">收益分析</a>
+		    </div>    
+
+			<div class="bxg-asset">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide"> 
+				    	<div class="bxg-content-slide">
+						    <div class="bxg-cir-chart bxg-bg-white">
+						    	<div id="bxg-asset-chart"></div>
+						    </div>
+						    
+						    <div class="bxg-asset-list">
+						    	<ul>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>交易资金</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>升级金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>充值金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>提现金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>红包金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>转账金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>保险金额</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>公益金额</span>
+						    		</li><li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>推荐金额</span>
+						    		</li>
+						    	</ul>
+						    </div>
+						</div>
+					</div>
+				    <div class="swiper-slide">
+				    	<div class="bxg-content-slide">
+						    <div class="bxg-cir-chart bxg-bg-white">
+						    	<div id="bxg-asset-chart"></div>
+						    </div>
+						    
+						    <div class="bxg-asset-list">
+						    	<ul>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>待收益</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>昨天收益</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>每日收益</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>累计收益</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>优惠总额</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		<li>
+						    			<span class="bxg-cir-icon"></span>
+						    			<span>红包收益</span>
+						    			<span>+20.00</span>
+						    		</li>
+						    		
+						    	</ul>
+						    	<ul>
+						    		<li class="bxg-between">
+						    			<span>最后收益时间</span>
+						    			<span>2017-10-28</span>
+						    		</li>
+						    	</ul>
+						    </div>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="public/js/swiper.min.js" ></script>
+		<script type="text/javascript" src="public/js/echarts.min.js" ></script>
+		<script type="text/javascript" src="js/asset.analysis.js" ></script>
+	</body>
+</html>
