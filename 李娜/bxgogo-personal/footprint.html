@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的足迹</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="public/css/head.css" />
+		<link rel="stylesheet" href="css/footprint.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.js"></script>
+	</head>
+	<body>
+		<div class="bxg-header">
+			<a href="javascript:history.go(-1);">
+				<span></span>
+			</a>
+			我的足迹
+			<a href="#javascript:;">
+				<span id="bxg_fllow_delete"></span>
+				<span id="bxg_ejct"></span>
+			</a>
+		</div>
+			<!--<div class="bxg-header2">
+			<p class="all">全选</p>
+				我的足迹
+			<p>取消</p>
+		</div>-->
+		 
+		<div class="pan">
+			<div class="news">
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">消息</b>
+				<p>1</p>
+			</a>
+			</div>
+			<div   class="first">
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">首页</b>
+				
+			</a>
+			</div>
+			<div  class="delate" >
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">清空</b>
+			</a>
+			</div>
+		</div>
+	<!--内容-->
+		<div class="bxg-content">
+			
+			<ul class="bxg-content-ul">
+				<p>08月20号</p>
+				<li>
+					<div class="bxg-content-left">
+						<img src="images/bxg-1.png"/>
+					</div>
+					<div class="bxg-content-right">
+						<div>
+							<p>KLDJL;SAJ;LDASJK;DLKJAS;LDLJK;ASA;SDK;LASJKD;LASJK;D
+							kjshkjashkasLKAS;DKJ;ASLJKD;ASKD;ASLKD;LASJKD;LL</p>
+							<span>200m</span>
+						</div>
+						<p>保定市北市区七一路 成交<span>0</span>台</p>
+					
+							<span>￥<p>680</p></span>
+							
+						<div class="findlike">
+							找相似
+						
+						</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="bxg-content-left">
+						<img src="images/bxg-1.png"/>
+					</div>
+					<div class="bxg-content-right">
+						<div>
+							<p>KLDJL;SAJ;LDASJK;DLKJAS;LDLJK;ASA;SDK;LASJKD;LASJK;D
+							kjshkjashkasLKAS;DKJ;ASLJKD;ASKD;ASLKD;LASJKD;LL</p>
+							<span>200m</span>
+						</div>
+						<p>保定市北市区七一路 成交<span>0</span>台</p>
+					
+							<span>￥<p>680</p></span>
+							
+						<div class="findlike">
+							找相似
+						
+						</div>
+						
+					</div>
+				</li>
+				
+			</ul>
+			<ul class="bxg-content-ul">
+				<p>08月20号</p>
+				<li>
+					<div class="bxg-content-left">
+						<img src="images/bxg-1.png"/>
+					</div>
+					<div class="bxg-content-right">
+						<div>
+							<p>KLDJL;SAJ;LDASJK;DLKJAS;LDLJK;ASA;SDK;LASJKD;LASJK;D
+							kjshkjashkasLKAS;DKJ;ASLJKD;ASKD;ASLKD;LASJKD;LL</p>
+							<span>200m</span>
+						</div>
+						<p>保定市北市区七一路 成交<span>0</span>台</p>
+					
+							<span>￥<p>680</p></span>
+							
+						<div class="findlike">
+							找相似
+						
+						</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="bxg-content-left">
+						<img src="images/bxg-1.png"/>
+					</div>
+					<div class="bxg-content-right">
+						<div>
+							<p>KLDJL;SAJ;LDASJK;DLKJAS;LDLJK;ASA;SDK;LASJKD;LASJK;D
+							kjshkjashkasLKAS;DKJ;ASLJKD;ASKD;ASLKD;LASJKD;LL</p>
+							<span>200m</span>
+						</div>
+						<p>保定市北市区七一路 成交<span>0</span>台</p>
+					
+							<span>￥<p>680</p></span>
+							
+						<div class="findlike">
+							找相似
+						</div>
+						
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="aaa"></div>
+		<script >
+			$(document).ready(function(){
+				 $("#bxg_ejct").click(function(){
+					  	
+					  		if($(".aaa").css("display")=="none"){
+							  		$(".pan").animate({
+							  		 height:'+'+$(".aaa").css("height"),
+		    						width:'+'+$(".aaa").css("width")
+							  		});
+							  		$(".aaa").show()
+							  	}else{
+							  		$(".pan").animate({
+							  			height:'+'+"0px",
+		    							width:'+'+"0px"
+							  		});
+							  		$(".aaa").hide()
+							  	}
+					});  
+					$("#bxg_fllow_delete").click(function(){
+						
+//						console.log($(this).parent().parent())
+					
+					})
+				
+				
+				
+				
+				
+				
+			})
+			
+		</script>
+		
+		
+	</body>
+</html>

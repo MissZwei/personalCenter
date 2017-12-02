@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的收藏</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="public/css/head.css" />
+		<link rel="stylesheet" href="css/collection.css" />
+		<!--<script type="text/javascript" src="js/collection.js"></script>-->
+		<script type="text/javascript" src="public/js/public.js"></script>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
+		<!--<script type="text/javascript" src="public/js/jquery-1.8.3.js"></script>-->
+	
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="bxg-header">
+			<a href="javascript:history.go(-1);">
+				<span></span>
+			</a>
+			我的收藏
+			<a href="#javascript:;">
+				<div></div>
+				<span id="bxg_ejct"></span>
+			</a>
+		</div>
+		
+		<div class="pan">
+			<div class="news">
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">消息</b>
+				<p>1</p>
+			</a>
+			</div>
+			<div   class="first">
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">首页</b>
+				
+			</a>
+			</div>
+			<div  class="delate" >
+				<a href="#javascript:;">
+				<span></span>
+				<b class="fftb">清空</b>
+			</a>
+			</div>
+		</div>
+		<!--	点击清空的弹出框-->
+		<div id="fade" class="black_overlay"> </div>
+	<div id="delate_ejct" class="delate_ejct">
+		<p>您确定要全部删除吗？</p>
+		<button class="sure" >确定</button>
+		<button class="cancel">取消</button>
+	</div>
+
+
+		<!--选择弹出框-->
+		<!--<div class="bob">
+			<div id="bxg_t" class="choice2"> </div>
+			<div id="bxg_b" class="choice3">
+					<div>
+						<a href="#javascript:;">相似款</a>
+					</div>
+					<div class="bxg-nolike">
+						<a href="#javascript:;">取消收藏</a>
+					</div>
+			</div>
+			
+		</div>-->
+				
+		
+		<!--内容-->
+		<div class="bxg-collection-content">
+			<p>12月25日</p>
+			<ul class="bxg-collection-content-ul">
+
+				<li class="bxg-collection-content-li">
+			
+					<div class="bxg-collection-goods">
+						<img src="images/bxg-1.png" alt="" />
+					</div>
+					<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+					<span>￥
+				<p>681</p>
+				<span ></span>
+				
+					</span>
+
+				</li>
+				<li class="bxg-collection-content-li">
+					<div class="bxg-collection-goods">
+						<img src="images/bxg-2.png" alt="" />
+					</div>
+					<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+					<span>￥
+				<p>680</p>
+				<span></span>
+					</span>
+
+				</li>
+				</li>
+				<li class="bxg-collection-content-li">
+					<div class="bxg-collection-goods">
+						<img src="images/bxg-2.png" alt="" />
+					</div>
+					<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+					<span>￥
+				<p>680</p>
+				<span></span>
+					</span>
+
+				</li>
+				<li class="bxg-collection-content-li">
+					<div class="bxg-collection-goods">
+						<img src="images/bxg-1.png" alt="" />
+					</div>
+					<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+					<span>￥
+				<p>680</p>
+				<span></span>
+				
+					</span>
+
+				</li>
+
+			</ul>
+
+		</div>
+		
+		
+		<!--猜你喜欢-->
+		<div class="bxg-guesslike">
+			<div class="guesslike">
+				<a href="#javascript:;">
+					<span></span>
+				</a>
+				收藏夹猜你喜欢
+				<a href="#javascript:;">
+					<span></span>
+				</a>
+			</div>
+			<div class="bxg-collection-content2">
+				<ul class="bxg-collection-content-ul2">
+
+					<li class="bxg-collection-content-li2">
+						<div class="bxg-collection-goods2">
+							<img src="images/bxg-1.png" alt="" />
+						</div>
+						<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+						<span>￥
+							<p>680</p>
+							<span></span>
+						</span>
+					</li>
+					<li class="bxg-collection-content-li2">
+						<div class="bxg-collection-goods2">
+							<img src="images/bxg-2.png" alt="" />
+						</div>
+						<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
+						<span>￥
+				<p>680</p>
+				<span></span>
+						</span>
+						
+
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+		<div class="aaa"></div>
+	<script>
+				$(document).ready(function(){
+						//点击清空
+//				$(".delate").click(function(){
+//						var delate_ejct = document.getElementById("delate_ejct").style.display='block';
+//						var fade = document.getElementById("fade").style.display='block';
+//
+//				})
+//				//取消清空
+//				$(".cancel").click(function(){
+//					var delate_ejct = document.getElementById("delate_ejct").style.display='none';
+//						var fade = document.getElementById("fade").style.display='none';
+//						$(".pan").hide();
+//					
+//				});
+//				//确定清空
+//				$(".sure").click(function(){
+//					$(".bxg-collection-content").remove();
+//						var delate_ejct = document.getElementById("delate_ejct").style.display='none';
+//						var fade = document.getElementById("fade").style.display='none';
+//						$(".pan").hide();
+//				})
+					
+					
+					
+					  $("#bxg_ejct").click(function(){
+					  	
+					  		if($(".aaa").css("display")=="none"){
+							  		$(".pan").animate({
+							  		 height:'+'+$(".aaa").css("height"),
+		    						width:'+'+$(".aaa").css("width")
+							  		});
+							  		$(".aaa").show()
+							  	}else{
+							  		$(".pan").animate({
+							  			height:'+'+"0px",
+		    							width:'+'+"0px"
+							  		});
+							  		$(".aaa").hide()
+							  	}
+					});  
+					
+				
+				
+				//选择
+//				$(".bxg-collection-content-li span:last-child span:last-child").click(function(){
+//			
+//					var bob = document.getElementsByClassName("bob");
+//					console.log(bob)
+//					$(this).parent().parent().addclass("bob").css("display","block")
+
+					
+			
+				
+//					var choice3 = document.getElementsByClassName("choice3").style.display='block';
+					
+//					
+					
+// 				var bxg_t = document.getElementById("bxg_t").style.display='block';
+//				var bxg_b= document.getElementById("bxg_b").style.display='block';	
+//				$(".bxg-nolike").click(function(){
+//					$(".this").remove();
+//				var bxg_t = document.getElementById("bxg_t").style.display='none';
+//				var bxg_b= document.getElementById("bxg_b").style.display='none';	
+//					
+//				})
+					
+				})
+
+					  
+					 
+				});
+		</script>
+
+	</body>
+
+</html>

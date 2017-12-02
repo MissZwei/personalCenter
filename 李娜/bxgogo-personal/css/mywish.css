@@ -1,0 +1,178 @@
+.ui-tab {
+  overflow: hidden;
+  width: 100%;
+}
+.tab-nav {
+  height: 1.38888889rem;
+  background: #ffffff;
+}
+.tab-nav > li {
+  width: 50%;
+  float: left;
+  font-size: 0.45833333rem;
+  color: #333333;
+  text-align: center;
+  position: relative;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+}
+.tab-nav li.current:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  border-bottom: 2px solid #12B7F5;
+}
+.tab-content {
+  display: -webkit-box;
+  -webkit-transition: all 0.4s ease-out;
+}
+.bxg-conent {
+  width: 100%;
+  margin-top: 0.27777778rem;
+  background: #ffffff;
+}
+.bxg-conent-top {
+  height: 1.94444444rem;
+}
+.conent-top-left > img {
+  height: 1.38888889rem;
+  width: 1.38888889rem;
+  border-radius: 0.69444444rem;
+  float: left;
+  display: block;
+  margin: 0.27777778rem 0.41666667rem;
+}
+.adf {
+  height: 1.38888889rem;
+}
+.adf2 {
+  height: 0.55555556rem;
+}
+.adf > p {
+  font-size: 0.41666667rem;
+  color: #333333;
+  float: left;
+  margin-top: 0.625rem;
+}
+.adf > span {
+  height: 0.31944444rem;
+  width: 0.51388889rem;
+  float: right;
+  background: url(../images/my.png) no-repeat;
+  background-size: 2.77777778rem;
+  background-position: -2.25rem -0.95833333rem;
+  margin: 0.625rem 0.41666667rem 0 0;
+}
+.adf2 > p:nth-child(1) {
+  font-size: 0.33333333rem;
+  color: #12B7F5;
+  float: left;
+}
+.adf2 > p:nth-child(2) {
+  font-size: 0.33333333rem;
+  color: #a2a2a2;
+  float: right;
+  margin-right: 0.41666667rem;
+}
+.bxg-conent-cen {
+  height: 4.72222222rem;
+}
+.bxg-conent-cen > p {
+  font-size: 0.33333333rem;
+  color: #333333;
+  margin: 0 0 0.41666667rem 0.41666667rem;
+}
+.cen-of {
+  height: 3.19444444rem;
+}
+.cen-of > img {
+  height: 2.22222222rem;
+  width: 1.66666667rem;
+  margin: 0 0.41666667rem;
+  float: left;
+}
+.cen-of > div {
+  float: left;
+}
+.cen-of > div > p {
+  color: #333333;
+  font-size: 0.5rem;
+}
+.cen-of > div > small {
+  color: #5a5959;
+  font-size: 0.33333333rem;
+  display: block;
+  margin-top: 0.45833333rem;
+}
+.cen-of > div > span {
+  color: #5a5959;
+  font-size: 0.33333333rem;
+}
+.cen-of > a {
+  background: #12b7f5;
+  float: right;
+  text-decoration: none;
+  font-size: 0.5rem;
+  color: #ffffff;
+  margin: 1.38888889rem 0.41666667rem 0 0;
+  padding: 0.27777778rem 0.41666667rem;
+  border-radius: 0.20833333rem;
+}
+.cen-ot > p:nth-child(1) {
+  font-size: 0.33333333rem;
+  color: #8f8f8f;
+  margin-left: 0.41666667rem;
+  float: left;
+}
+.cen-ot > span:nth-child(2) {
+  height: 0.5rem;
+  width: 0.69444444rem;
+  background: url(../images/wish.png) no-repeat;
+  background-size: 0.69444444rem 1.38888889rem;
+  background-position: 0 0;
+  float: left;
+  margin-left: 3.61111111rem;
+}
+.cen-ot > span:nth-child(3) {
+  height: 0.5rem;
+  width: 0.69444444rem;
+  background: url(../images/wish.png) no-repeat;
+  background-size: 0.69444444rem 1.38888889rem;
+  background-position: 0 -0.48611111rem;
+  float: left;
+  margin-left: 1.19444444rem;
+}
+.cen-ot > span:nth-child(4) {
+  height: 0.51388889rem;
+  width: 0.69444444rem;
+  background: url(../images/wish.png) no-repeat;
+  background-size: 0.69444444rem 1.38888889rem;
+  background-position: 0 -0.94444444rem;
+  float: right;
+  margin-right: 0.41666667rem;
+}
+.bxg-conent-bottom > p {
+  font-size: 0.33333333rem;
+  line-height: 0.83333333rem;
+  margin-left: 0.41666667rem;
+  color: #12B7F5;
+}
+.bxg-conent-bottom > p > span:nth-child(1) {
+  display: block;
+  height: 0.58333333rem;
+  width: 0.58333333rem;
+  background: url(../images/zan.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.13888889rem;
+  float: left ;
+}
+.bxg-conent-bottom > input {
+  width: 9.16666667rem;
+  height: 0.83333333rem;
+  border: 1px solid #aeaeae;
+  border-radius: 0.27777778rem;
+  margin: 0.69444444rem 0 0.41666667rem 0.41666667rem;
+}
