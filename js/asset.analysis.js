@@ -24,7 +24,7 @@ $(function(){
 	    assetObj.style.width = window.innerWidth/3+'px';
 	    assetObj.style.height = window.innerHeight/3+'px';
 	};
-	resizeAssetChart();  
+	resizeAssetChart();
 	var assetChart = echarts.init(assetObj);
 	
 	
@@ -45,6 +45,7 @@ $(function(){
 //  			height:30
 //  		}
 //  	},
+
     	series: [
         	{
             	name:'访问来源',
