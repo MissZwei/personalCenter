@@ -1,0 +1,802 @@
+body {
+	background: #f1f1f1
+}
+.setList {
+	margin-top: 40px
+}
+.setList_cont {
+	width: 100%
+}
+.setList_cont ul {
+	margin-top: 10px;
+	padding: 0 5%;
+	background: #fff
+}
+.setList_cont ul li {
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #f1f1f1
+}
+.setList_cont a {
+	display: block;
+	font-size: 16px;
+	color: #000000
+}
+.setList_cont ul li a i.r_b {
+	display: block;
+	float: right;
+	margin-top: 14.5px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icon.png)no-repeat -135px -57.5px;
+	background-size: 260px
+}
+.setList_cont ul li span {
+	float: right;
+	color: #888888
+}
+.quit {
+	margin-top: 50px;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	text-align: center;
+	background: #fff
+}
+.set_mobile {
+	margin-top: 60px
+}
+.set_mobile .mobile {
+	padding: 12px 5%;
+	background: #fff;
+	font-size: 16px
+}
+.set_mobile .mobile span {
+	float: right
+}
+.Next {
+	margin: 30px auto 0;
+	width: 90%;
+	padding: 8px 0;
+	border-radius: 5px;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #F82121
+}
+.next_tip {
+	margin: 5px auto;
+	width: 90%;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	color: #888
+}
+.change_content {
+	margin-top: 50px;
+	width: 100%
+}
+.change_content .change_tip {
+	font-size: 12px;
+	color: #888;
+	text-align: center
+}
+.change_content .content {
+	margin: 10px 0;
+	padding: 0 5%;
+	background: #fff
+}
+.change_content .content > div {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px
+}
+.change_content .content > div:first-child {
+	border-bottom: 1px solid #f1f1f1
+}
+.change_content .content > div span:first-child {
+	display: inline-block;
+	width: 18%
+}
+.Dtime, .getCode {
+	font-size: 12px;
+	background: #e1e1e1;
+	padding: 8px 2%;
+	color: #fff
+}
+.change_content .content > div input {
+	width: 40%;
+	margin: 0 3%;
+	height: 30px;
+	font-size: 14px;
+	border: none
+}
+.getCode {
+	margin-left: 8%;
+	background: #e00100
+}
+.Dtime {
+	display: none
+}
+.identify, .showIdentify {
+	margin-top: 40px
+}
+.i_content {
+	width: 100%;
+	height: 180px
+}
+.i_content div {
+	padding-top: 150px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff
+}
+.agreement {
+	margin-top: 30px
+}
+.txt {
+	margin: 0 auto;
+	width: 70%;
+	height: 30px
+}
+.circle {
+	display: block;
+	float: left;
+	margin-right: 8px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	background: #F82121;
+	border-radius: 50%
+}
+.txt div {
+	height: 18px;
+	line-height: 18px;
+	font-size: 16px
+}
+.txt div span {
+	color: #F82121
+}
+.identify .Next {
+	margin-top: 5px
+}
+.Next a {
+	display: block;
+	width: 85%;
+	text-align: center;
+	background: #F82121;
+	color: white;
+	font-size: 16px;
+	border-radius: 10px;
+	margin-left: 8%
+}
+.protocol {
+	display: none;
+	position: absolute;
+	width: 70%;
+	height: 62%;
+	background: white;
+	z-index: 99;
+	left: 50%;
+	margin-left: -35%;
+	top: 20%
+}
+.protocol > p {
+	height: 30px;
+	font-size: 16px;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+	background: #F82121;
+	color: white
+}
+.protocol ol {
+	width: 95%;
+	height: 85%;
+	overflow-y: scroll;
+	padding: 8px 2.5%
+}
+.protocol ol li {
+	font-size: 14px;
+	width: 90%;
+	line-height: 25px;
+	list-style-type: decimal;
+	list-style-position: inside;
+	word-wrap: break-word;
+	word-break: break-all
+}
+.protocol .circle {
+	margin: 0;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	top: 0;
+	right: 0
+}
+.identify_info {
+	margin-top: 40px
+}
+.i_info {
+	padding: 15px 3%;
+	width: 94%;
+	font-size: 14px;
+	color: #888
+}
+.identify_info input {
+	border: none
+}
+.identify_info > ul {
+	margin: 0;
+	padding: 0 6%;
+	width: 100%;
+	font-size: 14px;
+	background: #fff
+}
+.identify_info > ul > li {
+	height: 40px;
+	line-height: 40px
+}
+.identify_info > ul > li:last-child {
+	border-top: 1px solid #f1f1f1
+}
+.identify_info > ul > li > span {
+	margin-right: 8px;
+	padding-right: 8px;
+	border-right: 1px solid #f1f1f1
+}
+.i_card {
+	padding: 25px 0 5px;
+	width: 100%;
+	background: #fff
+}
+.i_card > ul {
+	width: 100%;
+	padding: 0
+}
+.i_card > ul > li {
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	text-align: center
+}
+.i_card > ul > li div {
+	margin: 0 auto 10px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 80px;
+	color: #dcdcdc;
+	text-align: center;
+	border: 1px solid #dcdcdc
+}
+.showIdentify .setList_cont ul li {
+	font-size: 14px
+}
+.addRess {
+	height: 40px;
+	line-height: 40px;
+	background: none
+}
+.addRess a {
+	font-size: 35px;
+	color: #fff
+}
+.ship_address .setList_cont ul li {
+	padding: 8px 0;
+	height: 40px;
+	background-size: 12px
+}
+.ship_address .setList_cont ul li a {
+	font-size: 14px;
+	padding-right: 20px;
+	overflow: hidden
+}
+.ship_address .setList_cont ul li a > div {
+	height: 20px;
+	line-height: 20px
+}
+.ship_address .setList_cont ul li span {
+	color: #000
+}
+.ship_address .setList_cont ul li span.ad_name {
+	float: left
+}
+.ship_address .setList_cont ul li .address {
+	color: #888;
+	overflow: hidden
+}
+.tool_tip {
+	display: none;
+	left: 50%;
+	width: 70%;
+	height: 30px;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
+	margin-left: -35%;
+	background: rgba(0,0,0,0.6);
+	border-radius: 15px;
+	bottom: 50%;
+	color: #fff;
+	position: fixed;
+	_position: absolute;
+_left:expression(documentElement.scrollLeft + documentElement.clientWidth - this.offsetWidth);
+_top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight)
+}
+.tool_tip button {
+	width: 30%;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none
+}
+.tool_tip button:first-child {
+	margin-right: 5%
+}
+#add_address {
+	margin-top: 50px;
+	width: 100%
+}
+#add_address .add_a {
+	background: #fff
+}
+#add_address .add_a ul {
+	margin: 0 auto;
+	width: 90%
+}
+#add_address .add_a ul li {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #f1f1f1
+}
+#add_address .add_a ul li i.r_b {
+	display: block;
+	float: right;
+	margin-top: 14.5px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icon.png)no-repeat -135px -57.5px;
+	background-size: 260px
+}
+#add_address .add_a ul li span {
+	display: inline-block;
+	width: 24%;
+	font-size: 16px
+}
+#add_address .add_a ul li input {
+	width: 70%;
+	font-size: 14px;
+	border: none
+}
+.selCity {
+	margin: 50px 5% 10px;
+	width: 90%;
+	font-size: 12px
+}
+.dqld_div {
+	width: 100%;
+	background-color: #fff
+}
+.dqld_div ul {
+	width: 100%;
+	padding: 0;
+	list-style: none
+}
+.dqld_div ul li {
+	padding: 0 5%;
+	width: 90%;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	border-bottom: 1px solid #cccccc
+}
+.reset_tip {
+	margin-top: 40px;
+	padding: 25px 0;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	color: #888;
+	background: #fff
+}
+.reset_tip .account {
+	font-size: 20px;
+	color: #F82121
+}
+.btn {
+	margin: 25px 10%;
+	width: 80%
+}
+.btn a {
+	display: block;
+	padding: 12px 0;
+	width: 42%;
+	font-size: 14px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
+.btn a:first-child {
+	float: left;
+	color: #000;
+	background: #fff;
+	border: 1px solid #DCDCDC
+}
+.btn a:last-child {
+	float: right;
+	margin-left: 5%;
+	color: #fff;
+	background: #F82121;
+	border: 1px solid #F82121
+}
+.no_verify {
+	margin-top: 40px
+}
+.no_r_tip {
+	padding: 10px 5%;
+	width: 90%;
+	font-size: 14px;
+	color: #888
+}
+.no_r_tip span {
+	font-size: 16px;
+	color: #F82121
+}
+.no_r_code {
+	position: relative;
+	padding: 0 5%;
+	width: 90%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	background: #fff
+}
+.no_r_code input {
+	width: 80%;
+	height: 20px;
+	font-size: 14px;
+	border: none
+}
+#get_code_btn {
+	position: absolute;
+	top: 0;
+	right: 3%;
+	display: block;
+	height: 45px;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	background: #ccc
+}
+.resetPay {
+	margin-top: 60px
+}
+.resetPay > div {
+	padding: 15px 5%;
+	width: 90%;
+	background: #fff;
+	font-size: 14px
+}
+.resetPay > div {
+	border-top: 1px solid #f1f1f1
+}
+.resetPay > div:first-child {
+	border-top: none
+}
+.resetPay > div span {
+	display: inline-block;
+	width: 20%;
+	border-right: 1px solid #f1f1f1
+}
+.resetPay > div input {
+	padding-left: 2%;
+	width: 70%;
+	font-size: 14px;
+	border: none
+}
+.setList_cont .no_icon_r li:after {
+	clear: both;
+	content: '';
+	display: block
+}
+.setList_cont .no_icon_r li .list_txt {
+	float: left;
+	font-size: 16px;
+	color: #000000
+}
+.setList_cont .no_icon_r li .list_btn {
+	float: right;
+	margin-right: 0;
+	margin-top: 10px;
+	width: 80px;
+	height: 22px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px
+}
+.list_btn .close_btn {
+	display: block;
+	margin-left: 40px;
+	width: 50%;
+	height: 22px;
+	background: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px
+}
+.btn_open {
+	background: #F82121;
+	border: 1px solid #F82121
+}
+.btn_close {
+	background: #ccc;
+	border: 1px solid #ccc
+}
+.birthday_tip {
+	margin: 10px auto;
+	width: 90%;
+	line-height: 15px;
+	font-size: 12px;
+	color: #888888
+}
+.bx_logo {
+	margin: 0 auto;
+	width: 80px;
+	height: 150px;
+	background: url(../img/log_logo.png)no-repeat center;
+	background-size: 80px
+}
+.feed_back {
+	margin: 40px auto;
+	width: 100%
+}
+.feed_back textarea {
+	margin: 0 2%;
+	padding: 10px 0;
+	width: 96%;
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #F82121;
+	resize: none
+}
+.copyright {
+	margin: 0 auto;
+	padding-bottom: 5px;
+	width: 90%;
+	border-bottom: 1px solid #000
+}
+.copyright > div {
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 700
+}
+.copy_info {
+	margin: 0 5%;
+	width: 90%
+}
+.copy_info a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	color: #F82121;
+	font-size: 14px
+}
+.greet {
+	padding: 10px 3%;
+	width: 94%;
+	font-size: 13px;
+	color: #888;
+	line-height: 20px;
+	background: #fff
+}
+.score ul li {
+	margin: 8px 0;
+	padding: 3px 2%;
+	height: 40px;
+	width: 96%;
+	background: #fff
+}
+.score ul li b {
+	display: inline-block;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #888
+}
+.score ul li span {
+	display: inline-block;
+	margin-top: 6px;
+	padding-left: 6px;
+	width: 22px;
+	height: 30px;
+	background: url(../img/icon.png)no-repeat -25px -53px;
+	background-size: 260px
+}
+.score ul li span.star_bg {
+	background: url(../img/icon.png)no-repeat -50px -54px;
+	background-size: 260px
+}
+.aboutMe .setList_cont ul:first-child li:first-child {
+	height: 50px;
+	line-height: 50px
+}
+.aboutMe .setList_cont ul li img {
+	float: right;
+	display: block;
+	margin-top: 0.75rem;
+	margin-right: 1.5rem;
+	width: 3.2rem;
+	height: 3.2rem;
+	border: 0.1rem solid #ccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%
+}
+.amend {
+	display: none;
+	width: 90%;
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	left: 5%;
+	top: 35%
+}
+.amend > span {
+	display: block;
+	padding: 10px 15px;
+	font-size: 16px;
+	border-bottom: 3px solid #efefef
+}
+.amend > ul {
+	font-size: 14px
+}
+.amend > ul li {
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px
+}
+.amend > ul li:first-child {
+	border-bottom: 1px solid #efefef
+}
+.amend .icon {
+	display: block;
+	float: left;
+	margin: 10px 5px 10px 0;
+	width: 2.5rem;
+	height: 2rem;
+	background: red
+}
+.aboutMe .vip_name {
+	background: #fff
+}
+.aboutMe .vip_name span {
+	margin-right: 0
+}
+.amend_email > div, .amend_nickname > div {
+	padding: 10px 15px
+}
+.amend_email > div input, .amend_nickname > div input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 14px;
+	border: none;
+	border-bottom: 1px solid #f1f1f1
+}
+.amend_email > div.Next, .amend_nickname > div.Next {
+	margin: 8px auto 10px;
+	width: 30%
+}
+.feed a {
+	display: block;
+	line-height: 45px;
+	font-size: 12px;
+	color: #fff
+}
+.s_img {
+	margin-top: 40px;
+	width: 100%
+}
+.s_img img {
+	width: 100%;
+	height: 200px
+}
+.security_list {
+	margin-top: 0
+}
+.security_list .setList_cont ul li {
+	height: 60px
+}
+.security_list .setList_cont ul li a div {
+	padding: 14px 0;
+	height: 32px
+}
+.security_list .setList_cont ul li a div:before {
+	float: left;
+	content: '';
+	width: 32px;
+	height: 32px;
+	background: red;
+	margin-right: 5px
+}
+.security_list .setList_cont ul li:first-child a div:before {
+	background: url(../img/icon.png)no-repeat -210px -140px;
+	background-size: 350px
+}
+.security_list .setList_cont ul li:last-child a div:before {
+	background: url(../img/icon.png)no-repeat -210px -175px;
+	background-size: 350px
+}
+.security_list .setList_cont ul li span {
+	display: block;
+	float: none;
+	line-height: 18px
+}
+.security_list .setList_cont ul li span:first-child {
+	font-size: 14px;
+	color: #000
+}
+.security_list .setList_cont ul li span:last-child {
+	font-size: 12px
+}
+.knowledge > div {
+	padding: 12px 5%;
+	width: 90%;
+	font-size: 16px
+}
+.knowledge ul li {
+	position: relative;
+	width: 100%;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	margin-bottom: 10px
+}
+.knowledge ul li a {
+	display: block;
+	width: 100%;
+	height: 140px;
+	font-size: 14px;
+	color: #fff
+}
+.knowledge ul li a img {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+.knowledge ul li a span {
+	position: absolute;
+	top: 0;
+	display: block;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%
+}
+.tip {
+	display: none;
+	margin-left: -32.5%;
+	width: 65%;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	position: fixed;
+	background: rgba(0,0,0,.6);
+	color: #fff;
+	text-align: center;
+	z-index: 9999;
+	top: 40%;
+	left: 50%;
+}

@@ -1,0 +1,161 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-wallet-icon {
+  background: url(../images/wallet_icon.png) no-repeat;
+  background-size: 3.55555556rem 0.84722222rem;
+}
+.bxg-qui {
+  padding: 0.47222222rem 0.375rem;
+  background: #fff;
+}
+.bxg-qui a {
+  display: block;
+  color: #333;
+}
+.bxg-qui a > div,
+.bxg-qui-info {
+  float: left;
+}
+.bxg-password-icon {
+  background: url(../images/password.png) no-repeat;
+  background-size: 9.02777778rem 9.02777778rem;
+}
+.bxg-head {
+  width: 2.22222222rem;
+  height: 2.22222222rem;
+  background-position: 0 -1.41666667rem;
+}
+.bxg-u-mobile {
+  text-align: center;
+  font-size: 0.63888889rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+}
+.bxg-class {
+  text-align: center;
+  font-size: 0.59722222rem;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  color: #f98700;
+}
+.bxg-qui {
+  height: 3.33333333rem;
+  width: 100%;
+  background: -webkit-linear-gradient(left top, #fff, #febe35);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom right, #fff, #febe35);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom right, #fff, #febe35);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom right, #fff, #febe35);
+}
+.bxg-succeedz {
+  width: 6.69444444rem;
+  height: 7.58333333rem;
+  background-position: -2.36111111rem 0;
+  margin: 0 auto;
+}
+.bxg-renovation {
+  width: 4rem;
+  height: 0.69444444rem;
+  border-radius: 0.41666667rem;
+  margin: 0 auto;
+  background: #666;
+  color: #333;
+  z-index: 99;
+  font-size: 0.33333333rem;
+}
+.bxg-renovation p {
+  text-align: center;
+  float: right;
+  margin-right: 0.27777778rem;
+  height: 0.69444444rem;
+  line-height: 0.69444444rem;
+  color: #fff;
+}
+.bxg-renova {
+  width: 0.41666667rem;
+  height: 0.41666667rem;
+  margin: 0.13888889rem 0.22222222rem;
+  background-position: -1.56944444rem 0;
+  z-index: ;
+  float: left;
+}
+.bxg-quick-p {
+  clear: both;
+  width: 100%;
+  height: 1.38888889rem;
+}
+.bxg-quick-p p {
+  width: 100%;
+  text-align: center;
+  height: 1.66666667rem;
+  line-height: 1.66666667rem;
+  color: #999;
+  font-size: 0.5rem;
+}
+#bxg_more {
+  width: 2.77777778rem;
+  display: none;
+  clear: both;
+  background: #fff;
+  float: right;
+  margin-top: 1.11111111rem;
+}
+#bxg_more ul li {
+  width: 100%;
+  height: 0.69444444rem;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  font-size: 0.36111111rem;
+  line-height: 0.69444444rem;
+}

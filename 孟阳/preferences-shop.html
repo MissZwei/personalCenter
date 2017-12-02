@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>偏好设置</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/Preferences-shop.css" />
+		<link rel="stylesheet" href="css/ui-choose.css" />
+		<!--<link rel="stylesheet" href="css/moretool.css" />-->
+		<script type="text/javascript" src="public/js/public.js" ></script>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/method.js"></script>-->
+  <script type="text/javascript"src="js/ui-choose.js"></script>
+
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			偏好设置
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="bxg-preferences-shop">
+				<p>您将买那些商品?</p>
+				<p>(可多选)</p>
+				
+				
+			</div>
+			<div class="bxg-preferences-shop-list">
+				
+				<table class="demo-table">
+                   
+                    <tr>
+                        
+                        <td>
+                            <ul class="ui-choose" id="uc_01">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                
+                            </ul>
+                        </td>
+                    </tr>
+                   </table>
+			</div>
+			
+			
+	        <div class="bxg-next"><a href="#">下一个</a></div>
+			</div>
+			
+
+		</div>
+		 <script>
+            // 将所有.ui-choose实例化
+            $('.ui-choose').ui_choose();
+
+            // uc_01 ul 单选
+            var uc_01 = $('#uc_01').data('ui-choose'); // 取回已实例化的对象
+            uc_01.click = function(index, item) {
+                console.log('click', index, item.text())
+            }
+            uc_01.change = function(index, item) {
+                console.log('change', index, item.text())
+            }
+
+           
+        </script>
+		
+	</body>
+</html>
