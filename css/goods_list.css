@@ -1,0 +1,41 @@
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-goods-list ul li {
+  float: left;
+  margin-top: 0.06944444rem;
+  width: 4.80555556rem;
+  background: #fff;
+}
+.bxg-goods-list ul li:nth-child(2n+1) {
+  margin-right: 0.06944444rem;
+}
+.bxg-goods-list ul li > a {
+  display: block;
+  font-size: 0.41666667rem;
+  color: #333;
+}
+.bxg-goods-list ul li > a > img {
+  display: block;
+  width: 4.80555556rem;
+  height: 4.80555556rem;
+  background: #FF9A44;
+}
+.bxg-goods-info {
+  padding: 0.19444444rem;
+}
+.bxg-goods-name {
+  line-height: 0.625rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

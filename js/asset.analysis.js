@@ -2,6 +2,7 @@ $(function(){
 	var tabSwiper = new Swiper('.bxg-asset', {
       	autoHeight: true, //enable auto height
 		speed:500,
+		resistanceRatio : 0,
 		onSlideChangeStart: function(){
 			$(".bxg-tabs a.bxg-active").removeClass('bxg-active');
 			$(".bxg-tabs a").eq(tabSwiper.activeIndex).addClass('bxg-active');
