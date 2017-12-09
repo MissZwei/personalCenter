@@ -12,7 +12,6 @@
 		<script type="text/javascript" src="public/js/public.js"></script>
 
 	</head>
-
 	<body>
 		<!--头部-->
 		<header class="bxg-header">
@@ -21,61 +20,51 @@
 			<span class="bxg-head-icon bxg-list"></span>
 			<div class="head-list-content">
 				<ul>
-					<li><a href="" title=""><i class="news-icon"></i>消息<b>5</b></a></li>
-					<li><a href="" title=""><i class="index-icon"></i>首页</a></li>
-					<li><a href="" title=""><i class="delete-icon"></i>清空</a></li>
+					<li><a href="" title=""><i class="bxg-collection-icon news-icon"></i>消息<b>5</b></a></li>
+					<li><a href="" title=""><i class="bxg-collection-icon index-icon"></i>首页</a></li>
+					<li><a href="javascript:void(0);" title=""><i class="bxg-collection-icon delete-icon"></i>清空</a></li>
 				</ul>
 			</div>
 		</header>
 
-		<!--	点击清空的弹出框-->
-		<!--<div id="fade" class="black_overlay"> </div>
-		<div id="delate_ejct" class="delate_ejct">
-			<p>您确定要全部删除吗？</p>
-			<button class="sure">确定</button>
-			<button class="cancel">取消</button>
-		</div>-->
-
-		<!--选择弹出框-->
-		<!--<div class="bob">
-			<div id="bxg_t" class="choice2"> </div>
-			<div id="bxg_b" class="choice3">
-					<div>
-						<a href="#javascript:;">相似款</a>
-					</div>
-					<div class="bxg-nolike">
-						<a href="#javascript:;">取消收藏</a>
-					</div>
+		<!--点击清空的弹出框-->
+		<div class="bxg-alert-tip">
+			<div class="bxg-delete">
+				<div class="bxg-tip">您确定要全部删除吗？</div>
+				<div class="bxg-btn bxg-between">
+					<span class="bxg-delete-ok">确定</span>
+					<span class="bxg-delete-cancel">取消</span>
+				</div>
 			</div>
-			
-		</div>-->
-
+		</div>
+		
 		<!--内容-->
 		<div class="bxg-content">
-			<div class="bxg-collection bxg-goods-list">
-				<div>
+			<div class="bxg-collection">
+				<div class="bxg-goods-list">
 					<div class="bxg-day">12月25日</div>
 					<ul class="bxg-clear">
-						<li>
+						<li data-goodsId = "1">
 		    				<a href="" title="">
 		    					<img src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" data-img="http://img5.niutuku.com/phone/1212/3752/3752-niutuku.com-22310.jpg"/>
 		    					<div class="bxg-goods-info">
 		    						<div class="bxg-goods-name">欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开</div>
 		    						<div class="bxg-goods-price bxg-between">
 		    							<span>￥56.00</span>
-		    							<span class="goods-list-btn">...</span>
+		    							<span class="bxg-collection-icon goods-list-btn"></span>
 		    						</div>
 		    					</div>
 		    				</a>
+		    				
 		    			</li>
-		    			<li>
+		    			<li data-goodsId = "2">
 		    				<a href="" title="">
 		    					<img src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" data-img="http://img5.niutuku.com/phone/1212/3752/3752-niutuku.com-22310.jpg"/>
 		    					<div class="bxg-goods-info">
 		    						<div class="bxg-goods-name">欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开</div>
 		    						<div class="bxg-goods-price bxg-between">
 		    							<span>￥56.00</span>
-		    							<span class="goods-list-btn">...</span>
+		    							<span class="bxg-collection-icon goods-list-btn"></span>
 		    						</div>
 		    					</div>
 		    				</a>
@@ -108,45 +97,39 @@
 				</div>
 			</div>
 			<!--end 收藏的商品-->
-			
-			
+
 			<!--猜你喜欢-->
 			<div class="bxg-guesslike">
-				<div class="guesslike">
-					<a href="#javascript:;">
-						<span></span>
-					</a>
-					收藏夹猜你喜欢
-					<a href="#javascript:;">
-						<span></span>
-					</a>
+				<div class="bxg-guesslike-title">
+					<span class="bxg-collection-icon"></span>收藏夹猜你喜欢<span class="bxg-collection-icon"></span>
 				</div>
-				<div class="bxg-collection-content2">
-					<ul class="bxg-collection-content-ul2">
-	
-						<li class="bxg-collection-content-li2">
-							<div class="bxg-collection-goods2">
-								<img src="images/bxg-1.png" alt="" />
-							</div>
-							<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
-							<span>￥
-								<p>680</p>
-								<span></span>
-							</span>
-						</li>
-						<li class="bxg-collection-content-li2">
-							<div class="bxg-collection-goods2">
-								<img src="images/bxg-2.png" alt="" />
-							</div>
-							<p>平办电脑批发系统，平办电脑批发系统，平办电脑批发系统</p>
-							<span>￥
-					<p>680</p>
-					<span></span>
-							</span>
-	
-						</li>
-	
-					</ul>
+				<div class="bxg-goods-list">
+					<ul class="bxg-clear">
+						<li>
+		    				<a href="" title="">
+		    					<img src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" data-img="http://img5.niutuku.com/phone/1212/3752/3752-niutuku.com-22310.jpg"/>
+		    					<div class="bxg-goods-info">
+		    						<div class="bxg-goods-name">欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开</div>
+		    						<div class="bxg-goods-price bxg-between">
+		    							<span>￥56.00</span>
+		    							<!--<span class="bxg-collection-icon goods-list-btn"></span>-->
+		    						</div>
+		    					</div>
+		    				</a>
+		    			</li>
+		    			<li>
+		    				<a href="" title="">
+		    					<img src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" src="http://img.bxgogo.com/images/goods/goods_img/20171205/201712051710149692.jpeg?x-oss-process=image/quality,q_90/format,jpg" data-img="http://img5.niutuku.com/phone/1212/3752/3752-niutuku.com-22310.jpg"/>
+		    					<div class="bxg-goods-info">
+		    						<div class="bxg-goods-name">欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开欧普照明LED筒灯天花灯嵌入式 超薄3w 5w开</div>
+		    						<div class="bxg-goods-price bxg-between">
+		    							<span>￥56.00</span>
+		    							<!--<span class="bxg-collection-icon goods-list-btn"></span>-->
+		    						</div>
+		    					</div>
+		    				</a>
+		    			</li>
+		    		</ul>
 	
 				</div>
 	
@@ -156,70 +139,7 @@
 		
 		<div class="aaa"></div>
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
-		<script>
-			$(document).ready(function() {
-			//点击清空
-			//				$(".delate").click(function(){
-			//						var delate_ejct = document.getElementById("delate_ejct").style.display='block';
-			//						var fade = document.getElementById("fade").style.display='block';
-			//
-			//				})
-			//				//取消清空
-			//				$(".cancel").click(function(){
-			//					var delate_ejct = document.getElementById("delate_ejct").style.display='none';
-			//						var fade = document.getElementById("fade").style.display='none';
-			//						$(".pan").hide();
-			//					
-			//				});
-			//				//确定清空
-			//				$(".sure").click(function(){
-			//					$(".bxg-collection-content").remove();
-			//						var delate_ejct = document.getElementById("delate_ejct").style.display='none';
-			//						var fade = document.getElementById("fade").style.display='none';
-			//						$(".pan").hide();
-			//				})
-
-			$("#bxg_ejct").click(function() {
-
-				if($(".aaa").css("display") == "none") {
-					$(".pan").animate({
-						height: '+' + $(".aaa").css("height"),
-						width: '+' + $(".aaa").css("width")
-					});
-					$(".aaa").show()
-				} else {
-					$(".pan").animate({
-						height: '+' + "0px",
-						width: '+' + "0px"
-					});
-					$(".aaa").hide()
-				}
-			});
-
-			//选择
-			//				$(".bxg-collection-content-li span:last-child span:last-child").click(function(){
-			//			
-			//					var bob = document.getElementsByClassName("bob");
-			//					console.log(bob)
-			//					$(this).parent().parent().addclass("bob").css("display","block")
-
-			//					var choice3 = document.getElementsByClassName("choice3").style.display='block';
-
-			//					
-
-			// 				var bxg_t = document.getElementById("bxg_t").style.display='block';
-			//				var bxg_b= document.getElementById("bxg_b").style.display='block';	
-			//				$(".bxg-nolike").click(function(){
-			//					$(".this").remove();
-			//				var bxg_t = document.getElementById("bxg_t").style.display='none';
-			//				var bxg_b= document.getElementById("bxg_b").style.display='none';	
-			//					
-			//				})
-
-//			})
-
-			});
-		</script>
+		<script type="text/javascript" src="js/collection.js" ></script>
 
 	</body>
 

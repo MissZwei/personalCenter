@@ -1,104 +1,45 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="public/css/reset.css" />
 		<link rel="stylesheet" href="public/css/head.css" />
-		<link rel="stylesheet" href="css/mywish.css" />
+		<link rel="stylesheet" href="css/mybook.css" />
 		<script type="text/javascript" src="public/js/public.js"></script>
 		<link rel="stylesheet" href="public/css/idangerous.swiper.css" />
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
-		<title>心愿单</title>
+		<title>我的预订</title>
 	</head>
-	<body style="background: #f0f0f2;">
+	<body>
 			<div class="bxg-header">
 			<a href="javascript:history.go(-1);">
 				<span></span>
 			</a>
-			卡券
+			我的预订
 			<a href="#javascript:;">
-				许愿
+				<div></div>
+				<div></div>
 			</a>
 		</div>
 		
 		    <div class="main">
 	<div class="ui-tab">		
 		<ul class="tab-nav">
-			<li class="current">Ta的心愿单</li>
-			<li>我的心愿单</li>
+			<li class="current">我的预订</li>
+			<li>现在预订</li>
 		</ul>
 		<ul class="tab-content">
 			<li class="current">
-				<div class="bxg-conent">
-					<div class="bxg-conent-top">
-						<div class="conent-top-left">
-							<img src="images/bxg-2.png" alt="" />
-						</div>
-						<div class="conent-top-right">
-							<div class="adf">
-								<p>可爱的笨男孩</p>
-								<span id="zhuanfa" ></span> 
-							</div>	
-							<div class="adf2">
-								<p>已完成</p>
-								<p><span>300</span>m &nbsp;&nbsp;<span>10</span>分钟之前</p>
-							</div>
-						</div>
-					</div>
-					<div class="bxg-conent-cen">
-						<p>发布了一个心愿单</p>
-						<div class="cen-of" >
-							<img src="images/bxg-2.png" alt="" />
-							<div>
-								<p>上古</p>
-								<small>星零</small>
-								<span>中信出版社</span>
-							</div>
-							<a href="#">
-								搜索此书
-							</a>
-						</div>
-						<div class="cen-ot">
-							<p>浏览<span>8</span>次</p>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					
-					<div class="bxg-conent-bottom">
-						<p>
-						<span></span>&nbsp;&nbsp;<span>4</span>觉得很赞
-						</p>
-						
-						<input type="text" name="" id="" placeholder=" &nbsp;评论" />
+				<div>
+					<div>
+						<p>驿家365连锁酒店保定东111111111111111111111111111111111</p>
 						
 					</div>
-					
-				</div>
-			<!--点击弹出转发页面-->
-				<div id="fade" class="black_overlay"> </div>
-				<div id="delate_ejct" class="delate_ejct">
-					<ul class="edit">
-						<li>
-							<span></span><p>分享到</p>
-							<a href="#"></a>
-							<a href="#"></a>
-							<a href="#"></a>
-						</li>
-						<li>
-							<span></span> <p>编辑</p>
-						</li>
-						<li>
-							<span></span> <p>删除</p>
-						</li>
-						
-					</ul>
 					
 					
 				</div>
-
-			
+				
 			
 			
 			</li>
@@ -108,53 +49,7 @@
 				
 			
 			<li>
-				<div class="bxg-conent">
-					<div class="bxg-conent-top">
-						<div class="conent-top-left">
-							<img src="images/bxg-2.png" alt="" />
-						</div>
-						<div class="conent-top-right">
-							<div class="adf">
-								<p>可爱的笨男孩</p>
-								<span id="zhuanfa" ></span> 
-							</div>	
-							<div class="adf2">
-								<p>已完成</p>
-								<p><span>300</span>m &nbsp;&nbsp;<span>10</span>分钟之前</p>
-							</div>
-						</div>
-					</div>
-					<div class="bxg-conent-cen">
-						<p>发布了一个心愿单</p>
-						<div class="cen-of" >
-							<img src="images/bxg-2.png" alt="" />
-							<div>
-								<p>上古</p>
-								<small>星零</small>
-								<span>中信出版社</span>
-							</div>
-							<a href="#">
-								搜索此书
-							</a>
-						</div>
-						<div class="cen-ot">
-							<p>浏览<span>8</span>次</p>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					
-					<div class="bxg-conent-bottom">
-						<p>
-						<span></span>&nbsp;&nbsp;<span>4</span>觉得很赞
-						</p>
-						
-						<input type="text" name="" id="" placeholder=" &nbsp;评论" />
-						
-					</div>
-					
-				</div>
+			22222
 				
 			</li>
 			
@@ -282,48 +177,7 @@
     
     
  </script>
- <script type="text/javascript">
 
-// 开始     点击除了弹出框以外的区域,关闭弹出框
-
-    function e(obj){return document.getElementById(obj)}
-    e('zhuanfa').onclick=function(event){
-        e('fade').style.display='block';
-        e('delate_ejct').style.display='block';
-        
-        stopBubble(event); 
-        document.onclick=function(){
-            e('fade').style.display='none';
-            e('delate_ejct').style.display='none';
-　　　　　　　document.onclick=null;　
-        }
-    }
-    e('delate_ejct').onclick=function(event){
-        //只阻止了向上冒泡，而没有阻止向下捕获，所以点击con的内部对象时，仍然可以执行这个函数
-        stopBubble(event); 
-    }
-    //阻止冒泡函数
-    function stopBubble(e){   
-        if(e && e.stopPropagation){
-            e.stopPropagation();    //w3c
-        }else{
-            window.event.cancelBubble=true; //IE
-        }
-    }
-// 结束     点击除了弹出框以外的区域,关闭弹出框
-    
-		
-		
-
-		
-		
-
-
-
- 
- 
- 
- </script>
 		
 		
 		
