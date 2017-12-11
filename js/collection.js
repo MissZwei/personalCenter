@@ -1,4 +1,5 @@
 $(function() {
+	$(".bxg-lazy img").lazyload();
 	$(".bxg-list").click(function(){
 		$(".head-list-content").toggle();
 	});

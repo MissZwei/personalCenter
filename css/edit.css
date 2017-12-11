@@ -1,0 +1,73 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-send {
+  position: absolute;
+  top: 0;
+  right: 0.41666667rem;
+  width: 1.11111111rem;
+  font-size: 0.38888889rem;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+  overflow: hidden;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-textarea {
+  width: 100%;
+  padding: 0.13888889rem 0.41666667rem 0;
+  height: auto;
+  background: #fff;
+}
+.bxg-textarea textarea {
+  width: 100%;
+  font-size: 0.41666667rem;
+  border: none;
+  color: #888;
+}
+.bxg-upload-img {
+  padding: 0 0.41666667rem 0.20833333rem;
+  background: #fff;
+}
+.bxg-upload-img > div {
+  float: left;
+  margin-right: 0.13888889rem;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  margin-top: 0.13888889rem;
+}
+.bxg-upload-img > div:nth-child(4n) {
+  margin-right: 0;
+}
+.upload-btn {
+  background: url(../images/camera.png) no-repeat;
+  background-size: 2.1875rem 2.1875rem;
+  cursor: pointer;
+}
+.bxg-upload-img > div img {
+  width: 100%;
+  height: 100%;
+}
+.bxg-set-list {
+  margin: 0.13888889rem 0;
+  padding: 0 0.41666667rem;
+  background: #fff;
+}
+.bxg-set-list ul li {
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.bxg-set-list ul li a {
+  font-size: 0.41666667rem;
+  color: #333;
+}
