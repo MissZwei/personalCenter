@@ -92,11 +92,27 @@ $(function(){
 		}
 	});
 	$(".bxg-deleteAjax").click(function(){
+		var day = [];
+		
 		$(".day-check").each(function(index,item){
 			var dayInp = $(this).find('input');
+			var parent = $(this).parents('.bxg-footprint');
+			var list = $(this).parents('.daybtn').next();
 			if(dayInp.prop('checked')){
-				
+				list.find('li').each(function(index,item){
+					day.push($(this).attr("data-id"));
+				});
+				parent.remove();
+			}else{
+				list.find('li').each(function(index,item){
+					var inp = $(this).find("input");
+					if(inp.prop('checked')){
+						day.push($(this).attr("data-id"));
+						$(this).remove();
+					}
+				});
 			}
 		});
+		console.log(day);
 	});
 });
