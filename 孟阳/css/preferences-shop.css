@@ -40,6 +40,7 @@
 .bxg-content {
   position: relative;
   margin-top: 1.11111111rem;
+  box-sizing: border-box;
 }
 .bxg-between {
   display: -webkit-box;
@@ -63,7 +64,6 @@ body {
   width: 100%;
   margin-top: 0.27777778rem;
   height: 2.33333333rem;
-  border: 1px solid red;
   border-radius: 0.05555556rem;
   background: #fff;
 }
@@ -77,16 +77,27 @@ body {
 .bxg-preferences-shop-list {
   width: 100%;
   height: 8.05555556rem;
-  border: 1px solid red;
   margin-top: 0.27777778rem;
   background: #fff;
-  margin-left: 0.27777778rem 0.27777778rem;
 }
 .bxg-preferences-shop-list ul li {
   width: 1.36111111rem;
   height: 1.36111111rem;
   float: left;
-  margin: 0.27777778rem 0.5rem;
+  margin: 0.27777778rem 0.27777778rem;
+}
+.bxg-text-shop {
+  font-size: 0.41666667rem;
+  color: #999;
+  text-align: center;
+}
+.bxg-text-shop p {
+  clear: both;
+  line-height: 0.41666667rem;
+  height: 0.41666667rem;
+  display: inline-block;
+  padding: 0.11111111rem 0.19444444rem;
+  width: 2rem;
 }
 .bxg-next {
   width: 90%;
@@ -98,7 +109,11 @@ body {
   color: #fff;
   font-size: 0.45833333rem;
   border-radius: 0.20833333rem;
+  margin-top: 2.5rem;
 }
 .bxg-next a {
   color: #fff;
+}
+#uc_01 {
+  margin: 0 auto;
 }

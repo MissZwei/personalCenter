@@ -32,10 +32,6 @@
   width: 0.22222222rem;
   background-position: -0.47222222rem 0;
 }
-.bxg-content {
-  position: relative;
-  margin-top: 1.11111111rem;
-}
 .bxg-between {
   display: -webkit-box;
   display: -webkit-flex;
@@ -52,6 +48,7 @@ body {
 .bxg-content {
   position: relative;
   margin-top: 1.11111111rem;
+  box-sizing: border-box;
 }
 .bxg-preferences-border {
   border-bottom: 1px solid #ddd;
@@ -61,7 +58,6 @@ body {
   background: #fff;
 }
 .bxg-preferences ul li p {
-  width: 100%;
   height: 1.38888889rem;
   line-height: 1.38888889rem;
   padding-left: 0.27777778rem;

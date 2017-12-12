@@ -35,6 +35,7 @@
 .bxg-content {
   position: relative;
   margin-top: 1.11111111rem;
+  box-sizing: border-box;
 }
 .bxg-between {
   display: -webkit-box;

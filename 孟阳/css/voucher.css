@@ -1,0 +1,129 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-demo-table tr td {
+  padding: 0.13888889rem 0.80555556rem;
+  font: 16/72rem/1.8 normal 'microsoft yahei';
+  vertical-align: top;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-voucher-head ul li {
+  position: relative;
+  width: 9.44444444rem;
+  height: auto;
+  height: 3.61111111rem;
+  border: 1px solid  #ddd;
+  background: #fff;
+  margin: 0.27777778rem auto;
+  border-radius: 0.16666667rem;
+}
+.bxg-voucher-head-left {
+  float: left;
+  width: 3.33333333rem;
+  height: 3.61111111rem;
+  background: url(../images/voucher.png) no-repeat;
+  background-size: 0.13888889rem 3.58333333rem;
+  border-right: 1px dashed #ddd;
+}
+.bxg-voucher-head {
+  color: #666;
+  font-size: 0.38888889rem;
+  text-align: center;
+  height: 3.61111111rem;
+}
+.bxg-voucher-head-left p {
+  font-size: 0.45833333rem;
+  color: #d20f1e;
+  line-height: 1.11111111rem;
+  text-align: center;
+}
+.bxg-voucher-head span {
+  font-size: 1.16666667rem;
+  color: #d20f1e;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  text-align: center;
+  margin-left: 0.27777778rem;
+}
+.bxg-voucher-head-p {
+  color: #666 !important;
+  height: 0.41666667rem !important;
+  line-height: 0.41666667rem !important;
+  font-size: 0.36111111rem;
+}
+.bxg-voucher-head-right {
+  height: 3.61111111rem;
+  text-align: left;
+}
+.bxg-voucher-head-right p {
+  float: left;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  margin-left: 0.55555556rem;
+}
+.bxg-voucher-right {
+  margin-top: 0.55555556rem;
+  padding-left: 0.55555556rem;
+}
+.bxg-voucher-right-one {
+  font-size: 0.5rem;
+}
+.bxg-voucher-right-two {
+  font-size: 0.38888889rem;
+  color: #666;
+}
+.bxg-voucher-right-three {
+  font-size: 0.36111111rem;
+  color: #999;
+}

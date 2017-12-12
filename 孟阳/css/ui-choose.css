@@ -3,12 +3,6 @@
 select.ui-choose {
   display: none;
 }
-ul.ui-choose > li.selected {
-  z-index: 3;
-  border-color: #0080ff;
-  background: transparent url("../images/icon-selected.png") no-repeat right top;
-  position: relative;
-}
 ul.ui-choose {
   box-sizing: border-box;
   display: inline-block;
@@ -33,15 +27,21 @@ ul.ui-choose:after {
 }
 ul.ui-choose > li {
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  margin: 0.27777778rem 0.54166667rem;
   cursor: pointer;
   position: relative;
   z-index: 1;
-  min-width: 20px;
+  background: #ddd;
   text-align: center;
 }
 ul.ui-choose > li:first-child {
   border-radius: 100%;
+}
+ul.ui-choose > li:nth-child(2) {
+  border-radius: 1.38888889rem;
+}
+ul.ui-choose > li:nth-child(3) {
+  border-radius: 1.38888889rem;
 }
 ul.ui-choose > li:last-child {
   border-radius: 1.38888889rem;
@@ -49,13 +49,6 @@ ul.ui-choose > li:last-child {
 ul.ui-choose > li:hover {
   z-index: 4;
   color: #0080ff;
-}
-ul.ui-choose > li.selected {
-  padding: 1.11111111rem;
-  z-index: 3;
-  color: #fff;
-  background: url(../images/preferences.png) no-repeat;
-  background-size: 2.30555556rem 2.30555556rem;
 }
 ul.ui-choose > li.disabled {
   z-index: 2;
@@ -73,7 +66,8 @@ ul.ui-choose > li.selected.disabled {
 }
 ul.choose-type-right > li.selected {
   color: #0080ff;
-  background: transparent url("../images/icon-selected.png") no-repeat right top;
+  background: transparent url("../images/preferences-shop.png") no-repeat right top;
+  background-size: 1.36111111rem 1.36111111rem;
 }
 ul.ui-choose.choose-flex {
   display: flex;

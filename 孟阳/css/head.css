@@ -8,12 +8,11 @@
   text-align: center;
   color: #fff;
   font-size: 0.55555556rem;
-  border: 1px  solid yellow;
+  z-index: 99;
 }
 .bxg-head-icon {
   background: url(../images/head_icon.png) no-repeat;
   background-size: 2.15277778rem 0.73611111rem;
-  border: 1px solid #f60;
 }
 .bxg-back,
 .bxg-list,
@@ -22,23 +21,19 @@
   top: 0.1875rem;
   height: 0.73611111rem;
   display: block;
-  border: 1px  solid  #000;
 }
 .bxg-back {
   left: 0.41666667rem;
   width: 0.38888889rem;
   background-position: 0 0;
-  border: 1px slide pink;
 }
 .bxg-list {
   right: 0.41666667rem;
   width: 0.20833333rem;
   background-position: -0.5rem 0;
-  border: 1px slide blue;
 }
 .bxg-search {
   right: 1.38888889rem;
   width: 0.625rem;
   background-position: -0.80555556rem 0;
-  border: 1px solid  red;
 }

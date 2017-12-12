@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>偏好设置</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/Preferences-help.css" />
+		<link rel="stylesheet" href="css/ui-choose.css" />
+		<!--<link rel="stylesheet" href="css/moretool.css" />-->
+		<script type="text/javascript" src="public/js/public.js" ></script>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/method.js"></script>-->
+  <script type="text/javascript"src="js/ui-choose.js"></script>
+
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			偏好设置
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="bxg-preferences-help">
+				<p>了解你的偏好，给你更好的购物体验</p>
+	
+			</div>
+			
+			<div class="bxg-preferences-help-list">
+				<div>
+					<p>您会帮那些人购买？</p>
+					<p>(可多选)</p>
+				</div>
+				<div class="bxg-preferences-help-list-one">
+					<!--<div class="bxg-help-one"  onclick="toggle()" /> <img id="test1" rc="images/1.png" alt="" onclick="toggle()" / ></div>-->
+					
+					<div><img src="images/1.png" class="wujiang_pic_size" id="caocao_pic" onClick="change_pic()"></div>
+					<div style="clear:both;"></div>
+					<p>自己</p>
+					
+										
+				</div>
+				<div class="bxg-preferences-help-list-two">
+					<div class="bxg-help-list-two">
+						<div><img src="images/1.png" class="wujiang_pic_size" id="caocao_pics" onClick="change_pics()"></div>
+						<p>朋友</p>
+					</div>
+					<div class="bxg-help-list-two">
+						<!--<div class="bxg-help-two"  onclick="toggle()" /> <img id="test1" rc="images/1.png" alt="" onclick="toggle()" / ></div>-->
+						<div><img src="images/1.png" class="wujiang_pic_size" id="caocao_pice" onClick="change_pice()"></div>
+						<p>长辈</p>
+					</div>
+				</div>
+				
+				<div class="bxg-preferences-help-list-three">
+					<!--<div class="bxg-help-one"  onclick="toggle()" /> <img id="test1" rc="images/1.png" alt="" onclick="toggle()" / ></div>-->
+					<div><img src="images/1.png" class="wujiang_pic_size" id="caocao_picf" onClick="change_picf()"></div>
+					<p>自己</p>
+				</div>
+ 
+ 
+			</div>
+			
+			
+	        <div class="bxg-next"><a href="#">下一个</a></div>
+			</div>
+			
+
+		</div>
+		
+		 <script>
+					function change_pic(){
+					var imgObj = document.getElementById("caocao_pic");
+					var Flag=(imgObj.getAttribute("src",2)=="1.png")
+					imgObj.src=Flag?"images/1.png":"images/preferences.png";
+					}
+					
+					function change_pics(){
+					var imgObj = document.getElementById("caocao_pics");
+				var Flag=(imgObj.getAttribute("src",2)=="1.png")
+					imgObj.src=Flag?"images/1.png":"images/preferences.png";
+					}
+						function change_pice(){
+					var imgObj = document.getElementById("caocao_pice");
+				var Flag=(imgObj.getAttribute("src",2)=="1.png")
+					imgObj.src=Flag?"images/1.png":"images/preferences.png";
+					}
+							function change_picf(){
+					var imgObj = document.getElementById("caocao_picf");
+				var Flag=(imgObj.getAttribute("src",2)=="1.png")
+					imgObj.src=Flag?"images/1.png":"images/preferences.png";
+					}
+					</script>
+		<!--<script type="text/javascript">
+		    function toggle(){
+		        var test1 = document.getElementById('test1');
+		        if(test1.src.indexOf('on') >= 0){
+		            test1.src="images/1.png";
+		        }else{
+		            test1.src="images/preferences.png";
+		        }
+		    }
+		</script>-->
+
+		
+	</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 9999;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-say {
+  background: #fff;
+  height: 1.33333333rem;
+  display: block;
+  margin-top: 1.33333333rem;
+}
+.bxg-says {
+  background: #fff;
+  height: 1.33333333rem;
+  display: block;
+  margin-top: 0.27777778rem;
+}
+.bxg-gender-z {
+  float: left;
+  height: 1.33333333rem;
+  font-size: 0.5rem;
+  line-height: 1.33333333rem;
+  margin-left: 0.27777778rem;
+}
+.bxg-gender-y {
+  float: right;
+  height: 1.38888889rem;
+  font-size: 0.5rem;
+  line-height: 1.38888889rem;
+  margin-left: 0.27777778rem;
+  color: #12B7F5;
+}
+.icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.73611111rem;
+}
+.icon5 {
+  float: right!important;
+  width: 0.55555556rem;
+  height: 0.73611111rem;
+  background-position: -2.08333333rem 0.13888889rem;
+  margin-right: 0.27777778rem;
+}

@@ -1,0 +1,116 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-demo-table tr td {
+  padding: 0.13888889rem 0.80555556rem;
+  font: 16/72rem/1.8 normal 'microsoft yahei';
+  vertical-align: top;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-binding-failure {
+  width: 100%;
+  height: 8.55555556rem;
+  background: #fff;
+}
+.bxg-failure {
+  height: 5.69444444rem;
+  background: url(../images/binding-failure.png) no-repeat;
+  background-size: 6.61111111rem 5.55555556rem;
+  margin-left: 1.38888889rem;
+}
+.bxg-binding-failure p {
+  text-align: center;
+  color: #999;
+  font-size: 0.5rem;
+  height: 2.77777778rem;
+  line-height: 2.77777778rem;
+}
+.bxg-binding-foot {
+  width: 100%;
+  height: 2.91666667rem;
+  margin-top: 0.27777778rem;
+  background: #fff;
+}
+.bxg-binding-foot a {
+  background: #12B7F5;
+  width: 3.75rem;
+  height: 1.30555556rem;
+  line-height: 1.30555556rem;
+  color: #fff;
+  border-radius: 0.16666667rem;
+  margin-left: 0.83333333rem;
+  margin-top: 0.72222222rem;
+  display: inline-block;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.bxg-binding-foot-pledge {
+  height: 1.38888889rem;
+  margin-top: 3.30555556rem;
+}
+.bxg-binding-foot-pledge p {
+  height: 0.38888889rem;
+  line-height: 0.38888889rem;
+  font-size: 0.36111111rem;
+  color: #999;
+}
+.bxg-binding-pledge {
+  width: 0.33333333rem;
+  height: 0.36111111rem;
+  background: url(../images/pledge.png) no-repeat;
+  background-size: 0.33333333rem 0.36111111rem;
+  margin-left: 3.61111111rem;
+  margin-right: 0.27777778rem;
+  float: left;
+}

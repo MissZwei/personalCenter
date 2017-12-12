@@ -1,0 +1,108 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-demo-table tr td {
+  padding: 0.13888889rem 0.80555556rem;
+  font: 16/72rem/1.8 normal 'microsoft yahei';
+  vertical-align: top;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-header-right {
+  float: right;
+  margin-right: 0.27777778rem;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-shop-management ul {
+  margin-top: 0.27777778rem;
+}
+.bxg-shop-management ul li {
+  height: 1.33333333rem;
+  font-size: 0.52777778rem;
+  line-height: 1.33333333rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-left: 0.27777778rem;
+  color: #666;
+}
+.bxg-shop-management-foot {
+  text-align: center;
+  margin-top: 0.45833333rem;
+}
+.bxg-shop-management-foot a {
+  display: block;
+  width: 9.05555556rem;
+  height: 1.33333333rem;
+  background: #12B7F5;
+  font-size: 0.5rem;
+  line-height: 1.33333333rem;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 0.16666667rem;
+  margin-top: 0.45833333rem;
+}
+.bxg-shop-management-footer {
+  margin-top: 2.08333333rem !important;
+  width: 9.05555556rem;
+  height: 1.33333333rem;
+  background: #12B7F5;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0.16666667rem;
+  margin-bottom: 0.69444444rem;
+}
+.bxg-shop-management-footer input {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 0.5rem;
+}

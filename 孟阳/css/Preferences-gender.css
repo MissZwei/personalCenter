@@ -106,7 +106,7 @@ body {
   margin-top: 0.55555556rem;
 }
 .bxg-next {
-  width: 90%;
+  width: 92%;
   border-radius: 0.13888889rem;
   background: #12B7F5;
   font-size: 0.5rem;
@@ -114,8 +114,15 @@ body {
   height: 1.22222222rem;
   line-height: 1.22222222rem;
   color: #fff;
-  margin: 0.27777778rem auto;
+  margin: 0rem auto;
 }
 .bxg-next a {
   color: #fff;
+}
+ul.ui-choose > li.selected {
+  padding: 1.11111111rem;
+  z-index: 3;
+  color: #fff;
+  background: url(../images/preferences-gender.png) no-repeat;
+  background-size: 2.05555556rem 2.05555556rem;
 }
