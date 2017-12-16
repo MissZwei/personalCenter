@@ -9,6 +9,13 @@ $(function(){
 		$(".bxg-toggle,.bxg-checkbox,.bxg-deleteAjax").hide();
 		$(".bxg-normal").show();
 		$(".bxg-footprint>div").css('text-indent','0.42rem');
+		$(".bxg-checkbox").each(function(index,item){
+			var label = $(this).find("label");
+			var inp = $(this).find("input");
+			if(inp.prop('checked')){
+				label.click();
+			}
+		});
 	});
 	//日期选择
 	$(".list-check label").click(function(){

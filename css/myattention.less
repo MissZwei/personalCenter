@@ -1,0 +1,329 @@
+body {
+    background: #f0f0f2;
+}
+.bxg-collection-icon{
+    background: url(../images/collection_icon.png)no-repeat;
+    background-size:123/72rem 53/72rem;
+}
+.bxg-myattention-icon{
+    background: url(../images/myattention_icon.png)no-repeat;
+    background-size:77/72rem 42/72rem;
+}
+.bxg-content{
+    position: relative;
+    margin-top:80/72rem;
+    margin-bottom:80/72rem;
+    overflow: hidden;
+}
+.bxg-between{
+    display: -webkit-box;  
+    display: -webkit-flex;  
+    display: -ms-flexbox;  
+    display: flex;   
+    -webkit-box-pack: justify;  
+    -webkit-justify-content: space-between;  
+    -ms-flex-pack:justify ;  
+    justify-content: space-between; 
+}
+.bxg-delete{
+    position: absolute;
+    top:33/2/72rem;
+    right:70/72rem;
+    display: block;
+    width:47/72rem;
+    height:47/72rem;
+    background-position:-108/72rem -3/72rem;
+}
+.bxg-toggle{
+    display: none;
+}
+.bxg-toggle .selectAll,
+.bxg-toggle .cancelSelect
+{
+    position: absolute;
+    top:0;
+    font-size: 30/72rem;
+}
+.bxg-toggle .selectAll{
+    left:30/72rem;
+}
+.bxg-toggle .cancelSelect{
+    right:30/72rem;
+}
+
+.bxg-myfllow-li{
+    background: #ffffff;
+    height: 190/72rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f2;
+    
+}
+.bxg-checkbox{
+    display: none;
+    float: left;
+    margin-top:74/72rem;
+    margin-left:10/72rem;
+    width:42/72rem;
+    height: 42/72rem;
+}
+.bxg-checkbox label{
+    display: block;
+    width:100%;
+    height: 100%;
+    border: 1px solid #818282;
+    border-radius:50% ;
+    box-sizing: border-box;
+}
+.bxg-checkbox input{
+    display: none;
+}
+.selectActive{
+    border: 0!important;
+    background: url(../images/myattention_icon.png)no-repeat;
+    background-size:77/72rem 42/72rem;
+}
+
+.myfllow-img{
+    margin:20/72rem;
+    display: block;
+    float: left;
+    height: 150/72rem;
+    width: 150/72rem; 
+}
+.bxg-myfllow-li>a>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bxg-myfllow-li-right{
+    float: left;
+}
+.bxg-myfllow-li-right>a{
+    font-size: 30/72rem;
+    color:#333333;
+    padding-top: 40/72rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.bxg-myfllow-li-right>div{
+    height: 91/72rem;
+    margin-top: 20/72rem;
+// background: burlywood;
+//  line-height: 110/72rem;
+    
+}
+.bxg-myfllow-li-right>div>div:nth-child(1){
+    font-size: 24/72rem;
+    color:#cdcccc;
+    float: left;
+    margin: 50/72rem  0 0 0;
+    display: block;
+}
+.bxg-myfllow-li-right>div>div:nth-child(2){
+    width: 140/72rem;
+    font-size: 24/72rem;
+    color:#939394;
+    float: left;
+    margin:50/72rem 0 0 84/72rem; 
+}
+
+.new>span{
+    margin-top: 5/72rem;
+    height: 20/72rem;
+    width: 45/72rem;
+    float: right;
+    display: block;
+    background: url(../images/my.png)no-repeat;
+    background-size:200/72rem;
+    background-position:-162/72rem -69/72rem;
+}
+//猜你喜欢
+.bxg-guesslike{
+    width:100%;
+}
+.bxg-guesslike-title{
+    margin:30/72rem auto;
+    width:300/72rem;
+    font-size:26/72rem;
+    color: #333;
+    text-align: center;
+}
+.bxg-guesslike-title span{
+    margin-top:13/72/2rem;
+    display: block;
+    width:41/72rem;
+    height:13/72rem;
+    background-position:0 -40/72rem;
+}
+.bxg-guesslike-title span:first-child{
+    float: left;
+}
+.bxg-guesslike-title span:last-child{
+    float: right;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);  
+    -moz-transform:rotate(180deg);   
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg); 
+}
+.bxg-goods-list{
+    background: #fff;
+}
+.bxg-shop a{
+    display: block;
+    padding:26/72rem 20/72rem 15/72rem;
+    font-size: 26/72rem;
+    color: #333;
+}
+.bxg-shop a>div:first-child{
+    margin-right:28/72rem;
+    border:1px solid #d1d0cc;
+}
+.bxg-shop a>div{
+    float: left;
+}
+.shop-img{
+    width: 85/72rem;
+    height:85/72rem;
+}
+.shop-img img{
+    width:100%;
+    height:100%;
+}
+.shop-name{
+    line-height: 85/72rem;
+}
+//修改
+.bxg-goods-list ul{
+    padding:0 27/72rem;
+}
+.bxg-goods-list ul li{
+    position: relative;
+    margin-bottom: 10/72rem;
+    width: 656/72/2rem!important;
+}
+.bxg-goods-list ul li>a>img{
+    width: 656/72/2rem!important;
+    height: 656/72/2rem!important;
+}
+.bxg-goods-list .bxg-goods-price{
+    margin-top:15/72rem;
+    padding:18/72rem 0 4/72rem;
+    border-top:1px dashed #CCCCCC;
+}
+.bxg-goods-list ul li:nth-child(2n+1){
+    margin-right: 10/72rem!important;
+}
+.bxg-goods-list ul li .goods-list-btn{
+    margin-top:3/72rem;
+    margin-right:10/72rem;
+    width: 3/72rem;
+    height:26/72rem;
+    background-position:-120/72rem 2/72rem;
+    transform:scale(2,1.5);
+    -ms-transform:scale(2,1.5);  
+    -moz-transform:scale(2,1.5);   
+    -webkit-transform:scale(2,1.5);
+    -o-transform:scale(2,1.5); 
+}
+.bxg-goods-list ul li .bxg-goods-price span:first-child{
+    color: #ff6100;
+}
+
+.bxg-deleteAjax{
+    display: none;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: 80/72rem;
+    line-height: 80/72rem;
+    color: #fff;
+    font-size: 38/72rem;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+
+//上新内容
+.bxg-news-goods{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+.bxg-news-goods .bxg-shop-content{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height:75%;
+    z-index: 2;
+    overflow-y: scroll;
+    background: #F0F0F2;
+    -webkit-animation: news-anil 1s ease;
+    -moz-animation: news-ani 1s ease;
+    -o-animation: news-ani 1s ease;
+    animation: news-ani 1s ease;
+}
+.bxg-news-goods .bxg-shop-content .bxg-shop{
+    position: fixed;
+    top:25%;
+    left: 0;
+    z-index: 2;
+    width:100%;
+    background: #fff;
+    -webkit-animation: shop-ani 1s ease;
+    -moz-animation: shop-ani 1s ease;
+    -o-animation: shop-ani 1s ease;
+    animation: shop-ani 1s ease;
+}
+//关闭上新
+.close-new{
+    position: absolute;
+    right:20/72rem;
+    font-size: 70/72rem;
+    color: #888;
+}
+.bxg-news-goods .bxg-shop-content ul{
+    margin-top:130/72rem; 
+}
+
+@-webkit-keyframes news-ani {
+    0%{bottom:-100%;}
+    100%{bottom:0;}
+}
+@-moz-keyframes news-ani {
+    0%{bottom:-100%;}
+    100%{bottom:0;}
+}
+@-ms-keyframes news-ani {
+    0%{bottom:-100%;}
+    100%{bottom:0;}
+}
+@keyframes news-ani{
+    0%{bottom:-100%;}
+    100%{bottom:0;}  
+}
+@-webkit-keyframes shop-ani {
+    0%{top:125%;}
+    100%{top:25%;}
+}
+@-moz-keyframes shop-ani {
+    0%{top:125%;}
+    100%{top:25%;}
+}
+@-ms-keyframes shop-ani {
+     0%{top:125%;}
+    100%{top:25%;}
+}
+@keyframes shop-ani{
+    0%{top:125%;}
+    100%{top:25%;}
+}
