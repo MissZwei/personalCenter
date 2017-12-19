@@ -1,0 +1,270 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-wish {
+  position: absolute;
+  top: 0;
+  right: 0.41666667rem;
+  font-size: 0.38888889rem;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 2.22222222rem;
+  overflow: hidden;
+}
+.bxg-bg-white {
+  background: #fff;
+}
+.bxg-wish-icon {
+  background: url(../images/wish_icon.png) no-repeat;
+  background-size: 1.66666667rem 3.56944444rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-tabs {
+  position: fixed;
+  top: 1.11111111rem;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  z-index: 2;
+}
+.bxg-tabs a {
+  width: 50%;
+  font-size: 0.44444444rem;
+  color: #333;
+  text-align: center;
+}
+.bxg-tabs a.bxg-active {
+  color: #12B7F5;
+  border-bottom: 1px solid #12B7F5;
+}
+.bxg-content-slide {
+  position: relative;
+  margin-top: 0.13888889rem;
+  padding: 0.27777778rem;
+}
+.bxg-avactor {
+  width: 1.38888889rem;
+  height: 1.38888889rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: red;
+}
+.bxg-avactor > img {
+  width: 100%;
+  height: 100%;
+}
+.bxg-info {
+  width: 7.91666667rem;
+}
+.info-name {
+  height: 0.90277778rem;
+  line-height: 0.90277778rem;
+  font-size: 0.38888889rem;
+  color: #333333;
+}
+.info-name > div:last-child {
+  margin-top: 0.13888889rem;
+  width: 0.43055556rem;
+  height: 0.23611111rem;
+  background: url(../images/myattention_icon.png) no-repeat -0.65277778rem -0.36111111rem;
+  background-size: 1.06944444rem 0.58333333rem;
+}
+.info-wish {
+  font-size: 0.33333333rem;
+}
+.info-wish > div:first-child {
+  color: #12B7F5;
+}
+.info-wish > div:nth-child(2) {
+  color: #a1a1a1;
+}
+.info-wish > div:nth-child(2) span:nth-child(2) {
+  padding: 0 8px;
+}
+.wish-content {
+  padding: 0.27777778rem 0.13888889rem;
+}
+.wish-img {
+  width: 1.66666667rem;
+  height: 2.22222222rem;
+}
+.wish-img img {
+  width: 100%;
+  height: 100%;
+}
+.wish-info {
+  position: relative;
+  width: 7.22222222rem;
+  font-size: 0.41666667rem;
+}
+.wish-info > div:first-child {
+  margin-top: 0.13888889rem;
+}
+.wish-info > div:nth-child(2) {
+  margin: 0.48611111rem 0;
+  font-size: 0.33333333rem;
+  color: #595959;
+}
+.wish-info > div:nth-child(3) {
+  font-size: 0.33333333rem;
+}
+.wish-search {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1.91666667rem;
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+  text-align: center;
+  font-size: 0.33333333rem;
+  color: #fff;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.wish-fun {
+  margin: 0.27777778rem 0.13888889rem 0.13888889rem;
+  font-size: 0.33333333rem;
+  color: #8f8f8f;
+}
+.wish-fun > div:first-child {
+  margin: 0.06944444rem 0;
+}
+.wish-fun > div:last-child span {
+  float: left;
+  display: block;
+  height: 0.41666667rem;
+}
+.wish-fun > div:last-child span:first-child {
+  width: 0.40277778rem;
+  background-position: 0 0 ;
+}
+.wish-fun > div:last-child span.supportActive {
+  background-position: 0 -0.48611111rem;
+}
+.wish-fun > div:last-child span:nth-child(2) {
+  margin: 0.04166667rem 0.83333333rem;
+  width: 0.48611111rem;
+  background-position: -0.48611111rem 0;
+}
+.wish-fun > div:last-child span:nth-child(3) {
+  margin: 0.04166667rem 0;
+  width: 0.41666667rem;
+  background-position: -1.05555556rem 0;
+}
+.bxg-comment {
+  padding: 0.27777778rem 0;
+  border-top: 1px solid #f0f0f2;
+}
+.comment-inp {
+  width: 9.44444444rem;
+  height: 0.83333333rem;
+}
+.comment-inp input {
+  display: block;
+  margin: 0 auto;
+  width: 9.16666667rem;
+  height: 0.83333333rem;
+  border-radius: 0.20833333rem;
+  border: 1px solid #f0f0f2;
+  text-indent: 0.27777778rem;
+}
+.bxg-support {
+  margin-bottom: 0.13888889rem;
+  height: 0.58333333rem;
+  line-height: 0.58333333rem;
+  font-size: 0.33333333rem;
+  color: #12B7F5;
+}
+.bxg-support i {
+  margin-right: 0.13888889rem;
+  float: left;
+  display: block;
+  width: 0.58333333rem;
+  height: 0.59722222rem;
+  background-position: -0.48611111rem -0.5rem;
+}
+.bxg-message {
+  font-size: 0.33333333rem;
+}
+.bxg-message > div {
+  margin-top: 0.20833333rem;
+}
+.bxg-message > div a {
+  color: #cbcbcb;
+}
+.other-btn {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wish-alert {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 3;
+  margin-top: -2.65277778rem;
+  width: 100%;
+  height: 5.30555556rem;
+  background: #f5f5f5;
+}
+.other-fun {
+  padding: 0.13888889rem 0.48611111rem;
+  font-size: 0.41666667rem;
+  color: #333;
+}
+.other-fun li {
+  height: 1.67592593rem;
+  line-height: 1.67592593rem;
+}
+.other-fun li i {
+  margin: 0.38194444rem 0.27777778rem 0 0;
+  float: left;
+  display: block;
+  height: 0.79166667rem;
+}
+.other-fun li span {
+  float: left;
+}
+.other-fun li:first-child i {
+  width: 0.93055556rem;
+  background-position: 0 -1.11111111rem;
+}
+.other-fun li:nth-child(2) i {
+  width: 0.79166667rem;
+  background-position: 0 -1.94444444rem;
+}
+.other-fun li:nth-child(3) i {
+  width: 0.73611111rem;
+  background-position: 0 -2.76388889rem;
+}
+.other-fun li:first-child a {
+  margin: 0.5rem 0.27777778rem 0;
+  display: block;
+  float: left;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.other-fun li:first-child a.qq {
+  background-position: -1rem -1.23611111rem;
+}
+.other-fun li:first-child a.wechat {
+  background-position: -1rem -1.94444444rem;
+}
+.other-fun li:first-child a.friendster {
+  background-position: -1rem -2.66666667rem;
+}
