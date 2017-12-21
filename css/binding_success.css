@@ -1,0 +1,62 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-binding-success {
+  width: 100%;
+  height: 8.55555556rem;
+  background: #fff;
+}
+.bxg-success {
+  height: 5.69444444rem;
+  background: url(../images/binding-success.png) no-repeat;
+  background-size: 6.61111111rem 5.55555556rem;
+  margin-left: 1.38888889rem;
+}
+.bxg-binding-success p {
+  text-align: center;
+  color: #999;
+  font-size: 0.5rem;
+  height: 2.77777778rem;
+  line-height: 2.77777778rem;
+}
+.bxg-binding-foot {
+  width: 100%;
+  height: 2.91666667rem;
+  margin-top: 0.27777778rem;
+  background: #fff;
+}
+.bxg-binding-foot a {
+  background: #12B7F5;
+  width: 3.75rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  color: #fff;
+  border-radius: 0.16666667rem;
+  margin-left: 0.83333333rem;
+  margin-top: 0.72222222rem;
+  display: inline-block;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.bxg-binding-foot-pledge {
+  margin-top: 1rem;
+}
+.bxg-binding-pledge {
+  margin-left: 3.61111111rem;
+  margin-right: 0.13888889rem;
+  float: left;
+  width: 0.29166667rem;
+  height: 0.33333333rem;
+  background: url(../images/binding_icon.png) no-repeat;
+  background-size: 0.29166667rem 0.33333333rem;
+}
+.bxg-binding-foot-pledge p {
+  height: 0.38888889rem;
+  line-height: 0.38888889rem;
+  font-size: 0.36111111rem;
+  color: #999;
+}

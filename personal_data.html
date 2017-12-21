@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人资料</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/mobiscroll.custom-2.6.2.min.css" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/account.css" />
+		<link rel="stylesheet" href="css/personal_data.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			个人资料
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<div class="bxg-content">
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);">
+							<span>百信头像</span>
+							<i class="bxg-set-icon"></i>
+							<span class="avactor"><img src="http://www.sioe.cn/z/uploadfile/201109/14/2152366361.jpg" /></span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);">
+							<span>我的账号</span>
+							<!--<i class="bxg-set-icon"></i>-->
+							<span>182****5105</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);" class="nickname-edit">
+							<span class="">我的昵称</span>
+							<i class="bxg-set-icon"></i>
+							<span class="my-nickname">愤怒的小鸟</span>
+						</a>
+
+					</li>
+				</ul>
+
+			</div>
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);" class="sex-edit">
+							<span>性别</span>
+							<i class="bxg-set-icon"></i>
+							<span class="my-sex">男</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);" class="date-edit">
+							<span>我的生日</span>
+							<i class="bxg-set-icon"></i>
+							<span class="my-date">未设置</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);" class="email-edit">
+							<span class="">我的邮箱</span>
+							<i class="bxg-set-icon"></i>
+							<span class="my-email">未设置</span>
+						</a>
+
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);" class="qrcode-edit">
+							<span class="">我的二维码</span>
+							<i class="bxg-set-icon"></i>
+							<span class="bxg-data-icon mycode"></span>
+						</a>
+
+					</li>
+				</ul>
+			</div>
+			
+			<!--修改昵称-->
+			<div class="bxg-shade edit-nickname">
+				<div>
+					<input type="text" name="nickname">
+					<div class="name-require">昵称由数字、字母、符号组成</div>
+					<div class="bxg-button">保存</div>
+				</div>
+			</div>
+			
+			<!--性别-->
+			<div class="bxg-shade edit-sex">
+				<div>
+					<ul>
+						<li class="bxg-clear">
+							<span>男</span>
+							<label for="men"></label>
+							<input type="radio" name="sex" id="men"/>
+						</li>
+						<li class="bxg-clear">
+							<span>女</span>
+							<label for="woman"></label>
+							<input type="radio" name="sex" id="woman"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--我的生日-->
+			<div class="bxg-shade edit-date">
+				<input id="birthday" placeholder="请选择出生年月" />
+			</div>
+			
+			<!--我的邮箱-->
+			<div class="bxg-shade edit-email">
+				<div>
+					<div class="bxg-data-icon"></div>
+					<input type="text" name="email" placeholder="请输入邮箱"/>
+					<div class="email-tip"></div>
+					<div class="bxg-btn bxg-between">
+						<span class="email-ok">确定</span><span class="email-cancel">取消</span>
+					</div>
+				</div>
+			</div>
+			
+			<!--我的二维码-->
+			<div class="bxg-shade edit-qrcode">
+				<div>
+					<div class="qrcode-head bxg-clear">
+						<div><img src="http://p5.so.qhimgs1.com/t01dabc324600b4e73b.jpg"/></div>
+						<div>
+							<div>182****2653</div>
+							<div>当前等级：<span>1</span>级</div>
+						</div>
+					</div>
+					
+					<div class="qrcode">
+						<img src="http://pic.baike.soso.com/p/20120806/20120806141656-652533159.jpg"/>
+					</div>
+					<div class="qrcode-update bxg-clear">
+						<i class="bxg-data-icon"></i>每五分钟更新二维码
+					</div>
+					<div>
+						购物结账时请出示二维码
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="public/js/mobiscroll.custom-2.6.2.min.js" ></script>
+		<script type="text/javascript" src="js/personal_data.js" ></script>
+		<script>
+			$(function () {
+    			
+			
+			});
+		</script>
+	</body>
+
+</html>
