@@ -1,0 +1,42 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  padding-top: 0.97222222rem;
+}
+.bxg-fail-img {
+  margin: 0 auto;
+  width: 5.56944444rem;
+  height: 4.86111111rem;
+  background: url(../images/register_fail.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bxg-success-img {
+  margin: 0 auto;
+  width: 5.56944444rem;
+  height: 4.86111111rem;
+  background: url(../images/register_success.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bxg-tip {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  width: 100%;
+  text-align: center;
+  color: #e16655;
+  font-size: 0.58333333rem;
+}
+.bxg-back-btn {
+  margin: 1.22222222rem auto 0;
+  display: block;
+  width: 8rem;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  background: #E16655;
+  font-size: 0.58333333rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.66666667rem;
+}

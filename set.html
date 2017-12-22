@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>设置</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
 		<link rel="stylesheet" href="public/css/reset.css" />
-		<link rel="stylesheet" href="css/set.css" />
-		<link rel="stylesheet" href="css/moretool.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/account.css" />
+		<link rel="stylesheet" href="css/set.css"/>
 		<script type="text/javascript" src="public/js/public.js" ></script>
-			<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/method.js"></script>
 	</head>
 	<body>
 		<!--头部-->
@@ -17,9 +18,97 @@
 			设置
 			<span class="bxg-head-icon bxg-list"></span>
 		</header>
-		
 		<!--内容-->
 		<div class="bxg-content">
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear user-info">
+						<a href="javascript:history.go(-1)">
+							<span class="user-head">
+								<img src="http://p2.so.qhimgs1.com/t01aba3d627c80db562.jpg"/>
+							</span>
+							<div class="user-cont">
+								<div>愤怒的小鸟</div>
+								<div>账号:182****5105</div>
+							</div>
+							<i class="bxg-set-icon"></i>
+							
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="account.html">
+							<span>账户与安全</span>
+							<i class="bxg-set-icon"></i>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>实名认证</span>
+							<i class="bxg-set-icon"></i>
+							<span>未认证</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>绑定手机</span>
+							<i class="bxg-set-icon"></i>
+							<span>未绑定</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="social_binding.html">
+							<span>社交账户绑定</span>
+							<i class="bxg-set-icon"></i>
+							<span>未绑定</span>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>会员等级</span>
+							<i class="bxg-set-icon"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>我的收货地址</span>
+							<i class="bxg-set-icon"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>我的推荐人</span>
+							<i class="bxg-set-icon"></i>
+						</a>
+					</li><li class="bxg-clear">
+						<a href="javascript:history.go(-1)">
+							<span>偏好设置</span>
+							<i class="bxg-set-icon"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			
+			<div class="bxg-logout">
+				退出账号
+			</div>
+		</div>
+		<!--<div class="bxg-content">
 			<div class="bxg-user">
 				<a href="#" title="" class="bxg-clear">
 					<div class="bxg-buddha"><img src="http://www.qq1234.org/uploads/allimg/121119/1_121119144404_1.jpg"/></div>
@@ -30,10 +119,10 @@
 					</div>
 					<div class="bxg-head-icon bxg-right-icon"> </div>
 				</a>
-			</div>
+			</div>-->
 			
 			<!--账户与安全-->
-			<div class="bxg-Auucoun-list">
+			<!--<div class="bxg-Auucoun-list">
 				<ul>
 					<li>
 						<a href="account.html" title="" class="bxg-clear">
@@ -104,9 +193,9 @@
 				
 			</div>
 		
-		</div>
+		</div>-->
 		
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 		  
 		    $(".btn1").on("click",function(){
 		        var obj={
@@ -119,6 +208,7 @@
 		        };
 		        method.msg_layer(obj);
 		    });
-		    </script>
+		    </script>-->
+		    <script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
 	</body>
 </html>

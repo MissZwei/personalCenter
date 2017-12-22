@@ -2,7 +2,9 @@ $(function(){
 	$("#edit-txt").val('').val('说点什么...');
 	$("#edit-txt").textareaAutoHeight();
 	$("#edit-txt").focus(function(){
-		$("#edit-txt").val('').css('color','#000');
+		if($("#edit-txt").val()==msg){
+			$("#edit-txt").val('').css('color','#000');
+		}
 	});
 	$("#edit-txt").blur(function(){
 		if($.trim($("#edit-txt").val()) == ''){

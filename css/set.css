@@ -1,0 +1,47 @@
+.bxg-content {
+  margin-top: 1.25rem;
+}
+.bxg-content > div {
+  margin-top: 0.13888889rem;
+}
+.bxg-logout {
+  margin: 0.41666667rem auto 0 !important;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.52777778rem;
+  color: #fff;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.user-info {
+  width: 100%;
+  height: 1.52777778rem;
+}
+.user-info a {
+  padding: 0.13888889rem 0;
+  height: 1.52777778rem;
+  line-height: 0.55555556rem !important;
+}
+.user-head {
+  margin-right: 0.27777778rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-head img {
+  width: 100%;
+  height: 100%;
+}
+.user-cont {
+  float: left;
+  font-size: 0.34722222rem;
+  color: #a2a2a2;
+}
+.user-cont > div:first-child {
+  font-size: 0.41666667rem;
+  line-height: 0.69444444rem !important;
+  color: #333333;
+}

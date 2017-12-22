@@ -1,0 +1,112 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 80/72rem;
+}
+.bxg-feedbacks-head{
+    padding:0 30/72rem;
+    height:100/72rem;
+    line-height:100/72rem;
+    font-size:33/72rem;
+    background: #fff;
+    border-bottom:1px solid #F0F0F2;
+}
+.bxg-feedbacks-select>div{
+    float: left;
+    margin-right:15/72rem;
+    font-size: 30/73rem;
+}
+
+input[type="radio"] + label::before {
+    content: "\a0";
+    display: inline-block;
+    vertical-align: middle;
+    width: 34/72rem;
+    height:34/72rem;
+    margin:0 18/72rem;
+    border-radius: 50%;
+    border: 1px solid #12b7f5;
+    box-sizing: border-box;
+}
+input[type="radio"]:checked + label::before {
+    background-color: #12b7f5;
+    background-clip: content-box;
+    padding: 5/72rem;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.bxg-textarea{
+    padding:30/72rem;
+    background: #fff;
+}
+.bxg-textarea textarea{
+    display: block;
+    width:660/72rem;
+    font-size:30/72rem;
+    color: #a8a8a8;
+    border: none;
+}
+.bxg-upload-img{
+    margin:20/72rem 0;
+    padding:0 30/72rem 10/72rem;
+    background: #fff;
+}
+.bxg-upload-img>div{
+    float:left;
+    margin-right: 10/72rem;
+    width: 620/72/5rem;
+    height: 620/72/5rem;
+    margin-top: 10/72rem;
+}
+.bxg-upload-img>div:nth-child(5n){
+    margin-right:0;
+}
+.upload-btn{
+    background: url(../images/camera.png)no-repeat;
+    background-size:124/72rem 124/72rem;
+    cursor: pointer;
+}
+.bxg-upload-img>div img{
+    width:100%;
+    height:100%;
+}
+.user-mobile{
+    width:100%;
+    padding:0 30/72rem;
+    height:100/72rem;
+    line-height: 100/72rem;
+    font-size:30/72rem;
+    color: #9b9b9b;
+    background: #fff;
+}
+.user-mobile span,
+.user-mobile input{
+    float: left;
+}
+.user-mobile input{
+    margin:23/72rem 0 0 20/72rem;
+    height:50/72rem;
+    font-size: 30/72rem;
+    border: none;
+}
+.bxg-submit{
+    margin:80/72rem auto 0;
+    width:650/72rem;
+    height:90/72rem;
+    line-height:90/72rem;
+    text-align: center;
+    color: #fff;
+    font-size: 36/72rem;
+    background: #12B7F5;
+    border-radius:10/72rem ;
+}
+.error-tip{
+    display: none;
+    font-size: 26/72rem;
+    color: red;
+}
