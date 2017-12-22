@@ -1,0 +1,115 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-demo-table tr td {
+  padding: 0.13888889rem 0.80555556rem;
+  font: 16/72rem/1.8 normal 'microsoft yahei';
+  vertical-align: top;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-header-right {
+  float: right;
+  margin-right: 0.27777778rem;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  box-sizing: border-box;
+}
+.bxg-integration-head {
+  clear: both;
+  height: 2.22222222rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.bxg-integration-head-left {
+  width: 2.36111111rem;
+  height: 1.38888889rem;
+  background: url(../images/preferences-shop.png) no-repeat;
+  background-size: 2.58333333rem 2.58333333rem;
+  display: block;
+  margin: 0.38888889rem;
+  border: 1px solid #ddd;
+  float: left;
+}
+.bxg-integration-head p {
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  color: #333;
+  font-size: 0.41666667rem;
+}
+.bxg-integration-head-right {
+  float: left;
+  margin: 0.27777778rem;
+}
+.bxg-integration-head-right span {
+  color: #999;
+  margin-left: 0.27777778rem;
+}
+.bxg-integration-main {
+  height: 2.11111111rem;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  background: #fff;
+  margin-top: 0.27777778rem;
+}
+.bxg-integration-main p {
+  height: 1.04166667rem;
+  line-height: 1.04166667rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.38888889rem;
+  padding-left: 0.41666667rem;
+  box-sizing: border-box;
+}
+.bxg-integration-main span {
+  float: right;
+  color: #999;
+  margin-right: 0.41666667rem;
+}

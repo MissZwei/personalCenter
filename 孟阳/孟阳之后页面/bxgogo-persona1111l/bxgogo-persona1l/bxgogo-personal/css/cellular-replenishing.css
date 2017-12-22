@@ -1,0 +1,108 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 998;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  box-sizing: border-box;
+}
+.bxg-cellular-replenishing-head {
+  height: 4.05555556rem;
+}
+.bxg-mobile-pay-icon {
+  background: url(../images/mobile-pay.png) no-repeat;
+  background-size: 10rem 11.11111111rem;
+}
+.bxg-china {
+  width: 10rem;
+  height: 4.05555556rem;
+  background-position: 0 0;
+}
+.bxg-cellular-replenishing-main {
+  height: 2.77777778rem;
+  background: #fff;
+}
+.bxg-cellular-replenishing-main p {
+  height: 1.25rem;
+  line-height: 1.38888889rem;
+  padding-left: 0.41666667rem;
+  font-size: 0.58333333rem;
+  color: #333;
+}
+.bxg-cellular-replenishing-main-cost {
+  height: 1.25rem;
+  line-height: 1.11111111rem;
+  color: #666 !important;
+  font-size: 0.5rem;
+  padding-left: 0.41666667rem;
+}
+.bxg-cellular-replenishing-footer {
+  clear: both;
+}
+.bxg-cellular-replenishing-footer ul li {
+  width: 2.86111111rem;
+  height: 2.69444444rem;
+  background: #fff;
+  color: #12B7F5;
+  text-align: center;
+  float: left;
+  margin: 0.34722222rem 0 0rem 0.34722222rem;
+}
+.bxg-cellular-replenishing-footer ul li p {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  background: #fff;
+  color: #12B7F5;
+  text-align: center;
+}
+.bxg-cellular-replenishing-none {
+  color: #666 !important;
+  font-size: 0.58333333rem;
+  text-align: center;
+}
+.bxg-cellular-none {
+  color: #666 !important;
+  font-size: 0.44444444rem;
+}
+.bxg-cellular-num {
+  color: #666 !important;
+  font-size: 0.58333333rem;
+  text-align: center;
+}
+.bxg-cellular-start {
+  font-size: 0.44444444rem;
+  color: #12B7F5 !important;
+}

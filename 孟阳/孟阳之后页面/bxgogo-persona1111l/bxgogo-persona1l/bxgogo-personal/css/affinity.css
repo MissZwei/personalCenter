@@ -1,0 +1,127 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.15277778rem 0.73611111rem;
+}
+.bxg-advice-icon {
+  background: url(../images/feedecks.png) no-repeat;
+  background-size: 2.91666667rem 2.5rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.41666667rem;
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  background-position: -2.08333333rem 0;
+}
+.bxg-search {
+  right: 1.38888889rem;
+  width: 0.625rem;
+  background-position: -0.80555556rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-affinity-head {
+  margin-top: 0.27777778rem;
+  width: 100%;
+  height: 2.80555556rem;
+  background: #fff;
+}
+.bxg-affinity-head-left {
+  width: 6.94444444rem;
+  height: 2.80555556rem;
+  float: left;
+}
+.bxg-affinity-head-img {
+  width: 1.38888889rem;
+  height: 1.38888889rem;
+  background: url(../images/preferences.png) no-repeat;
+  background-size: 1.38888889rem 1.38888889rem;
+  display: block;
+  float: left;
+  margin: 0.69444444rem 0.27777778rem;
+}
+.bxg-affinity-fa {
+  display: block;
+  font-size: 0.27777778rem;
+  height: 1.52777778rem;
+  line-height: 1.94444444rem;
+}
+.bxg-affinity-faim {
+  display: block;
+  font-size: 0.41666667rem;
+  height: 1.11111111rem;
+  line-height: 0.41666667rem;
+}
+.bxg-affinity-head-right {
+  float: left;
+  width: 2.5rem;
+  height: 2.80555556rem;
+  margin-right: 0.41666667rem;
+}
+.bxg-myservice-icon {
+  background: url(../images/myservice.png) no-repeat;
+  background-size: 6.94444444rem 2.13888889rem;
+}
+.bxg-love {
+  width: 1.08333333rem;
+  height: 0.66666667rem;
+  background-position: -2.68055556rem -1.52777778rem;
+  font-size: 0.27777778rem;
+  margin-top: 0.97222222rem;
+  float: left;
+  margin-right: 0.41666667rem;
+}
+.bxg-affinity-head-right span {
+  font-size: 0.27777778rem;
+  height: 2.77777778rem;
+  line-height: 1.94444444rem;
+  display: block;
+  text-align: center;
+}
+.bxg-affinity-head-right p {
+  font-size: 0.75rem;
+  height: 2.77777778rem;
+  line-height: 2.77777778rem;
+  float: right;
+}

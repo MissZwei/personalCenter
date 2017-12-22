@@ -1,0 +1,414 @@
+body {
+  background: #f0f0f2;
+}
+
+.bxg-header{
+    position: fixed;
+    top:0;
+    width:100%;
+    height:80/72rem;
+    line-height: 82/72rem;
+    background: #12b7f5;
+    text-align: center;
+    color: #fff;
+    font-size:40/72rem;
+    z-index: 998;
+}
+
+.bxg-back,.bxg-list,.bxg-search{
+    position: absolute;
+    top:27/2/72rem;
+    height:53/72rem;
+    display: block;
+}
+.bxg-back{
+    left:30/72rem;
+    width:28/72rem;
+    background-position:0 0;
+}
+
+.bxg-head-icon{
+    background: url(../images/head_icon.png) no-repeat;
+    background-size:207/72rem 52/72rem;
+ 
+}
+.bxg-list{
+    right:15/72rem;
+    width:16/72rem;
+    background-position:-34/72rem 0;
+
+}
+.bxg-content{
+    position: relative;
+
+    box-sizing: border-box;
+}
+
+
+.bxg-refund-head{
+    height:290/72rem;
+    background: #fff;
+}
+.bax-refund-headre{
+    height:80/72rem;
+    line-height:80/72rem;
+    font-size:33/72rem;
+    padding-left:30/72rem;
+}
+.bxg-refund-girl{
+    width:150/72rem;
+    height:150/72rem;
+    background: url(../images/preferences-gender.png)no-repeat;
+    background-size:150/72rem 150/72rem;
+    border:1px solid #ddd;
+    float:left;   
+    margin:17/72rem 0;
+    margin-right:30/72rem;
+}
+.bxg-refund-head p{
+    
+   font-size:23/72rem;
+   margin-left:20/72rem;
+   width:500/72rem;
+   line-height: 36/72rem;
+   display: block;
+
+}
+
+
+.bxg-refund-text{
+    font-size:36/72rem !important;
+    color:#fa9f0f;
+}
+.bxg-refund-num{
+    color:#333;
+    float:right;
+    font-size:24/72rem;
+}
+.bxg-refund-main{
+    clear:both;
+    height:200/72rem;
+    margin-top:20/72rem;
+    background: #fff;
+}
+.bxg-refund-main p{
+    height:100/72rem;
+    line-height: 100/72rem;
+    font-size:33/72rem;
+}
+
+.bxg-refund-main span{
+    height:100/72rem;
+    line-height: 100/72rem;
+    font-size:33/72rem;
+    float:right;
+}
+
+
+
+
+.bxg-right-icon{
+    float:right!important;
+    margin-top:30/72rem;
+    width:40/72rem;
+    height:53/72rem;
+    background-position:-150/72rem 0;
+ 
+}
+
+.bxg-refund-main ul{
+    margin:20/72rem 0;
+    
+}
+.bxg-refund-main ul li{
+    background: #fff;
+    padding:0 27/72rem;
+    border-top: 1px solid #f0f0f2;
+    
+}
+.bxg-refund-main ul li a{
+    display: block;
+    
+    line-height: 100/72rem;
+    font-size: 35/72rem;
+    color: #333;
+}
+.bxg-head-sex-left{
+    padding-right:40/72rem;
+}
+#bxg_cause{
+    z-index:50;
+    display:none;
+    position:relative;
+    background-color:#fff;
+}
+#bxg_cause #bxg_win_top {
+    height:96/72rem;
+  text-align: center;
+    line-height:96/72rem;
+    color: #fff;
+    font-family: "微软雅黑", ;
+    font-size:36/72rem;
+    background: #12B7F5;
+    border-radius: 12/72rem;
+    margin-top:380/72rem;
+}
+#bxg_cause #bxg_win_top a {
+    text-align: center;
+   color:#fff;
+}
+#bxg_sel {
+    background-color:#000;
+    position:absolute;
+    z-index:49;
+    display:none;
+    width:100%;
+    height:100%;
+    opacity:0.6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+#bxg_cause .bxg-refund-main-cause {
+    margin-top: 5/72rem;
+    margin-right: 30/72rem;
+    margin-left: 30/72rem;
+}
+
+
+#holder {
+    width: 100%;
+}
+
+#holder > div {
+    clear: both;
+    padding: 2%;
+    
+    border-bottom: 1px solid #eee;
+    float: left;
+    width: 96%;
+
+}
+
+label {
+    display: inline;
+}
+.tag {
+    font-family: Arial, sans-serif;
+    width: 200/72rem;
+    position: relative;
+    top: 5/72rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+
+.radio-1 {
+    width: 193px;
+}
+
+.button-holder {
+  font-size:33/72rem;
+  height:90/72rem;
+  line-height: 90/72rem;
+}
+
+/* RADIO */
+
+.regular-radio {
+    display: none;
+}
+.button-holder input{
+    color:#12B7F5;
+    font-size:33/72rem;
+    height:88/72rem;
+    line-height: 88/72rem;
+    border-bottom:1px solid #ddd;
+}
+
+.regular-radio + label {
+    -webkit-appearance: none;
+    border: 1px solid #ddd;
+    width:50/72rem;
+    height:50/72rem;
+    border-radius: 50/72rem;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+   float:right;
+   padding-right:30/72rem;
+    line-height:50/72rem ;
+    
+}
+
+.regular-radio:checked + label:after {
+    content: ' ';
+//  width: 10/72rem;
+//  height: 10/72rem;
+//  border-radius: 50/72rem;
+    position: absolute;
+//  top: 3/72rem;
+    background:url(../images/icon-selected.png)no-repeat;
+background-size:50/72rem 50/72rem;
+//  left: 6/72rem;
+    font-size: 32/72rem;
+    margin-top:-10/72rem;
+    margin-left:-10/72rem;
+}
+
+
+
+.big-radio + label {
+    width:16/72rem;
+    height:44/72rem;
+    border-radius:100/72rem;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+   float:right;
+   margin-left:1px;
+ 
+
+}
+
+.big-radio:checked + label:after {
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+   
+}
+
+/* ------- IGNORE */
+
+#header {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#header #center {
+    text-align: center;
+}
+
+#header h1 span {
+    color: #000;
+    display: block;
+    font-size: 50px;
+}
+
+#header p {
+    font-family: 'Georgia', serif;
+}
+
+#travel {
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    font-variant: normal;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#travel a {
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    border-bottom: 1px solid #f9f9f9;
+    color: #f9f9f9;
+}
+.bxg-refund-refund-img{
+    float:left;
+   width:22/72rem;
+   height:22/72rem;
+   margin-left:100px;
+   padding-top:15px; 
+   background: url(../images/link-arrow.png)no-repeat;
+   background-size:22/72rem 22/72rem;
+   border:1px solid red;
+}
+.bxg-refund-footer-refund{
+    margin-top:20/72rem;
+    height:100/72rem;
+    line-height: 100/72rem;
+    background: #fff;
+    font-size:33/72rem;
+    padding-left:30/72rem;
+}
+.bxg-refund-footer-refund span{
+   color:#fa9f0f;
+   margin-left:20/72rem;
+}
+.bxg-refund-footer-refund-reimburse{
+    height:70/72rem;
+    line-height: 70/72rem;
+    font-size:33/72rem;
+    padding-left:30/72rem;
+    color:#666;
+}
+.bxg-refund-footer-refund-explain{
+  
+    height:100/72rem;
+    line-height: 100/72rem;
+    background: #fff;
+    font-size:33/72rem;
+    padding-left:30/72rem;
+}
+
+.bxg-refund-footer-refund-explain span{
+   color:#666;
+   margin-left:30/72rem;
+}
+.bxg-refund-footer-refund-uploading{
+    margin-top:20/72rem;
+    height:250/72rem;
+    background: #fff;
+     font-size:33/72rem;
+    padding-left:30/72rem;
+}
+.bxg-refund-footer-refund-uploading p{
+  
+    height:100/72rem;
+    line-height:100/72rem;
+     font-size:33/72rem;
+   
+}
+
+.bxg-refund-footer-refund-uploading-img{
+   width:126/72rem;
+   height:126/72rem;
+   border:1px dashed #ddd;
+
+}
+
+.bxg-refund-icon{
+   background: url(../images/paymentparticulars.png)no-repeat;
+   background-size:120/72rem 120/72rem; 
+   
+}
+ .bxg-uploading{
+    width:40/72rem;
+    height:34/72rem;
+    background-position:-40/72rem 0;
+    margin:12/72rem auto;
+ }
+.bxg-refund-footer-refund-uploading-img p{
+    font-size: 20/72rem;
+    height:28/72rem;
+    line-height: 28/72rem;
+    text-align: center;
+    color:#999;
+}
+.bxg-refund-footer-submit{
+    margin-top:20/72rem;
+    height:96/72rem;
+    line-height: 96/72rem;
+    color:#fff;
+    background:#12B7F5;
+    font-size:42/72rem;
+    text-align: center;
+}

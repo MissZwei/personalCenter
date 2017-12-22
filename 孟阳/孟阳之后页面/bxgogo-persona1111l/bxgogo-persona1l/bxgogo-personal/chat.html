@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta http-equiv="Cache-Control" content="no-siteapp">
+		<title>邻家女孩</title>
+		 <!--<link rel="icon" href="http://m.bxgogo.com/favicon.ico" type="image/x-icon">-->
+		<link rel="stylesheet" href="public/css/new_file.css">
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/chat.css" />
+
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="public/js/public.js" ></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+			 <script type="text/javascript">  
+			    //===========================点击展开关闭效果====================================  
+			    function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){  
+			    var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;  
+			    var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;  
+			    var openTip = oOpenTip || "";  
+			    var shutTip = oShutTip || "";  
+			    if(targetObj.style.display!="none"){  
+			       if(shutAble) return;  
+			       targetObj.style.display="none";  
+			       if(openTip  &&  shutTip){  
+			        sourceObj.innerHTML = shutTip;   
+			       }  
+			    } else {  
+			       targetObj.style.display="block";  
+			       if(openTip  &&  shutTip){  
+			        sourceObj.innerHTML = openTip;   
+			       }  
+			    }  
+			    }  
+			    </script>  
+
+	
+	</head>
+	<body>
+		
+		<!--头部-->
+		
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			
+			<span class="bxg-head-girl">邻家女孩</span>
+			<span class="bxg-head-shop" onclick="openShutManager(this,'bxg-meun')">店铺<i class="bxg-head-icon bxg-list"></i></span>
+		</header>
+		
+		<div id="bxg-meun" style="display: none;">
+			<ul>
+				<li><a href="#" class="bxg-chat-icon bxg-chat-one"></a>个人资料</li>
+				<li><a href="#"class="bxg-chat-icon bxg-chat-two"></a>清除聊天记录</li>
+				<li><a href="#"class="bxg-chat-icon bxg-chat-three"></a>首页</li>
+				
+			</ul>
+		</div>
+	  
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="bxg-chat">
+				<div class="bxg-chat-head">
+					<p>你们还是陌生人,加好友方便下次联系<span>加为好友</span></p>
+      			</div>
+      			<div class="bxg-chat-main">
+					<div class="bxg-chat-main-time">2017/08/04</div>
+					<div class="bxg-chat-main-details">
+						<div class="bxg-chat-icon bxg-head"></div>
+						<div class="bxg-chat-main-text">
+							<i class="bxg-chat-icon bxg-three"></i>
+							<p class="bxg-chat-main-text-hello">您好,我想了解您的产品价格可贷款</p>
+						</div> 
+					</div>
+					<div class="bxg-chat-main-details-left">
+						<div class="bxg-chat-icon bxg-head-left"></div>
+						<div class="bxg-chat-main-text-left">
+							<i class="bxg-chat-icon bxg-three-left"></i>
+							<p class="bxg-chat-main-text-hello">您好,我想了解您的产品价格可贷款</p>
+						</div> 
+					</div>
+					<div class="bxg-chat-main-details">
+						<div class="bxg-chat-icon bxg-head"></div>
+						<div class="bxg-chat-main-text">
+							<i class="bxg-chat-icon bxg-three"></i>
+							<p class="bxg-chat-main-text-hello">您好,我想了解您的产品价格可贷款</p>
+						</div> 
+					</div>
+					
+					<div class="bxg-chat-main-details-left">
+						<div class="bxg-chat-icon bxg-head-left"></div>
+						<div class="bxg-chat-main-text-left">
+							<i class="bxg-chat-icon bxg-three-left"></i>
+							<p class="bxg-chat-main-text-hello">您好,我想了解您的产品价格可贷款</p>
+						</div> 
+					</div>
+					
+					
+      			</div>
+      			<div class="wenwen-footer">
+	<div class="wenwen_btn left" onClick="to_write()"><img src="images/jp_btn.png"></div>
+	<div class="wenwen_text left">
+	    <div class="write_box">
+	        <input type="text" class="left" onKeyUp="keyup()" placeholder="请输入关键字" />
+	    </div>   
+	    <div class="circle-button" id="wenwen">
+	        按住 说话
+	    </div>
+	</div>
+	<div class="wenwen_help right">
+	    <a href="#">
+	        <img src="images/help_btn.png">
+	    </a>
+	    <button onClick="up_say()" class="right">发送</button>
+	</div>
+	<div style="opacity:0;" class="clear"></div>
+</div>
+
+<script type="text/javascript">
+	function to_write(){
+	    $('.wenwen_btn img').attr('src','images/yy_btn.png');
+	    $('.wenwen_btn').attr('onclick','to_say()');
+	    $('.write_box,.wenwen_help button').show();
+	    $('.circle-button,.wenwen_help a').hide();
+	    $('.write_box input').focus();
+	    for_bottom();
+	}
+
+	function to_say(){
+		$('.write_list').remove();
+	    $('.wenwen_btn img').attr('src','images/jp_btn.png');
+	    $('.wenwen_btn').attr('onclick','to_write()');
+	    $('.write_box,.wenwen_help button').hide();
+	    $('.circle-button,.wenwen_help a').show();
+	}
+
+	function up_say(){
+		$('.write_list').remove();
+	    var text = $('.write_box input').val(),
+	        str  = '<div class="question">';
+	        str += '<div class="heard_img right"><img src=""/></div>';
+	        str += '<div class="question_text clear"><p>'+text+'</p><i></i>';
+	        str += '</div></div>';
+
+	    if(text == ''){
+	    	
+	        alert('请输入提问！');
+	        $('.write_box input').focus();
+	    }else{
+	        $('.speak_box').append(str);
+	        $('.write_box input').val('');
+	        $('.write_box input').focus();
+	        autoWidth();
+	        for_bottom();
+	        setTimeout(function(){
+	            var ans  = '<div class="answer"><div class="heard_img left"><img src="images"/></div>';
+	            	ans += '<div class="answer_text"><p>您发送的文字是：'+text+'</p><i></i>';
+	        		ans += '</div></div>';
+	        	$('.speak_box').append(ans);
+				for_bottom();
+	        },1000);
+	    }
+	}
+
+	function keyup(){
+		var footer_height = $('.wenwen-footer').outerHeight(),
+			text = $('.write_box input').val(),
+			str = '<div class="write_list">'+text+'</div>';
+		if (text == '' || text == undefined){
+			$('.write_list').remove();
+		}else{
+			$('.wenwen-footer').append(str);
+			$('.write_list').css('bottom',footer_height);
+		}
+	}
+
+	var wen  = document.getElementById('wenwen');
+	function _touch_start(event){
+        event.preventDefault();
+        $('.wenwen_text').css('background','#c1c1c1');
+        $('.wenwen_text span').css('color','#fff');
+        $('.saying').show();
+    }
+
+    function _touch_end(event){
+        event.preventDefault();
+        $('.wenwen_text').css('background','#fff');
+        $('.wenwen_text .circle-button').css('color','#666');    
+        $('.saying').hide();
+        var str  = '<div class="question">';
+	        str += '<div class="heard_img right"><img src="images"/></div>';
+	        str += '<div class="question_text clear"><p>不好意思，我听不清！</p><i></i>';
+	        str += '</div></div>';
+		$('.speak_box').append(str);
+		for_bottom();
+        setTimeout(function(){
+        	var ans  = '<div class="answer"><div class="heard_img left"><img src="images"/></div>';
+	        	ans += '<div class="answer_text"><p>我不知道你在说什么?</p><i></i>';
+	    		ans += '</div></div>';
+	    	$('.speak_box').append(ans);
+			for_bottom();
+        },1000);       
+    }
+
+    wen.addEventListener("touchstart", _touch_start, false);
+    wen.addEventListener("touchend", _touch_end, false);
+    
+    function for_bottom(){
+		var speak_height = $('.speak_box').height();
+		$('.speak_box,.speak_window').animate({scrollTop:speak_height},500);
+	}
+	
+	function autoWidth(){
+		$('.question_text').css('max-width',$('.question').width()-60);
+	}
+	autoWidth();
+</script>	
+      	
+      		</div>	
+    	</div>
+	</body>
+</html>
+
+

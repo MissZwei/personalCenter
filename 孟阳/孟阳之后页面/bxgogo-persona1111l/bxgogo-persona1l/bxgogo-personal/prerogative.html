@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	
+		<title>会员中心</title>
+	
+		<!--<link rel="stylesheet" href="public/css/new_file.css">-->
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/prerogative.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-progress.js" ></script>
+		<script type="text/javascript">
+				$(function(){
+					var geshu = $(".djwai").children(".dengji").length;
+				    // alert(geshu);
+					var wid = $(".djwai").width()/geshu/2;
+					// alert(wid);
+					var widt = wid + "px";
+					// alert(widt);
+					$(".xianpa").css({"padding-left":widt,"padding-right":widt});
+					$(".yixif").css({"padding-left":widt,"padding-right":widt});
+				});
+				
+				$(".progress").startProgress({
+				  "nodes":[
+							{"name":"普通","money":0},
+							 {"name":"银卡","money":100},
+							  {"name":"金卡","money":300},
+							   {"name":"白金卡","money":500},
+								{"name":"黄金卡","money":1000}
+						  ],
+				  "hasPay":50
+				});
+		</script>
+	</head>
+	<body>
+		
+		
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			
+			会员中心
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		
+	  
+		<!--内容-->
+		<div class="bxg-content">
+			
+			<div class="bxg-prerogative">
+				<div class="bxg-prerogative-head">
+				
+					<div class="bxg-prerogative-icon bxg-prerogative-head-one"><a href="">阳光下的我</a></div>
+					<div class="waic progress">
+						<div class="yixif" style="">
+								<span class="yixiaof" style="left:12.5%;"></span>
+								<br>
+								
+							</div>
+							<div class="xiapa">
+								<div class="hengxian">
+									<div class="hongxian" style="width:12.5%;"></div>
+								</div>
+							</div>
+							<div class="flexbox djwai">
+								<div class="yifen dengji">
+									<img src="images/juyuandian.png">
+									<div class="jucol">V1</div>
+								
+								</div>
+								<div class="yifen dengji gray" >
+									<img src="images/juyuandian.png">
+									<div class="jucol">V2</div>
+								
+								</div>
+						
+								<div class="yifen dengji gray" >
+									<img src="images/juyuandian.png">
+									<div class="jucol">V3</div>
+									
+								</div>
+								<div class="yifen dengji gray" >
+									<img src="images/juyuandian.png">
+									<div class="jucol">V4</div>
+								
+								</div>
+								<div class="yifen dengji gray" >
+									<img src="images/juyuandian.png">
+									<div class="jucol">V5</div>
+									
+								</div>
+							</div>
+					</div>
+					
+				</div>
+				<div class="bxg-prerogative-main">
+					<div  class="bxg-prerogative-main-head" >
+						<div class="bxg-prerogative-icon bxg-prerogative-one"></div>
+						<ul>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-happy"></div>
+								<p>生日快乐</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-freight"></div>
+								<p>运险券</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-gust"></div>
+								<p>百信帮客</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-preferred"></div>
+								<p>退款优先</p>
+							</li>
+							
+						</ul>
+						<ul class="bxg-pre-ul">
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-finance"></div>
+								<p>高额理财</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-for"></div>
+								<p>抢购优先</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-vip"></div>
+								<p>会员价</p>
+							</li>
+							<li>
+								<div class="bxg-prerogative-icon bxg-prerogative-double"></div>
+								<p>双倍积分</p>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="bxg-prerogative-footer">
+					<div  class="bxg-prerogative-footer-head" >
+						<div class="bxg-prerogative-footer-head-top">
+							<div class="bxg-prerogative-icon bxg-prerogative-diamond"></div>
+							<p>会员推荐</p>
+						</div>
+						<div class="bxg-prerogative-footer-head-welfare">
+							<div class="bxg-prerogative-icon  bxg-welfare"></div>
+							<p class="bxg-welfare-p">会员福利趴</p>
+							<span>抢免运险券</span>
+						</div>
+						<div class="bxg-prerogative-footer-head-daw-right">
+							<div class="bxg-prerogative-icon  bxg-draw"></div>
+							<p class="bxg-welfare-p">云钻乐园</p>
+							<span>玩云钻 赚云钻</span>
+					</div>
+					
+					<!--做任务-->
+					<div  class="bxg-prerogative-footer-head" >
+						<div class="bxg-prerogative-footer-head-top">
+							<div class="bxg-prerogative-icon bxg-prerogative-diamond"></div>
+							<p>积分兑换</p>
+						</div>
+						<div class="bxg-prerogative-footer-head-welfare">
+							<p class="bxg-welfare-games">勋章馆</p>
+							<span class="bxg-welfare-packet">领红包 做任务</span>
+							<div class="bxg-prerogative-icon  bxg-packet"></div>
+							
+						</div>
+						<div class="bxg-prerogative-footer-head-daw-right">
+								<p class="bxg-welfare-games">勋章馆</p>
+							<span class="bxg-welfare-packet">领红包 做任务</span>
+							<div class="bxg-prerogative-icon  bxg-packet"></div>
+							
+					</div>
+					
+				</div>
+			</div>
+		</div>
+			
+	</body>
+</html>
+
+

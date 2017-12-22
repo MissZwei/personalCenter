@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta http-equiv="Cache-Control" content="no-siteapp">
+		<title>店铺管理</title>
+		 <!--<link rel="icon" href="http://m.bxgogo.com/favicon.ico" type="image/x-icon">-->
+		<link rel="stylesheet" href="public/css/new_file.css">
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/store-management.css" />
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="public/js/public.js" ></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $("form").submit(function(e){
+			    alert("Submitted");
+			  });
+			});
+		</script>
+	
+	</head>
+	<body>
+		
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			店铺管理
+			
+		</header>
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="bxg-store-management">
+				<ul>
+					<li>店铺名称</li>
+					<li>分类</li>
+					<li>城市</li>
+					<li>店铺地址</li>
+					<li>店铺介绍</li>
+				</ul>
+				<ul>
+					<li>注册时间</li>
+					<li>合同编号</li>
+					<li>签约日期</li>
+					<li>签约城市</li>
+					<li>店铺状态</li>
+					<li>经纬度</li>
+					<li>经纬度</li>
+					
+					<li class="bxg-put">上传店面图片<i class="bxg-shop-icon bxg-shop-list"></i></li>
+					<div class="bxg-put-shop"></div>
+					<li class="bxg-index-put">上传首页广告图<i class="bxg-shop-icon bxg-shop-list"></i></li>
+					<div class="bxg-index-shop">
+						
+					</div>
+					
+				</ul>
+				
+      		</div>	
+      		
+      		
+      		<div class="bxg-store-management-footer"><input type="submit" value="确定"></div>
+    	</div>   
+    	<script>
+			$(document).ready(function(){
+			  $(".bxg-put").click(function(){
+			    $(".bxg-put-shop").toggle();
+			  });
+			});
+			</script>
+				<script>
+			$(document).ready(function(){
+			  $(".bxg-index-put").click(function(){
+			    $(".bxg-index-shop").toggle();
+			  });
+			});
+			</script>
+	</body>
+</html>
+
+

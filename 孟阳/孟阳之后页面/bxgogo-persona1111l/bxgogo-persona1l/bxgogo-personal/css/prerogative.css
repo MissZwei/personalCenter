@@ -1,0 +1,345 @@
+.bxg-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.13888889rem;
+  background: #12b7f5;
+  text-align: center;
+  color: #fff;
+  font-size: 0.55555556rem;
+  z-index: 999;
+}
+.bxg-head-icon {
+  background: url(../images/head_icon.png) no-repeat;
+  background-size: 2.875rem 0.72222222rem;
+}
+.bxg-back,
+.bxg-list,
+.bxg-search {
+  position: absolute;
+  top: 0.1875rem;
+  height: 0.73611111rem;
+  display: block;
+}
+.bxg-back {
+  left: 0.41666667rem;
+  width: 0.38888889rem;
+  background-position: 0 0;
+}
+.bxg-list {
+  right: 0.20833333rem;
+  width: 0.22222222rem;
+  background-position: -0.47222222rem 0;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  box-sizing: border-box;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+body {
+  background: #f0f0f2;
+}
+.bxg-prerogative-head {
+  text-align: center;
+  height: 4.44444444rem;
+  background: #ec9613;
+  line-height: 4.02777778rem;
+}
+.bxg-prerogative-icon {
+  background: url(../images/prerogative.png) no-repeat;
+  background-size: 10rem 6.97222222rem;
+  display: block;
+}
+.bxg-prerogative-head a {
+  color: #fff;
+  font-size: 0.30555556rem;
+  width: 100%;
+}
+.bxg-prerogative-head-one {
+  width: 3.77777778rem;
+  height: 3.05555556rem;
+  background-position: 0 -0.11111111rem;
+  margin: 0 auto;
+}
+.waic {
+  width: 100%;
+  height: 1.11111111rem;
+  /*padding: 30px;*/
+}
+.hengxian {
+  width: 100%;
+  height: 0.05555556rem;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.hongxian {
+  width: 0;
+  height: 0.05555556rem;
+  background-color: #df7813;
+  opacity: 0.4;
+}
+.yixiaof {
+  float: left;
+  color: #ff6933;
+  display: inline-block;
+  line-height: 0.25rem;
+  font-size: 0.18055556rem;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.dingwei {
+  width: 13px;
+  position: relative;
+  top: 3px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.yifen {
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;
+  /* OLD - Firefox 19- */
+  width: 20%;
+  /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.yixif {
+  width: 100%;
+  height: 0.69444444rem;
+  padding-left: 0.41666667rem;
+  padding-right: 0.41666667rem;
+}
+.flexbox {
+  display: box;
+  /* OLD - Android 4.4- */
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.dengji {
+  text-align: center;
+  font-size: 0.18055556rem;
+  line-height: 0.27777778rem;
+  float: left;
+}
+.dengji img {
+  width: 0.22222222rem;
+}
+.djwai {
+  position: relative;
+  top: -0.11111111rem;
+  height: 0.86111111rem;
+}
+.jucol {
+  color: #ff6933;
+}
+.gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+.dingwei {
+  float: left;
+}
+/*进度条结束*/
+.bxg-prerogative-main-head {
+  text-align: center;
+  font-size: 0.33333333rem;
+  height: 1.11111111rem;
+  line-height: 0.13888889rem;
+  color: #ec9613;
+}
+.bxg-prerogative-icon {
+  background: url(../images/prerogative.png) no-repeat;
+  background-size: 10rem 6.97222222rem;
+}
+.bxg-prerogative-one {
+  margin: 0.55555556rem auto;
+  height: 0.23611111rem;
+  background-position: 0 -4.95833333rem;
+}
+.xiapa {
+  padding-left: 0.41666667rem;
+  padding-right: 0.41666667rem;
+}
+.bxg-prerogative-main-head ul li {
+  float: left;
+  width: 2.44444444rem;
+  height: 2.44444444rem;
+}
+.bxg-prerogative-main-head ul li p {
+  text-align: center;
+  height: 0.27777778rem;
+  line-height: 0.27777778rem;
+  color: #333;
+  font-size: 0.41666667rem;
+}
+.bxg-prerogative-happy {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -0.02777778rem -3.18055556rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-freight {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -1.91666667rem -3.18055556rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-gust {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -3.88888889rem -3.18055556rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-preferred {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -5.80555556rem -3.18055556rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-pre-ul {
+  float: left;
+  margin: 0.27777778rem 0;
+}
+.bxg-prerogative-finance {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -0.02777778rem -5.19444444rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-for {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -1.91666667rem -5.19444444rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-vip {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -3.88888889rem -5.19444444rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-double {
+  width: 1.77777778rem;
+  height: 1.77777778rem;
+  background-position: -5.80555556rem -5.19444444rem;
+  margin: 0 0.27777778rem 0.27777778rem;
+}
+.bxg-prerogative-footer {
+  clear: both;
+  height: 10rem;
+}
+.bxg-prerogative-footer-head {
+  clear: both;
+  height: 4.16666667rem;
+}
+.bxg-prerogative-footer-head-top {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+}
+.bxg-prerogative-diamond {
+  width: 0.80555556rem;
+  height: 0.80555556rem;
+  background-position: -6.41666667rem -1.77777778rem;
+  margin: 0.27777778rem 0.41666667rem;
+  float: left;
+}
+.bxg-prerogative-footer-head p {
+  color: #333;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  font-size: 0.51388889rem;
+}
+.bxg-prerogative-footer-head-welfare {
+  width: 49%;
+  height: 2.69444444rem;
+  float: left;
+}
+.bxg-prerogative-footer-head-daw-right {
+  width: 49%;
+  height: 2.69444444rem;
+  float: right;
+}
+.bxg-welfare {
+  width: 1.80555556rem;
+  height: 1.52777778rem;
+  background-position: -6.30555556rem 0;
+  margin: 0.41666667rem 0.06944444rem;
+  float: left;
+}
+.bxg-draw {
+  width: 1.80555556rem;
+  height: 1.66666667rem;
+  background-position: -8.34722222rem 0;
+  margin: 0.41666667rem 0.06944444rem;
+  float: left;
+}
+.bxg-welfare-p {
+  display: inline-block;
+  float: left;
+  font-size: 0.47222222rem;
+  font-weight: bold;
+}
+.bxg-prerogative-footer-head-welfare span {
+  float: left;
+  font-size: 0.30555556rem;
+  color: #999;
+}
+.bxg-prerogative-footer-head-daw-right span {
+  float: left;
+  font-size: 0.30555556rem;
+  color: #666;
+}
+.bxg-welfare-games {
+  display: block;
+  text-align: center;
+}
+.bxg-welfare-packet {
+  width: 100%;
+  display: block;
+  float: left;
+  height: 0.41666667rem;
+  line-height: 0.41666667rem;
+  font-size: 0.30555556rem;
+  color: #666;
+  text-align: center ;
+}
+.bxg-packet {
+  clear: both;
+  width: 2.5rem;
+  height: 2.41666667rem;
+  background-position: -3.79166667rem -0.5rem;
+  margin: 0.55555556rem 1.11111111rem;
+}
