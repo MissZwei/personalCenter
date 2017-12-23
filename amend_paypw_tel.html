@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>填写支付密码</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/account.css" />
+		<link rel="stylesheet" href="css/amend_paypw_tel.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+		<!--<script>
+			function check(){
+			   var password = document.getElementById("password").value;
+			   var repsword = document.getElementById("repsword").value;
+			   if(password === ''){
+			      alert('密码不能为空');
+			      return false;
+			   }
+			   if(password != repsword) {
+			      alert("两次密码不同，请重新输入");
+			      return false;
+			   }
+			    
+			}
+</script>-->
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			填写支付密码
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="bxg-set-list">
+				<ul>
+					<li>
+						<div class="bxg-verify">密码由字母、数字、符号组成</div>
+					</li>
+					<li>
+						<a href="javascript:void(0);" class="bxg-clear">
+							<span>新密码</span>
+							<i class="bxg-pass-icon eyeBtn"></i>
+							<input type="password" name="pw" placeholder="输入密码"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" class="bxg-clear">
+							<span>确认密码</span>
+							<i class="bxg-pass-icon eyeBtn"></i>
+							<input type="password" name="re-pw" placeholder="再次输入密码"/>
+						</a>
+	
+					</li>
+				</ul>
+			</div>
+			<div class="bxg-submit">确认</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/amend_paypw_tel.js" ></script>
+	</body>
+
+</html>

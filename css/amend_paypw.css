@@ -1,0 +1,62 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-set-icon {
+  background: url(../images/set_icon.png) no-repeat;
+  background-size: 0.22222222rem 0.41666667rem;
+}
+.amand-title {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  font-size: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.bxg-set-list {
+  width: 100%;
+}
+.bxg-set-list ul li {
+  padding: 0 0.41666667rem;
+}
+.bxg-set-list ul li a {
+  display: block;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  color: #333;
+  font-size: 0.44444444rem;
+}
+.bxg-set-list ul li a i {
+  float: right;
+}
+.bxg-set-list ul li a i {
+  margin: 0.41666667rem 0 0.41666667rem 0.27777778rem;
+  width: 0.22222222rem;
+  height: 0.41666667rem;
+  background-position: 0 0;
+}
+.bxg-verify {
+  font-size: 0.41666667rem;
+  color: #8b8a8a;
+}
+.bxg-amend-list ul li:nth-child(2n+1) {
+  height: 1.25rem;
+  line-height: 1.25rem;
+}
+.bxg-amend-list ul li:nth-child(2n) {
+  background: #fff;
+}

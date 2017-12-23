@@ -1,0 +1,73 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.bxg-pass-icon {
+  background: url(../images/password_eye.png) no-repeat;
+  background-size: 1.59722222rem 0.45833333rem;
+}
+.bxg-set-list ul li {
+  margin-bottom: 0.27777778rem;
+  border: none;
+}
+.bxg-set-list,
+.bxg-set-list ul li:first-child {
+  background: none;
+}
+.bxg-set-list ul li:first-child {
+  margin-bottom: 0;
+  height: 1.25rem;
+  line-height: 1.25rem;
+}
+.bxg-set-list ul li span:first-child {
+  margin-right: 0.27777778rem;
+  width: 1.80555556rem;
+  text-align: right;
+}
+.bxg-verify {
+  font-size: 0.41666667rem;
+  color: #8b8a8a;
+}
+input {
+  height: 0.69444444rem;
+  font-size: 0.44444444rem;
+  border: none;
+}
+.bxg-set-list i {
+  display: none;
+  width: 0.76388889rem !important;
+  height: 0.45833333rem !important;
+}
+.active-eye {
+  background-position: -0.83333333rem 0 !important;
+}
+.bxg-submit {
+  margin: 1.11111111rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
