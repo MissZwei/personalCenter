@@ -3,7 +3,7 @@ body {
 }
 .bxg-content {
   position: relative;
-  margin-top: 1.11111111rem;
+  margin-top: 1.25rem;
 }
 .bxg-alert-tip {
   display: none;
@@ -29,28 +29,23 @@ body {
   margin-bottom: 0.27777778rem;
   border: none;
 }
-.bxg-set-list,
-.bxg-set-list ul li:first-child {
+.bxg-set-list {
   background: none;
-}
-.bxg-set-list ul li:first-child {
-  margin-bottom: 0;
-  height: 1.25rem;
-  line-height: 1.25rem;
 }
 .bxg-set-list ul li span:first-child {
   margin-right: 0.27777778rem;
   width: 1.80555556rem;
   text-align: right;
 }
-.bxg-verify {
-  font-size: 0.41666667rem;
-  color: #8b8a8a;
-}
 input {
   height: 0.69444444rem;
   font-size: 0.44444444rem;
   border: none;
+}
+.pass-tip {
+  padding: 0 0.41666667rem;
+  font-size: 0.36111111rem;
+  color: #A2A2A2;
 }
 .bxg-set-list i {
   display: none;
@@ -59,6 +54,14 @@ input {
 }
 .active-eye {
   background-position: -0.83333333rem 0 !important;
+}
+.bxg-set-list ul li:first-child i {
+  width: 0.55555556rem !important;
+  height: 0.55555556rem !important;
+  background-position: 0 -0.52777778rem;
+}
+.checkError {
+  background-position: -0.61111111rem -0.52777778rem !important;
 }
 .bxg-submit {
   margin: 1.11111111rem auto 0;

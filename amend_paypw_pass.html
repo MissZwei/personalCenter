@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
-		<title>填写支付密码</title>
+		<title>个人资料</title>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="public/css/reset.css" />
 		<link rel="stylesheet" href="css/head.css" />
 		<link rel="stylesheet" href="css/account.css" />
-		<link rel="stylesheet" href="css/amend_paypw_tel.css" />
-		<script type="text/javascript" src="public/js/public.js"></script>
+		<link rel="stylesheet" href="css/amend_paypw_pass.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
 	</head>
-
 	<body>
 		<!--头部-->
 		<header class="bxg-header">
 			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
-			填写支付密码
+			<!--百信购<i class="bxg-vs"></i>个人资料-->
+			修改密码
 			<span class="bxg-head-icon bxg-list"></span>
 		</header>
-
+		
 		<!--内容-->
+		
 		<div class="bxg-content">
 			<div class="bxg-set-list">
 				<ul>
 					<li>
-						<div class="bxg-verify">密码由字母、数字、符号组成</div>
+						<a href="javascript:void(0);" class="bxg-clear">
+							<span>原密码</span>
+							<i class="bxg-pass-icon checkPass"></i>
+							<input type="password" name="old-pw" data-status="0" placeholder="输入原密码"/>
+						</a>
 					</li>
 					<li>
 						<a href="javascript:void(0);" class="bxg-clear">
@@ -43,12 +47,13 @@
 	
 					</li>
 				</ul>
+				<div class="pass-tip">注：密码由6-20位英文字母、数字和符号组成</div>
 			</div>
 			<div class="bxg-submit">确认</div>
 		</div>
 		<div class="bxg-alert-tip"></div>
+			
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
-		<script type="text/javascript" src="js/amend_paypw_tel.js" ></script>
+		<script type="text/javascript" src="js/amend_paypw_pass.js" ></script>
 	</body>
-
 </html>
