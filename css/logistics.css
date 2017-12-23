@@ -101,3 +101,25 @@ body {
 .bxg-logistics-list > div > div {
   float: left;
 }
+.logistics-line + div {
+  width: 7.77777778rem;
+  padding: 0.20833333rem 0;
+  font-size: 0.41666667rem;
+  color: #8e8e8e;
+  border-bottom: 1px solid #F0F0F2;
+}
+.logistics-line + div > div:last-child {
+  margin-top: 0.38888889rem;
+}
+.active + div {
+  color: #12B7F5;
+}
+.bxg-logistics-list > div:last-child .logistics-line + div {
+  border: none;
+}
+.bxg-logistics-foot {
+  margin-top: 1.66666667rem;
+  text-align: center;
+  font-size: 0.41666667rem;
+  color: #c4c4c4;
+}
