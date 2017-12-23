@@ -1,0 +1,48 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-congratulation {
+  padding-top: 1.11111111rem;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  color: #666;
+  font-size: 0.83333333rem;
+  text-align: center;
+}
+.bxg-fail-tip {
+  color: #999;
+  font-size: 0.45833333rem;
+  text-align: center;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+}
+.set-fail-img {
+  margin: 0 auto;
+  width: 5.125rem;
+  height: 7.36111111rem;
+  background: url(../images/set_fail.png) no-repeat;
+  background-size: 100% 100%;
+}
+.set-success-img {
+  margin: 0 auto;
+  width: 6.66666667rem;
+  height: 6.55555556rem;
+  background: url(../images/set_success.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bxg-submit {
+  display: block;
+  margin: 1.11111111rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
