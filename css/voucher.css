@@ -1,0 +1,68 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+}
+.bxg-voucher {
+  padding: 0 0.20833333rem;
+}
+.bxg-voucher ul li {
+  margin-bottom: 0.13888889rem;
+  height: 3.61111111rem;
+  border: 1px solid  #ddd;
+  background: #fff;
+  border-radius: 0.16666667rem;
+}
+.bxg-voucher ul li > div {
+  float: left;
+}
+.bxg-voucher-left {
+  width: 3.33333333rem;
+  height: 3.61111111rem;
+  background: url(../images/voucher.png) no-repeat;
+  background-size: 0.13888889rem 3.58333333rem;
+  border-right: 1px dashed #ddd;
+}
+.voucher-price {
+  color: #666;
+  font-size: 0.38888889rem;
+  text-align: center;
+  height: 3.61111111rem;
+}
+.bxg-voucher-left p {
+  font-family: arial;
+  font-size: 0.45833333rem;
+  color: #444444;
+  text-align: center;
+}
+.bxg-voucher-left p:first-child {
+  margin: 0.41666667rem auto 0.41666667rem;
+  color: #d20f1e;
+}
+.voucher-price span {
+  letter-spacing: -8px;
+  font-size: 1.66666667rem;
+  color: #d20f1e;
+  text-align: center;
+}
+.bxg-voucher-right {
+  float: left;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  margin-left: 0.41666667rem;
+}
+.voucher-info > p:first-child {
+  margin-top: 0.69444444rem;
+  font-size: 0.5rem;
+  color: #282828;
+}
+.voucher-info > p:nth-child(2) {
+  font-size: 0.33333333rem;
+  color: #727272;
+}
+.voucher-info > p:nth-child(3) {
+  font-size: 0.33333333rem;
+  color: #ccc;
+}
