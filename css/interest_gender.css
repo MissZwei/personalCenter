@@ -1,0 +1,121 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-interest-icon {
+  background: url(../images/interest_icon.png) no-repeat;
+  background-size: 4.21875rem 2.08333333rem;
+}
+.user-gender,
+.user-year {
+  margin: 0 auto;
+  display: table;
+}
+.question_title {
+  margin: 0.61111111rem 0;
+  text-align: center;
+  font-size: 0.47222222rem;
+  color: #858585;
+}
+.user-gender > label {
+  position: relative;
+  margin-right: 1.11111111rem;
+  display: inline-block;
+  width: 2.08333333rem;
+  height: 2.77777778rem;
+  line-height: 0.69444444rem;
+  font-size: 0.41666667rem;
+  text-align: center;
+  color: #858585;
+}
+.sel-icon {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.55555556rem;
+  height: 0.55555556rem;
+  border-radius: 50%;
+  background: url(../images/password_icon.png) no-repeat;
+  background-size: 1.59722222rem 1.08333333rem;
+  background-position: 0 -0.52777778rem;
+}
+.user-gender > label span {
+  display: block;
+  width: 2.08333333rem;
+  height: 2.08333333rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.user-gender > label:nth-of-type(1) span {
+  background-position: 0 0;
+}
+.user-gender > label:last-child {
+  margin-right: 0;
+}
+.user-gender > label:last-child span {
+  background-position: -2.13541667rem 0;
+}
+.activeSel {
+  border: 1px solid #12B7F5;
+}
+.user-year .year-style {
+  margin-top: 0.27777778rem;
+}
+.user-year label {
+  position: relative;
+  margin-right: 1.11111111rem;
+  display: inline-block;
+  width: 1.80555556rem;
+  height: 1.80555556rem;
+  border-radius: 50% ;
+}
+.user-year .year-style label:last-child {
+  margin-right: 0;
+}
+.user-year label span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% ;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.user-year label span img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+input[type="radio"] {
+  display: none;
+}
+.bxg-submit {
+  margin: 1.11111111rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
