@@ -39,6 +39,7 @@ $(function(){
 			},2000);
 		}else{
 			console.log(sex+'----'+year);
+			window.location.href = 'interest_help.html';
 //			$.ajax({
 //				type:"post",
 //				data:{sex:sex,year:year},

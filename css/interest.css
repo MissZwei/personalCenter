@@ -1,0 +1,20 @@
+.interest-list {
+  margin: 0.13888889rem auto;
+  display: table;
+}
+.interest-list span {
+  margin-right: 0.34722222rem;
+  display: inline-block;
+  width: 2.63888889rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.38888889rem;
+  text-align: center;
+  color: #12B7F5;
+  border: 1px solid #12B7F5;
+  border-radius: 80%;
+  overflow: hidden;
+}
+.interest-list span:last-child {
+  margin-right: 0;
+}

@@ -5,6 +5,22 @@ body {
   position: relative;
   margin-top: 1.11111111rem;
 }
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
 .bxg-interest-icon {
   background: url(../images/interest_icon.png) no-repeat;
   background-size: 4.21875rem 2.08333333rem;
@@ -102,20 +118,4 @@ input[type="radio"] {
   font-size: 0.5rem;
   background: #12B7F5;
   border-radius: 0.13888889rem;
-}
-.bxg-alert-tip {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -2.34375rem;
-  margin-top: -0.4rem;
-  width: 4.6875rem;
-  height: 0.8rem;
-  line-height: 0.8rem;
-  font-size: 0.40625rem;
-  text-align: center;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 0.125rem;
 }

@@ -1,0 +1,96 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.31944444rem;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.interest-title {
+  padding: 0.41666667rem 0;
+  margin-bottom: 0.41666667rem;
+  font-size: 0.47222222rem;
+  text-align: center;
+  line-height: 0.69444444rem;
+  color: #666;
+  background: #fff;
+}
+.interest-sel {
+  padding: 0.20833333rem 0;
+  background: #fff;
+}
+.goods-list {
+  margin: 0.27777778rem auto;
+  display: table;
+}
+.goods-list label {
+  position: relative;
+  margin-right: 0.69444444rem;
+  display: inline-block;
+  width: 1.66666667rem;
+  height: 2.01388889rem;
+  font-size: 0.38888889rem;
+  line-height: 0.69444444rem;
+  text-align: center;
+  overflow: hidden;
+}
+.goods-list label:last-child {
+  margin-right: 0;
+}
+.goods-list label span {
+  margin: 0 auto;
+  display: block;
+  width: 1.31944444rem;
+  height: 1.31944444rem;
+  border-radius: 50%;
+  border: 1px solid #F0F0F2;
+  overflow: hidden;
+}
+.goods-list label span img {
+  width: 100%;
+  height: 100%;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.activeSel {
+  border: 1px solid #12B7F5!important;
+}
+.sel-icon {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.55555556rem;
+  height: 0.55555556rem;
+  border-radius: 50%;
+  background: url(../images/password_icon.png) no-repeat;
+  background-size: 1.59722222rem 1.08333333rem;
+  background-position: 0 -0.52777778rem;
+}
+.bxg-submit {
+  margin: 0.69444444rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}

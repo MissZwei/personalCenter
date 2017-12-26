@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>偏好设置</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/interest_help.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
+
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			偏好设置
+			<span class="bxg-head-icon bxg-list"></span>
+		</header>
+		
+		<!--内容-->
+		<div class="bxg-content">
+			<div class="interest-help-tip">
+				<div>了解你的偏好，给你更好的购物体验</div>
+			</div>
+			<div class="interest-helpers">
+				<div class="interest-title">
+					<div>您会帮哪些人购买？</div>
+					<div>(可多选)</div>
+				</div>
+				<div class="help-person">
+					<div class="help-list">
+						<label for="mine">
+							<span class="activeSel">
+								<img src="http://i.qqski.com/uploads/2016-10-03/082539851.jpg"/>
+							</span>
+							<div class="sel-icon" style="display: block;"></div>
+							自己
+							<input type="checkbox" value="自己" name="person" id="mine" checked="checked"/>
+						</label>
+					</div>
+					<div class="help-list help-margin">
+						<label for="family">
+							<span>
+								<img src="http://i.qqski.com/uploads/2016-10-03/082539851.jpg"/>
+							</span>
+							<div class="sel-icon"></div>
+							家人
+							<input type="checkbox" value="家人" name="person" id="family"/>
+						</label>
+						<label for="lover">
+							<span>
+								<img src="http://i.qqski.com/uploads/2016-10-03/082539851.jpg"/>
+							</span>
+							<div class="sel-icon"></div>
+							爱人
+							<input type="checkbox" value="爱人" name="person" id="lover"/>
+						</label>
+					</div>
+					<div class="help-list">
+						<label for="friend">
+							<span>
+								<img src="http://i.qqski.com/uploads/2016-10-03/082539851.jpg"/>
+							</span>
+							<div class="sel-icon"></div>
+							朋友
+							<input type="checkbox" value="朋友" name="person" id="friend"/>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="bxg-submit">下一步</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/interest_help.js" ></script>
+	</body>
+</html>
