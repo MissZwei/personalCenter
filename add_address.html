@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>添加收货地址</title>
+		<link rel="stylesheet" href="public/css/mobileSelect.css" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/account.css" />
+		<link rel="stylesheet" href="css/add_address.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header bxg-normal">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			添加收货地址
+		</header>
+		
+		<div class="bxg-content">
+			<div class="bxg-set-list">
+				<ul>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);">
+							<span>姓名</span>
+							<!--<i class="bxg-set-icon"></i>-->
+							<input type="text" name="name" placeholder="请填写"/>
+						</a>
+					</li>
+					<li class="bxg-clear">
+						<a href="javascript:void(0);">
+							<span>手机</span>
+							<!--<i class="bxg-set-icon"></i>-->
+							<input type="text" name="tel" placeholder="请填写"/>
+							
+						</a>
+					</li>
+					<li class="bxg-clear" id="sel-address">
+						<a href="javascript:void(0);">
+							<span>地区</span>
+							<i class="bxg-set-icon"></i>
+							<span>请选择</span>
+							<input type="hidden" name="address" value=""/>
+						</a>
+
+					</li>
+					<li class="bxg-clear">
+						<textarea name="address-detail"></textarea>
+					</li>
+					
+				</ul>
+				
+				<ul>
+					<li>
+						<a href="javascript:void(0);">
+							<span>设置默认地址</span>
+							<span class="switch-btn">
+								<span>
+									<em></em>
+								</span>
+							</span>
+						
+							<input type="hidden" name="default-address" value="0"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="bxg-submit">确认</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+	    <script src="http://webapi.amap.com/maps?v=1.3&key=bc4d903ec46e19099b5b0a3d11584918&plugin=AMap.PolyEditor,AMap.CircleEditor,AMap.MouseTool,AMap.DistrictSearch"></script>
+		<script type="text/javascript" src="public/js/mobileSelect.min.js" ></script>
+		
+		<script type="text/javascript" src="public/js/jquery.cityJson.js" ></script>
+
+		<script type="text/javascript" src="js/add_address.js" ></script>
+		
+	</body>
+</html>
