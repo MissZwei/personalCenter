@@ -46,10 +46,31 @@ body {
   border: none;
 }
 .bxg-guesslike-title {
-  margin: 0.27777778rem auto;
+  margin: 0.41666667rem auto;
   display: table;
   font-size: 0.55555556rem;
   color: #333;
+}
+.bxg-guesslike-title span {
+  float: left;
+}
+.bxg-guesslike-title span:nth-child(2) {
+  margin: 0 0.27777778rem;
+}
+.bxg-guesslike-title span:nth-child(3) {
+  margin-top: 0.02777778rem;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.bxg-guesslike-blue {
+  margin-top: 0.06944444rem;
+  width: 1.43055556rem;
+  height: 0.48611111rem;
+  background: url(../images/guesslike_blue.png) no-repeat;
+  background-size: 1.43055556rem 0.48611111rem;
 }
 .bxg-goods-list ul li {
   width: 4.96527778rem;
@@ -57,4 +78,10 @@ body {
 .bxg-goods-list ul li img {
   width: 4.96527778rem !important;
   height: 4.96527778rem !important;
+}
+.bxg-goods-price {
+  margin-top: 0.13888889rem;
+  padding-top: 0.20833333rem;
+  color: #ff740a;
+  border-top: 1px dashed #F0F0F2;
 }
