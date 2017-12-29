@@ -1,0 +1,71 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-banner {
+  width: 100%;
+  height: 4.06944444rem;
+}
+.bxg-banner a,
+.bxg-banner a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.bxg-mobile {
+  padding: 0.27777778rem 0.41666667rem;
+  width: 100%;
+  background: #fff;
+}
+.bxg-mobile > div input {
+  display: block;
+  width: 100%;
+  margin: 0;
+  font-size: 0.86111111rem;
+  border: none;
+}
+input:disabled {
+  background: #fff;
+}
+.bxg-mobile > div > div {
+  margin-top: 0.13888889rem;
+  font-size: 0.47222222rem;
+  color: #ababab;
+}
+.input-mobile {
+  display: none;
+}
+.input-mobile div {
+  color: red!important;
+}
+.sel-money ul {
+  padding: 0.13888889rem 0.41666667rem;
+}
+.sel-money ul li {
+  float: left;
+  margin-top: 0.27777778rem;
+  margin-right: 0.27777778rem;
+  width: 2.87037037rem;
+  font-size: 0.41666667rem;
+  background: #fff;
+}
+.sel-money ul li:nth-child(3n) {
+  margin-right: 0;
+}
+.sel-money ul li > span {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 0.36111111rem;
+  color: #12B7F5;
+}
+.sel-money ul li > span:first-child {
+  margin: 0.41666667rem 0;
+  font-size: 0.61111111rem;
+}
+.sel-money ul li > span:last-child {
+  margin-bottom: 0.41666667rem;
+}
