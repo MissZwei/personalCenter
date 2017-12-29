@@ -1,0 +1,70 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-mygift-list {
+  margin-top: 0.13888889rem;
+  padding: 0.13888889rem 0.41666667rem;
+  background: #fff;
+}
+.goods-img {
+  margin: 0;
+  padding: 0;
+  width: 2.61111111rem;
+  height: 2.61111111rem;
+}
+.goods-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.goods-info {
+  width: 6.27777778rem;
+}
+.goods-info .info-txt {
+  font-size: 0.36111111rem;
+  height: 1.11111111rem;
+  line-height: 0.55555556rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.info-seller {
+  margin-top: 0.97222222rem;
+}
+.info-seller > div {
+  float: left;
+  font-size: 0.36111111rem;
+}
+.info-seller > div:last-child {
+  float: right;
+}
+.seller-img {
+  margin-right: 0.13888889rem;
+  width: 0.36111111rem;
+  height: 0.36111111rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.seller-img img {
+  width: 100%;
+  height: 100%;
+}
+.mygift-time {
+  color: #a8a5a5;
+}
