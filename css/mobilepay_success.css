@@ -1,0 +1,72 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-ok {
+  position: absolute;
+  top: 0;
+  right: 0.41666667rem;
+  font-size: 0.41666667rem;
+  color: #fff;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.mobilepay-success {
+  padding: 0.625rem 0;
+  font-size: 0.55555556rem;
+  color: #333;
+  text-align: center;
+}
+.mobilepay-img {
+  margin: 0 auto 0.625rem;
+  width: 4.93055556rem;
+  height: 4.48611111rem;
+  background: url(../images/mobilepay_success.png) no-repeat;
+  background-size: 4.93055556rem 4.48611111rem;
+}
+.mobilepay-success > div:last-child {
+  margin-top: 0.48611111rem;
+  font-size: 0.5rem;
+  color: #777;
+}
+.pay-detail {
+  padding: 0 0.41666667rem;
+  font-size: 0.44444444rem;
+  color: #afafaf;
+}
+.pay-detail ul li {
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.pay-detail ul li:first-child,
+.pay-detail ul li:last-child {
+  border-top: 1px solid #afafaf;
+}
+.mobilepay-tip {
+  margin-top: 0.41666667rem;
+  text-align: center;
+  font-size: 0.33333333rem;
+  color: #afafaf;
+}
+.bxg-submit {
+  margin: 0.41666667rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
