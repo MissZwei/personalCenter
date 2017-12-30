@@ -1,0 +1,38 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.payment-fail {
+  padding: 0.625rem 0;
+  font-size: 0.52777778rem;
+  color: #333;
+  text-align: center;
+}
+.fail-img {
+  margin: 0.625rem auto;
+  width: 2.94444444rem;
+  height: 2.94444444rem;
+  background: url(../images/payment_fail.png) no-repeat;
+  background-size: 2.94444444rem 2.94444444rem;
+}
+.bxg-btn {
+  margin: 1.38888889rem auto 0;
+  display: table;
+}
+.bxg-btn a {
+  display: inline-block;
+  width: 3.44444444rem;
+  height: 1.15277778rem;
+  line-height: 1.15277778rem;
+  text-align: center;
+  font-size: 0.55555556rem;
+  color: #12B7F5;
+  border: 3px solid #fff;
+  border-radius: 0.27777778rem;
+}
+.bxg-btn a:first-child {
+  margin-right: 1.38888889rem;
+}
