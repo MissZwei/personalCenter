@@ -1,0 +1,65 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-banner {
+  width: 10rem;
+  height: 7.38888889rem;
+}
+.bxg-banner img {
+  width: 100%;
+  height: 100%;
+}
+.approval-query {
+  padding: 0.48611111rem 0;
+  font-size: 0.55555556rem;
+  text-align: center;
+  background: #fff;
+}
+.approval-query > div:first-child {
+  margin-bottom: 0.48611111rem;
+  color: #707070;
+}
+.approval-query > div input {
+  margin: 0 auto;
+  width: 8.86111111rem;
+  height: 0.97222222rem;
+  border-radius: 0.13888889rem;
+  border: 2px solid #f0f0f2;
+  box-sizing: border-box;
+}
+.query-btn {
+  margin: 0.73611111rem auto 0;
+  width: 3.47222222rem;
+  height: 1.13888889rem;
+  line-height: 1.13888889rem;
+  text-align: center;
+  font-size: 0.52777778rem;
+  color: #fff;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.process-title {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333;
+}
+.process-img {
+  width: 10rem;
+  height: 5.76388889rem;
+}
+.process-img img {
+  widows: 100%;
+  height: 100%;
+}
+.process-info {
+  padding: 0.41666667rem 0.375rem;
+  font-size: 0.41666667rem;
+  line-height: 0.55555556rem;
+  color: #707070;
+}
