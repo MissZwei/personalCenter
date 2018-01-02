@@ -3,6 +3,9 @@ $(function(){
 	$("[name='old-pw']").focus(function(){
 		$(this).prev().hide();
 	});
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 	$("[name='old-pw']").blur(function(){
 		var oldPas = $(this).val();
 //		$.ajax({

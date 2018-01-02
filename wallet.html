@@ -16,6 +16,12 @@
 			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
 			我的钱包
 			<span class="bxg-head-icon bxg-list"></span>
+			<div class="head-list-content">
+				<ul>
+					<li><a href="" title=""><i class="bxg-collection-icon news-icon"></i>消息<b>5</b></a></li>
+					<li><a href="" title=""><i class="bxg-collection-icon index-icon"></i>首页</a></li>
+				</ul>
+			</div>
 		</header>
 		
 		<div class="bxg-content">
@@ -120,5 +126,12 @@
 		</div>
 		
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".bxg-list").click(function(){
+					$(".head-list-content").toggle();
+				});
+			})
+		</script>
 	</body>
 </html>

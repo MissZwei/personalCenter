@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>订单详情</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/order_detail.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			订单详情
+			<span class="bxg-head-icon bxg-list"></span>
+			<div class="head-list-content">
+				<ul>
+					<li><a href="" title=""><i class="bxg-collection-icon news-icon"></i>消息<b>5</b></a></li>
+					<li><a href="" title=""><i class="bxg-collection-icon index-icon"></i>首页</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="bxg-content">
+			<div class="order-info">
+				<div class="order-title">订单详情</div>
+				<ul>
+					<li>
+						<span>季伟</span>
+						<span>18233225105</span>
+					</li>
+					<li class="bxg-clear">
+						<span>收货地址：</span>
+						<span>河北省保定市高新区乐凯大街海尊国际B座2413房间</span>
+					</li>
+					<li>
+						<span>订单编号：</span>
+						<span>130921199502541250</span>
+					</li>
+					<li>
+						<span>下单时间：</span>
+						<span>2015-11-1 16:13:52</span>
+					</li>
+					<li>
+						<span>订单状态：</span>
+						<span>待发货</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="goods-info">
+				<div class="order-title">商品详情</div>
+				<div class="goods-seller">
+					<div class="seller-info bxg-clear">
+						<div class="seller-logo"><img src="images/addshop.png"/></div>
+						<div class="seller-name">邻家女孩</div>
+						<div></div>
+					</div>
+					<div class="goods-list bxg-clear">
+						<ul>
+							<li>
+								<div class="order-goods">
+									<a href="" class="bxg-between">
+										<div class="goods-img"><img src="http://p5.so.qhimgs1.com/t01f7d32e6a6b287adb.jpg"/></div>
+										<div class="goods-content">
+											<div>oppoa59s手机壳a59m硅胶保护套潮男女款防摔卡通软套送彩绘钢膜</div>
+											<div>颜色分类：浅蓝</div>
+											<div>
+												<span><small>￥</small>15.9</span>
+												<span>可收益￥1.2</span>
+												<span>×1</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="goods-total">
+									<span>合计：19.90 （含运险费）</span>
+									<span>共计1件商品</span>
+								</div>
+								<div class="order-btn bxg-clear">
+									<div class="alert-btn">提醒发货</div>
+									<div class="refund-btn">退货退款</div>
+								</div>
+							</li>
+							<li>
+								<div class="order-goods">
+									<a href="" class="bxg-between">
+										<div class="goods-img"><img src="http://p5.so.qhimgs1.com/t01f7d32e6a6b287adb.jpg"/></div>
+										<div class="goods-content">
+											<div>oppoa59s手机壳a59m硅胶保护套潮男女款防摔卡通软套送彩绘钢膜</div>
+											<div>颜色分类：浅蓝</div>
+											<div>
+												<span><small>￥</small>15.9</span>
+												<span>可收益￥1.2</span>
+												<span>×1</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="goods-total">
+									<span>合计：19.90 （含运险费）</span>
+									<span>共计1件商品</span>
+								</div>
+								<div class="order-btn bxg-clear">
+									<div class="alert-btn">提醒发货</div>
+									<div class="refund-btn">退货退款</div>
+								</div>
+							</li>
+						</ul>
+						<div class="order-price">
+							<div>商品总价:￥39.80</div>
+							<div>运费:￥0.00</div>
+							<div>实付款（含运费）:<span>￥39.80</span></div>
+						</div>
+						<div class="buy-again">再来一单</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".bxg-list").click(function(){
+					$(".head-list-content").toggle();
+				});
+			})
+		</script>
+	</body>
+</html>

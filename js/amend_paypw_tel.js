@@ -3,6 +3,10 @@ $(function(){
 	function checkPass(obj){
 		
 	}
+	
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 	$("input").focus(function(){
 		$(this).prev().show();
 	});

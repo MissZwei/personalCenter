@@ -1,4 +1,6 @@
 function exchange(obj){
+	
+	
 	var integral = $(obj).prev().text();
 	var alert = '<div class="bxg-layer">'+
 				'<div class="bxg-layer-alert bxg-confirm">'+
@@ -16,6 +18,9 @@ function cancel(obj){
 	$(".bxg-layer").fadeOut();
 }
 $(function(){
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 	$(".bxg-lazy img").lazyload();
 	
 //	$.ajax({

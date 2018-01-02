@@ -16,59 +16,6 @@ body {
   -ms-flex-pack: justify ;
   justify-content: space-between;
 }
-.bxg-collection-icon {
-  background: url(../images/collection_icon.png) no-repeat;
-  background-size: 1.70833333rem 0.73611111rem;
-}
-.head-list-content {
-  display: none;
-  position: fixed;
-  top: 1.11111111rem;
-  right: 0;
-  width: 3.33333333rem;
-  background: rgba(0, 0, 0, 0.5);
-}
-.head-list-content li a {
-  font-size: 0.5rem;
-  color: #fff;
-}
-.head-list-content li:first-child {
-  position: relative;
-}
-.head-list-content li:first-child b {
-  position: absolute;
-  top: 0.34722222rem;
-  right: 0.27777778rem;
-  display: block;
-  width: 0.47222222rem;
-  height: 0.47222222rem;
-  line-height: 0.47222222rem;
-  text-align: center;
-  font-size: 0.27777778rem;
-  border-radius: 50%;
-  background: red;
-}
-.head-list-content li:nth-child(2) {
-  box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.head-list-content li i {
-  float: left;
-  display: block;
-  margin: 0.31944444rem -0.69444444rem 0.31944444rem 0.55555556rem;
-  width: 0.52777778rem;
-  height: 0.52777778rem;
-}
-.head-list-content li .news-icon {
-  background-position: 0 0;
-}
-.head-list-content li .index-icon {
-  background-position: -0.55555556rem 0;
-}
-.head-list-content li .delete-icon {
-  background-position: -1.11111111rem 0;
-}
 .bxg-alert-tip {
   display: none;
   position: fixed;

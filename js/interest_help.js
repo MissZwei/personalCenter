@@ -1,4 +1,7 @@
 $(function(){
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 	var selObj = $(".help-list label");
 	selObj.click(function(){
 		var flag = $(this).find('input').prop('checked');

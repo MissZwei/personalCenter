@@ -1,4 +1,8 @@
 $(function(){
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
+	
 	$(".bxg-news-goods").on("touchstart touchmove",function(){
 		event.stopPropagation();
 		$("body,.bxg-content").css('overflow-y','hidden');

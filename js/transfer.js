@@ -1,7 +1,12 @@
 $(function() {
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
+	
 	var inp = $('input[name="account"]');
 	var del = $('.bxg-inp-delete');
 	var alert = $(".bxg-alert-tip");
+	
 	inp.bind('input propertychange', function() {
 		var inpContent = $(this).val();
 		if(inpContent != '') {

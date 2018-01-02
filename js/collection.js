@@ -36,7 +36,6 @@ function cancelCollect(_this){
 		$(_this).parents('.bxg-goods-list').remove();
 	}
 	$(_this).parents('li').remove();
-	
 };
 //找相似
 function getSimilar(_this){

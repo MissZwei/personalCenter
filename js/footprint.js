@@ -1,4 +1,8 @@
 $(function(){
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
+	
 	$(".bxg-delete").click(function(){
 		$(".bxg-toggle,.bxg-deleteAjax,.bxg-checkbox").show();
 		$(".bxg-normal").hide();

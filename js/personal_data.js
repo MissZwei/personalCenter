@@ -1,4 +1,7 @@
 $(function() {
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 	//阻止事件冒泡
 	function stopBubble(e) {
 		if(e && e.stopPropagation) {

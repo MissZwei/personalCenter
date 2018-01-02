@@ -1,4 +1,7 @@
 $(function(){
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
 //	选择性别
 	var gender = $(".user-gender label");
 	gender.click(function(){

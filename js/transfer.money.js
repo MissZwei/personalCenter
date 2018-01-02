@@ -1,4 +1,8 @@
 $(function() {
+	$(".bxg-list").click(function(){
+		$(".head-list-content").toggle();
+	});
+	
 	var inp = $('input[name="money"]');
 	var del = '.bxg-inp-delete';
 	var alert = $(".bxg-alert-tip");
