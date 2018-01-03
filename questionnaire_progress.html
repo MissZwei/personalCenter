@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>调查问卷</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/questionnaire.css" />
+
+		<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+	<body>
+		<div class="bxg-questionnaire">
+			<div class="bxg-banner"></div>
+			<div class="bxg-progress">
+				<div>0%</div>
+				<div class="question-progress">
+					<div class="progress"></div>
+				</div>
+				<div>100%</div>
+			</div>
+			<div class="question_info">
+				如今网络越来越发达，电子商务已经成为人们生活中重要的一部分。本地化电子商务平台已经成为消费者必选的趋势。我公司特做此次调查，占用您宝贵的几分钟填写以下问卷，本问卷调查结果仅用于学术用途，感谢您的参与！
+			</div>
+			
+			<!--问题-->
+			<div class="question_list">
+				<div>
+					<div>1. 您的年龄是多少？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="age-1" name="age"/>
+								<label for="age-1">18岁以下</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="age-2" name="age"/>
+								<label for="age-2">26-35岁</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="age-3" name="age"/>
+								<label for="age-3">18-25岁</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="age-4" name="age"/>
+								<label for="age-4">35岁以上</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>2. 请您选择您的性别？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="sex-1" name="sex"/>
+								<label for="sex-1">男</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="sex-2" name="sex"/>
+								<label for="sex-2">女</label>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				
+				<div>
+					<div>3. 您经常购物吗？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shopping-1" name="shopping"/>
+								<label for="shopping-1">经常</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shopping-2" name="shopping"/>
+								<label for="shopping-2">一般</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shopping-3" name="shopping"/>
+								<label for="shopping-3">偶尔</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shopping-4" name="shopping"/>
+								<label for="shopping-4">几乎不购物</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>4. 您对什么产品会重复购买？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="rebuy-1" name="rebuy"/>
+								<label for="rebuy-1">服装</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="rebuy-2" name="rebuy"/>
+								<label for="rebuy-2">家居</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="rebuy-3" name="rebuy"/>
+								<label for="rebuy-3">母婴</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="rebuy-4" name="rebuy"/>
+								<label for="rebuy-4">其他</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>5. 您比较喜欢什么颜色呢？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="likecolor-1" name="likecolor"/>
+								<label for="likecolor-1">暖色调红、黄、橙</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="likecolor-2" name="likecolor"/>
+								<label for="likecolor-2">冷色调青、蓝、紫</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="likecolor-3" name="likecolor"/>
+								<label for="likecolor-3">中间色系黑、白、灰</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="likecolor-4" name="likecolor"/>
+								<label for="likecolor-4">其他</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>6. 对于现在的网购您最关注的是什么呢？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="attention-1" name="attention"/>
+								<label for="attention-1">比较关注价格</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="attention-2" name="attention"/>
+								<label for="attention-2">比较关注品质与样式</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="attention-3" name="attention"/>
+								<label for="attention-3">物流速度</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="attention-4" name="attention"/>
+								<label for="attention-4">其他</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>7. 您一般情况下喜欢在什么时间购物？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shoppingtime-1" name="shoppingtime"/>
+								<label for="shoppingtime-1">白天的工作时间</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shoppingtime-2" name="shoppingtime"/>
+								<label for="shoppingtime-2">晚上7-8点以后</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shoppingtime-3" name="shoppingtime"/>
+								<label for="shoppingtime-3">中午时间</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="shoppingtime-4" name="shoppingtime"/>
+								<label for="shoppingtime-4">其他</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>8. 您能在接受网购的价格在什么范围内？</div>
+					<ul>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="goodsprice-1" name="goodsprice"/>
+								<label for="goodsprice-1">100以下</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="goodsprice-2" name="goodsprice"/>
+								<label for="goodsprice-2">100-300之间</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="goodsprice-3" name="goodsprice"/>
+								<label for="goodsprice-3">300-500之间</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-radio">
+								<input type="radio" id="goodsprice-4" name="goodsprice"/>
+								<label for="goodsprice-4">500以上</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>9. 您平常喜欢关注哪方面的信息？</div>
+					<ul>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-1" name="likeInfo"/>
+								<label for="likeInfo-1">八卦方面</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-2" name="likeInfo"/>
+								<label for="likeInfo-2">正能量的文章</label>
+							</div>
+						</li>
+						
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-3" name="likeInfo"/>
+								<label for="likeInfo-3">新闻方面</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-4" name="likeInfo"/>
+								<label for="likeInfo-4">情感类</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-5" name="likeInfo"/>
+								<label for="likeInfo-5">美容、装饰搭配</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="likeInfo-6" name="likeInfo"/>
+								<label for="likeInfo-6">健康、养生类</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>10. 假如您不喜欢网络购物,主要原因是什么？</div>
+					<ul>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-1" name="nolike"/>
+								<label for="nolike-1">网上支付太麻烦</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-2" name="nolike"/>
+								<label for="nolike-2">不信任网站,怕受骗</label>
+							</div>
+						</li>
+						
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-3" name="nolike"/>
+								<label for="nolike-3">担心商品品质有问题</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-4" name="nolike"/>
+								<label for="nolike-4">担心商品配送有问题</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-5" name="nolike"/>
+								<label for="nolike-5">不了解如何购买</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-6" name="nolike"/>
+								<label for="nolike-6">觉得售后麻烦</label>
+							</div>
+						</li>
+						<li>
+							<div class="bxg-checkbox">
+								<input type="checkbox" id="nolike-7" name="nolike"/>
+								<label for="nolike-7">其他</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div>
+					<div>您对百信购商城有哪些宝贵建议？(选填)</div>
+					<div class="question-advice">
+						<textarea id="que_advice" rows="5" name="advice">
+							
+						</textarea>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="bxg-submit">提交问卷</div>
+		</div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/textarea.js" ></script>
+		<script type="text/javascript" src="js/questionnaire_progress.js" ></script>
+	</body>
+</html>

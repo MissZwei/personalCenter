@@ -1,5 +1,6 @@
 $(function(){
-	$("#edit-txt").val('').val('说点什么...');
+	var msg = '说点什么...';
+	$("#edit-txt").val(msg);
 	$("#edit-txt").textareaAutoHeight();
 	$("#edit-txt").focus(function(){
 		if($("#edit-txt").val()==msg){
@@ -8,7 +9,7 @@ $(function(){
 	});
 	$("#edit-txt").blur(function(){
 		if($.trim($("#edit-txt").val()) == ''){
-			$("#edit-txt").val('说点什么...').css('color','#888');
+			$("#edit-txt").val(msg).css('color','#888');
 		}
 	});
 	$(".upload-btn").bind('click',function(){
