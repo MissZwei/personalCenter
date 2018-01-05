@@ -1,0 +1,121 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.bxg-recharge-icon {
+  background: url(../images/money_type.png) no-repeat;
+  background-size: 1.61111111rem 0.77777778rem;
+}
+.recharge-money {
+  padding: 0 0.41666667rem;
+  height: 1.52777778rem;
+  line-height: 1.52777778rem;
+  font-size: 0.55555556rem;
+  background: #fff;
+}
+.recharge-money input {
+  width: 6.73611111rem;
+  font-size: 0.48611111rem;
+  border: none;
+  overflow: hidden;
+}
+.recharge-type {
+  margin-top: 0.2739726rem;
+  font-size: 0.41666667rem;
+  background: #fff;
+}
+.recharge-type > div {
+  padding: 0 0.41666667rem;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  color: #c2c2c2;
+}
+.recharge-type ul {
+  color: #c1c1c1;
+}
+.recharge-type ul li {
+  padding: 0 0.41666667rem;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  border-top: 1px solid #f0f0f2;
+}
+.recharge-type ul li label {
+  display: inline-block;
+  width: 9.16666667rem;
+}
+input[type="radio"] + label::before {
+  float: left;
+  content: "\a0";
+  display: inline-block;
+  width: 0.41666667rem;
+  height: 0.41666667rem;
+  margin: 0.48611111rem 0 0 0.25rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type="radio"]:checked + label::before {
+  background-color: #12b7f5;
+  background-clip: content-box;
+  padding: 0.05555556rem;
+  box-sizing: border-box;
+  border: 1px solid #12b7f5;
+}
+input[type="radio"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.recharge-type ul li i {
+  float: left;
+  margin: 0 0.34722222rem;
+  margin-top: 0.30555556rem;
+  width: 0.77777778rem;
+  height: 0.77777778rem;
+  display: block;
+}
+.recharge-type ul li i.bxg-wechat {
+  background-position: 0 0;
+}
+.recharge-type ul li i.bxg-alipay {
+  background-position: -0.83333333rem 0;
+}
+.bxg-submit {
+  margin: 1.11111111rem auto 0.41666667rem;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
