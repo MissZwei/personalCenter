@@ -38,3 +38,7 @@ a:hover{
 	content: '';
 	display: block;
 }
+/*背景颜色*/
+.bxg-bg-white{
+    background: #fff;
+}

@@ -1,0 +1,201 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-set-icon {
+  background: url(../images/set_icon.png) no-repeat;
+  background-size: 0.22222222rem 0.41666667rem;
+}
+.refund-goods {
+  padding: 0 0.41666667rem;
+}
+.refun-title {
+  height: 0.97222222rem;
+  line-height: 0.97222222rem;
+  font-size: 0.41666667rem;
+}
+.refund-goods-info {
+  padding: 0.41666667rem 0;
+}
+.goods-img {
+  width: 2.15277778rem;
+  height: 2.15277778rem;
+}
+.goods-img img {
+  width: 100%;
+  height: 100%;
+}
+.goods-info {
+  width: 6.73611111rem;
+  font-size: 0.38888889rem;
+}
+.goods-info > div:first-child {
+  height: 0.97222222rem;
+  line-height: 0.48611111rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods-info > div:nth-child(2) {
+  margin: 0.13888889rem 0 0.20833333rem;
+}
+.goods-info > div:nth-child(3) span:first-child {
+  font-size: 0.44444444rem;
+  color: #fa9f0f;
+}
+.goods-info > div:nth-child(3) span:first-child small {
+  font-size: 0.27777778rem;
+}
+.refund-reason {
+  margin: 0.27777778rem 0;
+  font-size: 0.41666667rem;
+}
+.bxg-refund-list {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+}
+.bxg-refund-list i {
+  margin-top: 0.48611111rem;
+  margin-left: 0.27777778rem;
+  float: right;
+  display: block;
+  width: 0.22222222rem;
+  height: 0.41666667rem;
+  background-position: 0 0 ;
+}
+.refund-reason > div {
+  padding: 0 0.41666667rem;
+  border-top: 1px solid #F0F0F2;
+}
+.refund-reason > div:first-child {
+  border: none;
+}
+.bxg-color-blue {
+  color: #12B7F5;
+}
+.bxg-color-orange {
+  margin-left: 0.13888889rem;
+  color: #fa9f0f;
+  font-size: 0.44444444rem;
+}
+.refund-explain {
+  padding: 0 0.41666667rem;
+  font-size: 0.41666667rem;
+  color: #787878;
+}
+.bxg-refund-list input {
+  width: 7.08333333rem;
+  border: none;
+  font-size: 0.41666667rem;
+}
+.bxg-img {
+  padding: 0.06944444rem 0.41666667rem 0.27777778rem !important;
+  border: none!important;
+}
+.bxg-img > div {
+  margin-right: 0.13888889rem;
+  float: left;
+  width: 1.68055556rem;
+  height: 1.68055556rem;
+  border: 1px solid #F0F0F2;
+}
+.upload-btn {
+  border: 1px dashed #F0F0F2!important;
+  background: url(../images/refund_uploade.png) no-repeat;
+  background-size: 1.68055556rem 1.68055556rem;
+}
+.bxg-img > div img {
+  width: 100%;
+  height: 100%;
+}
+.bxg-submit,
+.select-submit {
+  margin: 1.11111111rem auto 0.41666667rem;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.select-submit {
+  margin: 0.27777778rem 0 0;
+  width: 100%;
+  border-radius: 0;
+}
+.reason-shade {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.reason-select {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.reason-select > div:first-child {
+  text-align: center;
+  font-size: 0.44444444rem;
+  border-bottom: 1px solid #F0F0F2;
+}
+.reason-select ul {
+  padding: 0 0.41666667rem;
+}
+.reason-select ul li {
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  border-top: 1px solid #f8f8f8;
+}
+.reason-select ul li i {
+  margin-top: 0.27777778rem;
+  display: block;
+  width: 0.55555556rem;
+  height: 0.55555556rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 50%;
+}
+.reason-select ul li i.selected {
+  border: none;
+  background: url(../images/password_icon.png) no-repeat;
+  background-size: 1.59722222rem 1.08333333rem;
+  background-position: 0 -0.52777778rem;
+}
