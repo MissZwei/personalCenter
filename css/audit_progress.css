@@ -1,0 +1,93 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-audit {
+  padding: 0.41666667rem;
+}
+.audit-img {
+  width: 2.08333333rem;
+  height: 2.08333333rem;
+  border: 1px solid #F0F0F2;
+}
+.audit-img img {
+  width: 100%;
+  height: 100%;
+}
+.audit-info {
+  width: 6.80555556rem;
+}
+.audit-info > div {
+  font-size: 0.36111111rem;
+}
+.audit-info > div:first-child {
+  font-size: 0.41666667rem;
+}
+.audit-info > div:nth-child(2) {
+  margin: 0.41666667rem 0;
+}
+.audit-info > div span {
+  color: #12B7F5;
+}
+.audit-progress {
+  margin: 0.27777778rem 1.11111111rem;
+}
+.progress-line > div {
+  width: 0.69444444rem;
+}
+.circle {
+  width: 0.69444444rem;
+  height: 0.69444444rem;
+  border: 1px solid #bababa;
+  border-radius: 50%;
+}
+.circle > div {
+  margin: 0.08333333rem auto;
+  width: 0.48611111rem;
+  height: 0.48611111rem;
+  background: #bababa;
+  border-radius: 50%;
+}
+.line {
+  margin: 0 auto;
+  width: 2px;
+  height: 1.66666667rem;
+  background: #bababa;
+}
+.cirActive .circle {
+  border: 1px solid #12B7F5;
+}
+.cirActive .circle > div,
+.cirActive .line {
+  background: #12B7F5;
+}
+.progress-content {
+  width: 6.84931507rem;
+  font-size: 0.41666667rem;
+}
+.progress-content > div {
+  height: 0.69444444rem;
+  line-height: 0.69444444rem;
+}
+.colorActive {
+  color: #12B7F5;
+}
+.progress-content > div {
+  margin-top: 1.66666667rem;
+}
+.progress-content > div:first-child {
+  margin-top: 0;
+}
