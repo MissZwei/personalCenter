@@ -1,0 +1,20 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.add_f_title {
+  padding: 0.69444444rem 0 0.55555556rem;
+  font-size: 0.55555556rem;
+  color: #12B7F5;
+  text-align: center;
+}
+.add_f_radar {
+  margin: 0 auto;
+  width: 6.58333333rem;
+  height: 6.66666667rem;
+  background: url(../images/addfriends_bg.png) no-repeat;
+  background-size: 6.58333333rem 6.66666667rem;
+}

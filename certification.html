@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>实名认证</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/certification.css" />
+		<script type="text/javascript" src="public/js/public.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			实名认证
+		</header>
+		<div class="bxg-content">
+			<div class="bxg-authentication">
+				<span>请输入持卡人身份信息</span>
+				<div class="bxg-between">
+					持卡人姓名：<input type="text"  class="inpW-1" data-error="请输入姓名" name="name" value="" placeholder="输入姓名">
+				</div>
+				<div class="bxg-between">
+					身份证号：<input type="text" data-check='0' data-error="身份证号输入不正确" class="inpW-2" name="certify" value="" placeholder="输入身份证号">
+				</div>
+				<div class="bxg-between">
+					银行卡号:<input type="number" data-check='0' data-error="卡号输入错误" class="inpW-2" name="bankCard" value="" placeholder="输入您的银行卡号">
+				</div>
+
+				<div class="bxg-between">
+					银行预留手机号：<input type="tel" data-check='0' data-error="手机号输入错误" class="inpW-3" name="mobile" value="" placeholder="输入您的手机号">
+				</div>
+				
+				<div>
+					<div>身份证原件拍照</div>
+					<div class="certify-img">
+						<div>
+							<img src="images/certification.png"/>
+						</div>
+						<div>
+							<img src="images/certification.png"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="bxg-submit">验证银行卡</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/certification.js"></script>
+		
+	</body>
+
+</html>
