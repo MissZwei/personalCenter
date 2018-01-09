@@ -4,18 +4,194 @@ body{
 .bxg-content{
     position: relative;
     margin-top:80/72rem;
-    
 }
-.add_f_title{
+.bxg-between{
+    display: -webkit-box;  
+    display: -webkit-flex;  
+    display: -ms-flexbox;  
+    display: flex;   
+    -webkit-box-pack: justify;  
+    -webkit-justify-content: space-between;  
+    -ms-flex-pack:justify ;  
+    justify-content: space-between; 
+}
+.add-f-title{
     padding:50/72rem 0 40/72rem;
     font-size: 40/72rem;
     color: #12B7F5;
     text-align: center;
 }
-.add_f_radar{
+.add-f-radar{
+    position: relative;
     margin:0 auto;
     width:474/72rem;
     height: 480/72rem;
     background: url(../images/addfriends_bg.png)no-repeat;
     background-size:474/72rem 480/72rem;
+    overflow: hidden;
+}
+.radar-rotate{
+    position: absolute;
+    top:52/72rem;
+    left:474/72/2rem;
+    width:218/72rem;
+    height:200/72rem;
+    background: url(../images/addfriends_radar.png)no-repeat;
+    background-size: 218/72rem 200/72rem;
+    z-index: 2;
+}
+.radar-ani{
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -webkit-animation: radarRotate 2s linear infinite;
+    -moz-animation: radarRotate 2s linear infinite;
+    animation: radarRotate 2s linear infinite;
+}
+@-webkit-keyframes radarRotate {
+    from {
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0);
+        -moz-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes radarRotate {
+    from {
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0);
+        -moz-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+@keyframes radarRotate {
+    from {
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0);
+        -moz-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+.bxg-submit{
+    display: block;
+    margin:80/72rem auto 30/72rem;
+    width:650/72rem;
+    height:90/72rem;
+    line-height:90/72rem;
+    text-align: center;
+    color: #fff;
+    font-size: 36/72rem;
+    background: #12B7F5;
+    border-radius:10/72rem ;
+}
+
+.radar-recom{
+    position: absolute;
+    width:98/72rem;
+    height:128/72rem;
+    background: url(../images/addfriends_result.png)no-repeat;
+    background-size: 298/72rem 128/72rem;
+    z-index: 3;
+    overflow: hidden;
+}
+.radar-recom>div{
+    margin:9/72rem auto;
+    width:80/72rem;
+    height:80/72rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.radar-recom>div img{
+    width: 100%;
+    height:100%;
+}
+.radar-recom-blue{
+    top:50/72rem;
+    left:125/72rem;
+    background-position:-200/72rem 0;
+}
+.radar-recom-green{
+    top:297/72rem;
+    left:60/72rem;
+    background-position:0 0;
+}
+.radar-recom-orange{
+    top:170/72rem;
+    left:330/72rem;
+    background-position:-100/72rem 0;
+}
+.radar-result-list{
+    margin: 50/72rem auto 0;
+    width:635/72rem;
+}
+.radar-result-list ul li{
+    margin-top:20/72rem;
+    width:100%;
+    padding:14/72rem;
+    border-radius:10/72rem;
+    background: #fff;
+}
+.user-img{
+    width:109/72rem;
+    height:109/72rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-img img{
+    width:100%;
+    height:100%;
+}
+.user-info{
+    width: 500/72rem;
+    line-height: 109/72/2rem;
+    font-size: 30/72rem;
+    color: #818181;
+}
+.user-info span{
+    text-align: center;
+    color: #a9a9a9;
+}
+.user-info a{
+    float: right;
+    margin-top:8/72rem;
+    display: block;
+    width:120/72rem;
+    height:40/72rem;
+    line-height: 40/72rem;
+    font-size: 22/72rem;
+    color: #fff;
+    text-align: center;
+    background: #12B7F5;
+    border-radius: 10/72rem;
+}
+.distance-icon{
+    margin:14/72rem 10/72rem 0;
+    width: 18/72rem;
+    height: 23/72rem;
+    background: url(../images/addfriends_position.png)no-repeat;
+    background-size:18/72rem 23/72rem;
 }
