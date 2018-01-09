@@ -1,0 +1,25 @@
+.bxg-set-list ul li a {
+  height: 1.52777778rem;
+  line-height: 1.52777778rem;
+}
+.notice-icon {
+  margin-top: 0.24305556rem;
+  margin-right: 0.13888889rem;
+  float: left;
+  display: block;
+  width: 1.04166667rem;
+  height: 1.04166667rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(../images/notice_icon.png) no-repeat;
+  background-size: 3.26388889rem 1.04166667rem;
+}
+.bxg-set-list ul li:first-child em {
+  background-position: 0 0 ;
+}
+.bxg-set-list ul li:nth-child(2) em {
+  background-position: -1.11111111rem 0;
+}
+.bxg-set-list ul li:nth-child(3) em {
+  background-position: -2.22222222rem 0;
+}

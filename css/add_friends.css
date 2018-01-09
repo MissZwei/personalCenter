@@ -153,6 +153,7 @@ body {
   padding: 0.19444444rem;
   border-radius: 0.13888889rem;
   background: #fff;
+  box-sizing: border-box;
 }
 .user-img {
   width: 1.51388889rem;
