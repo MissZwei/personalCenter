@@ -1,0 +1,105 @@
+body {
+  background: #c3384d;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-header {
+  background: #c3384d;
+}
+.bxg-filter {
+  position: absolute;
+  right: 0.41666667rem;
+  font-size: 0.41666667rem;
+}
+.user-img {
+  padding-top: 1.83333333rem;
+  width: 100%;
+  height: 3.88888889rem;
+  background: url(../images/redpacket_bg.png) no-repeat;
+  background-size: 10rem 3.47222222rem;
+}
+.user-img > div {
+  margin: 0 auto;
+  width: 2.05555556rem;
+  height: 2.05555556rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-img > div img {
+  width: 100%;
+  height: 100%;
+}
+.redpacket-sum {
+  margin: 0.55555556rem 0;
+  font-size: 0.41666667rem;
+  text-align: center;
+  color: #fff;
+}
+.redpacket-sum > div:nth-child(2) {
+  margin: 0.69444444rem 0 0.41666667rem;
+  font-size: 0.55555556rem;
+  color: #ff8a00;
+}
+.nohave-redpacket {
+  margin: 0 auto;
+  width: 9.30555556rem;
+  height: 6.20833333rem;
+  background: #ffd440;
+  border-radius: 0.20833333rem;
+  box-shadow: 0 4px 0 0 #c79802;
+}
+.nohave-title {
+  padding: 0.69444444rem 0 0.41666667rem;
+  font-size: 0.55555556rem;
+  text-align: center;
+  color: #d40707;
+}
+.nohave-banner {
+  margin: 0 auto;
+  width: 5.33333333rem;
+  height: 4.16666667rem;
+}
+.nohave-banner img {
+  width: 100%;
+  height: 100%;
+}
+.redpacket-list ul {
+  margin-bottom: 0.72222222rem;
+}
+.redpacket-list ul li {
+  margin-top: 0.13888889rem;
+  padding: 0 0.41666667rem;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  font-size: 0.41666667rem;
+  color: #df3d59;
+  background: #fbd49d;
+}
+.redpacket-foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  height: 0.72222222rem;
+  line-height: 0.72222222rem;
+  font-size: 0.41666667rem;
+  text-align: center;
+  color: #fff;
+  background: #c3384d;
+}
+.redpacket-foot a {
+  margin-left: 0.27777778rem;
+  color: #f8810b;
+}

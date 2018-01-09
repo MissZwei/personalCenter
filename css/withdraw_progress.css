@@ -1,0 +1,16 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-ok {
+  position: absolute;
+  right: 0.41666667rem;
+  font-size: 0.41666667rem;
+}
+.withdraw-price {
+  width: 3.75rem;
+  height: 2rem;
+}
