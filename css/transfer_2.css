@@ -1,0 +1,108 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-transfer-icon {
+  background: url(../images/transfer_icon_2.png) no-repeat;
+  background-size: 3.51388889rem 0.98611111rem;
+}
+.bxg-transfer-search {
+  height: 1.11111111rem;
+  background: #fff;
+  margin-bottom: 0.27777778rem;
+}
+.bxg-transfer-search input {
+  width: 9.44444444rem;
+  border: none;
+  font-size: 0.44444444rem;
+  color: #999;
+}
+.bxg-transfer-search i {
+  margin: 0.34722222rem 0.13888889rem 0.34722222rem 0.41666667rem;
+  width: 0.38888889rem;
+  height: 0.41666667rem;
+  background-position: -3.11111111rem 0;
+}
+.bxg-transfer-friend ul li {
+  height: 1.38888889rem;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 0.27777778rem;
+}
+.bxg-friend {
+  float: left;
+  display: inline-block;
+  width: 0.98611111rem;
+  height: 0.98611111rem;
+  background-position: 0 0;
+  margin: 0.20833333rem 0.27777778rem;
+}
+.bxg-transfer-friend ul li a {
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  font-size: 0.44444444rem;
+  color: #333;
+}
+.bxg-bxg {
+  float: left;
+  display: inline-block;
+  width: 0.98611111rem;
+  height: 0.98611111rem;
+  background-position: -1.02777778rem 0;
+  margin: 0.20833333rem 0.27777778rem;
+}
+.bxg-bank {
+  margin: 0.16666667rem 0.27777778rem;
+  float: left;
+  display: inline-block;
+  width: 0.98611111rem;
+  height: 0.98611111rem;
+  background-position: -2.08333333rem 0;
+}
+.bxg-transfer-lately {
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  padding-left: 0.41666667rem;
+  color: #999;
+  font-size: 0.44444444rem;
+}
+.bxg-transfer-main ul li {
+  height: 1.38888889rem;
+  background: #fff;
+  margin-bottom: 0.27777778rem;
+}
+.bxg-transfer-main ul li p {
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  font-size: 0.41666667rem;
+  color: #333;
+  display: block;
+}
+.bxg-transfer-main ul li span {
+  height: 0.41666667rem;
+  line-height: 0.41666667rem;
+  color: #999;
+  font-size: 0.29166667rem;
+  display: block;
+}
+.bxg-j {
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+  background-position: -1.08333333rem -1.18055556rem;
+  display: inline-block;
+  float: left;
+  margin: 0.13888889rem 0.41666667rem;
+}
