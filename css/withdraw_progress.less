@@ -5,13 +5,122 @@ body{
     position: relative;
     margin-top: 80/72rem;
 }
+.bxg-between{
+    display: -webkit-box;  
+    display: -webkit-flex;  
+    display: -ms-flexbox;  
+    display: flex;   
+    -webkit-box-pack: justify;  
+    -webkit-justify-content: space-between;  
+    -ms-flex-pack:justify ;  
+    justify-content: space-between; 
+}
 .bxg-ok{
     position: absolute;
     right:30/72rem;
     font-size: 30/72rem;
     
 }
+.withdraw-content{
+    padding:20/72rem 0 0;
+    background: #fff;
+}
+.withdraw-icon{
+    background: url(../images/withdraw_icon.png)no-repeat;
+    background-size:179/72rem 50/72rem;
+}
 .withdraw-price{
+    position: relative;
+    margin:56/72rem auto;
     width: 270/72rem;
     height: 144/72rem;
+    text-align: center;
+    border:1px solid #1997fe;
+    background:#bedeec;
+    border-radius: 10/72rem;
+}
+.withdraw-price>div:first-child{
+    font-size: 40/72rem;
+    line-height: 1.2rem;
+    color: #333;
+}
+.withdraw-price>div:nth-child(2){
+    font-size: 36/72rem;
+    color: #12B7F5;
+}
+.withdraw-price>div:last-child{
+    position: absolute;
+    left:50%;
+    top:100%;
+    margin-left:-7/72rem;
+    width:14/72rem;
+    height:12/72rem;
+    background-position:-110/72rem 0;
+}
+.withdraw-type{
+    font-size: 34/72rem;
+    padding:0 30/72rem;
+    color: #12B7F5;
+}
+.withdraw-type span：nth-child(2){
+    margin: 0 10/72rem;
+}
+.withdraw-type .withdraw-progress{
+    margin-top: 50/72rem;
+}
+.progress-line{
+    width:460/72rem;
+}
+.progress-line .cir{
+    width: 50/72rem;
+    height:50/72rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.progress-line .line{
+    margin:0 auto;
+    width:2/72rem;
+    height:78/72rem;
+    background: #d2d2d2;
+}
+.cir-line>div{
+    width: 50/72rem;
+}
+.cir-line>div:first-child .cir{
+    background-position:0 0;
+}
+.cir-line>div:last-child .cir{
+    background-position:-54/72rem 0;
+}
+.active .line{
+    background: #12B7F5;
+}
+.cir-line>div:last-child.active .cir{
+    background-position:-128/72rem 0;
+}
+.progress-txt{
+    width: 400/72rem;
+}
+.progress-txt>div{
+    margin-bottom:110/72rem;
+    color: #b5b3b3;
+    line-height: 50/72rem;
+}
+.progress-txt .active{
+    color: #12B7F5;
+}
+.bxg-submit{
+    margin:50/72rem auto 0;
+    width:564/72rem;
+    height:111/72rem;
+    line-height:111/72rem;
+    overflow: hidden;
+    border: 2px solid #12B7F5;
+    border-radius: 111/72/2rem;
+}
+.bxg-submit a{
+    display: block;
+    font-size: 40/72rem;
+    text-align: center;
+    color: #12b7f5;
 }
