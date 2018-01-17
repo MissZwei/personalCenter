@@ -28,6 +28,7 @@ $(function() {
 				alert.fadeOut();
 			}, 2000);
 		} else {
+			window.location.href = "transfer_money.html";
 			$.ajax({
 				type: "post",
 				data: { account: inpContent },

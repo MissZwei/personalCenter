@@ -1,0 +1,33 @@
+.keyboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+.keyboard ul:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.keyboard ul li {
+  float: left;
+  width: 33.33333333%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 22px;
+  border-right: 1px solid #F0F0F2;
+  border-top: 1px solid #F0F0F2;
+  box-sizing: border-box;
+}
+.keyboard ul li:nth-child(3n) {
+  border-right: 0;
+}
+.keyboard ul li:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.key-delete,
+.key-ok {
+  font-size: 16px!important;
+}

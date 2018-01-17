@@ -1,0 +1,128 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.go-evaluation {
+  position: absolute;
+  right: 0.41666667rem;
+  font-size: 0.41666667rem;
+  color: #fff;
+}
+.bxg-tabs {
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.bxg-tabs a {
+  width: 50%;
+  font-size: 0.44444444rem;
+  color: #333;
+  text-align: center;
+}
+.bxg-tabs a.bxg-active {
+  color: #12B7F5;
+  border-bottom: 1px solid #12B7F5;
+}
+.evaluation-content {
+  width: 10rem;
+  overflow: hidden;
+}
+.evaluation-list {
+  margin-top: 0.13888889rem;
+  padding: 0 0.41666667rem 0.27777778rem;
+  background: #fff;
+}
+.evaluation-score {
+  height: 0.97222222rem;
+  line-height: 0.97222222rem;
+  font-size: 0.41666667rem;
+  color: #afafaf;
+}
+.score-stars {
+  margin-top: 0.27083333rem;
+  height: 0.43055556rem;
+  background: url(../images/my-evaluation.png) no-repeat;
+  background-size: 2.38888889rem 0.43055556rem;
+}
+.stars-1 {
+  width: 0.44444444rem;
+}
+.stars-2 {
+  width: 0.93055556rem;
+}
+.stars-3 {
+  width: 1.41666667rem;
+}
+.stars-4 {
+  width: 1.90277778rem;
+}
+.stars-5 {
+  width: 2.38888889rem;
+}
+.evaluation-txt {
+  font-size: 0.36111111rem;
+}
+.evaluation-txt ul {
+  padding-top: 0.27777778rem;
+}
+.evaluation-txt ul li {
+  float: left;
+  margin-right: 0.16666667rem;
+  width: 1.38888889rem;
+  height: 1.38888889rem;
+}
+.evaluation-txt ul li:nth-child(6n) {
+  margin-right: 0;
+}
+.evaluation-txt ul li img {
+  width: 100%;
+  height: 100%;
+}
+.evaluation-goods {
+  margin-top: 0.27777778rem;
+  padding: 0.27777778rem;
+  background: #f0f0f2;
+}
+.evaluation-goods a {
+  color: #9d9d9e ;
+}
+.evaluation-goods .goods-img {
+  width: 1.72222222rem;
+  height: 1.72222222rem;
+  border: 1px solid #f8f8f8;
+}
+.evaluation-goods .goods-img img {
+  width: 100%;
+  height: 100%;
+}
+.evaluation-goods .goods-info {
+  width: 6.66666667rem;
+}
+.goods-info > div:first-child {
+  margin-bottom: 0.34722222rem;
+  height: 0.97222222rem;
+  line-height: 0.48611111rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.service-reply {
+  margin-top: 0.27777778rem;
+  font-size: 0.36111111rem;
+  color: #9d9d9e;
+}

@@ -5,6 +5,16 @@ body {
   position: relative;
   margin-top: 1.11111111rem;
 }
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
 .bxg-feedbacks-head {
   padding: 0 0.41666667rem;
   height: 1.38888889rem;

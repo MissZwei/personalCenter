@@ -1,0 +1,55 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-successidentity-head {
+  height: 5.25rem;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  display: block;
+  padding-top: 0.27777778rem;
+}
+.bxg-successidentity-head p {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  text-align: center;
+  font-size: 0.58333333rem;
+}
+.bxg-successidentity-icon {
+  background: url(../images/identity_icon.png) no-repeat;
+  background-size: 2.22222222rem 1.66666667rem;
+  display: block;
+}
+.bxg-win {
+  width: 1.52777778rem;
+  height: 1.52777778rem;
+  background-position: 0 -0.05555556rem;
+  margin: 0.48611111rem auto;
+  display: block;
+}
+.bxg-successidentity-main p {
+  height: 1.05555556rem;
+  line-height: 1.05555556rem;
+  font-size: 0.45833333rem;
+  color: #999;
+}
+.bxg-limit {
+  float: left;
+  width: 0.63888889rem;
+  height: 0.63888889rem;
+  margin: 0.16666667rem 0.13888889rem 0 0.41666667rem;
+  background-position: -1.63888889rem -0.02777778rem;
+}

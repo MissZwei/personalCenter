@@ -13,33 +13,38 @@ body {
   line-height: 1.11111111rem;
 }
 .bxg-import {
-  width: 3.88888889rem;
-  background: #ddd;
+  margin: 0 auto;
+  padding: 0.27777778rem;
+  width: 6.66666667rem;
   color: #333;
   font-size: 0.55555556rem;
   text-align: center;
-  margin: 0 auto;
-  height: 0.83333333rem;
-  line-height: 0.83333333rem;
   border: none;
+  background: #fff;
 }
-::-webkit-input-placeholder {
-  color: #fff;
+.bxg-import input {
+  float: left;
+  margin-right: 0.13888889rem;
+  display: block;
+  width: 0.90277778rem;
+  height: 0.90277778rem;
+  text-align: center;
+  font-size: 0.83333333rem;
+  border: none;
+  background: #d2d2d2;
 }
-::-moz-placeholder {
-  color: #fff;
-}
-:-moz-placeholder {
-  color: #fff;
-}
-:-ms-input-placeholder {
-  color: #fff;
+.bxg-import input:last-child {
+  margin-right: 0;
 }
 .bxg-verification {
-  color: #12B7F5;
-  font-size: 0.45833333rem;
   text-align: center;
   margin: 0.41666667rem 0 1.11111111rem;
+}
+.bxg-verification button {
+  color: #12B7F5;
+  font-size: 0.45833333rem;
+  border: none;
+  background: none;
 }
 .bxg-logout {
   width: 90%;
@@ -55,5 +60,9 @@ body {
   margin-bottom: 0.41666667rem;
 }
 .bxg-logout a {
+  display: block;
   color: #fff;
+}
+.bxg-keyboard {
+  display: none;
 }

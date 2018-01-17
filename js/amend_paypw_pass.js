@@ -66,6 +66,7 @@ $(function(){
 					$(".bxg-alert-tip").fadeOut();
 				},2000);
 			}else{
+				window.location.href="verify_code.html";
 	//			$.ajax({
 	//				type:"post",
 	//				data:{},

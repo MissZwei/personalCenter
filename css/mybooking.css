@@ -1,0 +1,166 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+  overflow: hidden;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-tabs {
+  width: 100%;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.bxg-tabs a {
+  width: 50%;
+  font-size: 0.44444444rem;
+  color: #333;
+  text-align: center;
+}
+.bxg-tabs a.bxg-active {
+  color: #12B7F5;
+  border-bottom: 1px solid #12B7F5;
+}
+.booking-content {
+  width: 10rem;
+  overflow: hidden;
+}
+.mybooking-list {
+  margin: 0.13888889rem auto;
+  width: 9.72222222rem;
+  background: #fff;
+  border-radius: 0.06944444rem;
+}
+.mybooking-shop {
+  padding: 0 0.27777778rem;
+  font-size: 0.41666667rem;
+  height: 0.97222222rem;
+  line-height: 0.97222222rem;
+}
+.mybooking-shop span:first-child {
+  width: 5.55555556rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.mybooking-shop span:last-child {
+  color: #888;
+}
+.mybooking-shop-place {
+  display: inline-block;
+  width: 0.28333333rem;
+  height: 0.41666667rem;
+  background: url(../images/hotel_icon.png) no-repeat 0 0;
+  background-size: 1.625rem 0.41666667rem;
+}
+.mybooking-shop span:last-child i {
+  margin: 0.27777778rem 0.13888889rem;
+}
+.mybooking-content {
+  padding: 0.27777778rem;
+  font-size: 0.38888889rem;
+  color: #9e9d9d;
+  border-top: 1px solid #f0f0f2;
+  border-bottom: 1px solid #f0f0f2;
+}
+.mybooking-content ul li {
+  margin-top: 0.13888889rem;
+  line-height: 0.55555556rem;
+}
+.mybooking-content ul li:first-child {
+  margin-top: 0 ;
+}
+.mybooking-content ul li span:first-child {
+  display: inline-block;
+  width: 1.66666667rem;
+  text-align: right;
+}
+.mybooking-content ul li span:last-child {
+  width: 7.22222222rem;
+}
+.mybooking-price {
+  padding: 0 0.27777778rem;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  font-size: 0.38888889rem;
+  color: #9e9d9d;
+}
+.mybooking-price span {
+  font-size: 0.55555556rem;
+  color: #e60012;
+}
+.mybooking-price span small {
+  font-size: 0.36111111rem;
+}
+.booking-banner {
+  width: 10rem;
+  overflow: hidden;
+}
+.booking-banner a {
+  display: block;
+  width: 10rem;
+  height: 4.16666667rem;
+}
+.booking-banner a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.booking-menu-icon {
+  background: url(../images/mybooking/booking_menu.png) no-repeat;
+  background-size: 6.61111111rem 2.16666667rem;
+}
+.booking-list ul li {
+  float: left;
+  padding: 0.41666667rem 0 0;
+  width: 33.33333333%;
+}
+.booking-list ul li a {
+  display: block;
+  margin: 0 auto;
+  width: 2.16666667rem;
+  font-size: 0.55555556rem;
+  color: #12B7F5;
+  text-align: center;
+}
+.booking-list ul li a i {
+  display: block;
+  width: 2.16666667rem;
+  height: 2.16666667rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.booking-list ul li a span {
+  display: block;
+  padding: 0.27777778rem 0 0;
+}
+.booking-list ul li:first-child i {
+  background-position: 0 0;
+}
+.booking-list ul li:nth-child(2) i {
+  background-position: -2.22222222rem 0;
+}
+.booking-list ul li:nth-child(3) i {
+  background-position: -4.44444444rem 0;
+}
+.booking-list ul li:first-child i {
+  background-position: 0 0;
+}
+.booking-list ul li:first-child i {
+  background-position: 0 0;
+}
+.booking-list ul li:first-child i {
+  background-position: 0 0;
+}

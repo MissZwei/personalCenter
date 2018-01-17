@@ -1,16 +1,10 @@
 body {
-  font-family: "微软雅黑";
-  min-width: 320px;
-  max-width: 960px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
   background: #ededed;
 }
 .bxg-head-detail {
   position: absolute;
   right: 0.41666667rem;
-  font-size: 0.54166667rem;
+  font-size: 0.41666667rem;
   color: #fff;
 }
 .bxg-bg-white {
@@ -113,11 +107,11 @@ body {
 }
 .bxg-serve ul li:nth-child(2) i {
   width: 0.70833333rem;
-  background-position: -3.45138889rem 0;
+  background-position: -3.45694444rem 0;
 }
 .bxg-serve ul li:nth-child(3) i {
   width: 0.875rem;
-  background-position: 0 -1.08333333rem;
+  background-position: -0.01111111rem -1.08333333rem;
 }
 .bxg-serve ul li:nth-child(4) i {
   width: 0.88888889rem;

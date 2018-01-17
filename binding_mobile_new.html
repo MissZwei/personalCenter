@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>绑定手机</title>
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+	
+		<link rel="stylesheet" href="css/binding_mobile.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			绑定新手机号
+		</header>
+		
+		<div class="bxg-content new-mobile">
+			<div>我们将验证码发送到您的手机上</div>
+			<div class="inp-new-mobile bxg-between">
+				<span>新的手机号</span>
+				<input type="tel" name="mobile" placeholder="输入新的手机号" value=""/>
+			</div>
+			<div class="bxg-submit">下一步</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".bxg-submit").click(function(){
+					var mobile = $("[name='mobile']").val();
+					if(mobile == ''){
+						$(".bxg-alert-tip").html("手机号不能为空").show();
+						setTimeout(function(){
+							$(".bxg-alert-tip").fadeOut();
+						},2000);
+					}else if(!(/^1[34578]\d{9}$/.test(mobile))){
+						$(".bxg-alert-tip").html("手机号输入格式不正确").show();
+						setTimeout(function(){
+							$(".bxg-alert-tip").fadeOut();
+						},2000);
+					}else{
+//						$.ajax({
+//							type:"post",
+//							url:"",
+//							success:function(){
+//								
+//							},
+//							error:function(){
+//								
+//							}
+//						});
+					}
+				});
+				
+			})
+		</script>
+	</body>
+</html>

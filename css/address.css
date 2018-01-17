@@ -1,0 +1,111 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+  margin-bottom: 50px;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.address-icon {
+  background: url("../images/address_icon.png");
+  background-size: 1.66666667rem 0.83333333rem;
+}
+.address-list {
+  margin-bottom: 0.27777778rem;
+  background: #fff;
+}
+.default-border {
+  width: 100%;
+  height: 0.11111111rem;
+  background-repeat-x: repeat;
+  background-position: 0 0;
+}
+.address-content {
+  background: #fff;
+}
+.address-content > div {
+  padding: 0 0.25rem;
+}
+.address-user {
+  height: 0.91666667rem;
+  line-height: 0.91666667rem;
+  font-size: 0.38888889rem;
+  display: flex;
+  justify-content: space-between;
+}
+.address-user > span:first-child {
+  position: relative;
+}
+.address-user small {
+  position: absolute;
+  top: 0.27777778rem;
+  right: -28px;
+  display: block;
+  margin-left: 10px;
+  margin-top: -5px;
+  width: 25px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 8px;
+  text-align: center;
+  color: #fff;
+  background: red;
+}
+.address-content > div.address-txt {
+  padding-bottom: 0.27777778rem;
+  line-height: 0.55555556rem;
+  font-size: 0.36111111rem;
+  color: #585858;
+  border-bottom: 1px solid #cccccc;
+}
+.address-fun {
+  display: flex;
+  justify-content: space-between;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+  font-size: 0.36111111rem;
+}
+.address-fun a,
+.address-fun span {
+  position: relative;
+  margin-left: 1.04166667rem;
+  float: left;
+}
+.address-fun i {
+  position: absolute;
+  top: 0.27777778rem;
+  left: -0.625rem;
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.i-edit {
+  background-position: -0.16666667rem -0.20833333rem;
+}
+.i-delete {
+  background-position: -1rem -0.20833333rem;
+}
+.add-address {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #12B7F5;
+}
+.add-address a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}
