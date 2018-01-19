@@ -2,19 +2,18 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>成功</title>
+		<title>详细账单</title>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="public/css/reset.css" />
 		<link rel="stylesheet" href="css/head.css" />
-		<link rel="stylesheet" href="css/set_status.css" />
-
+		<link rel="stylesheet" href="css/bill_show_detail.css" />
 		<script type="text/javascript" src="public/js/public.js" ></script>
 	</head>
 	<body>
 		<!--头部-->
 		<header class="bxg-header">
 			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
-			设置成功
+			详细账单
 			<span class="bxg-head-icon bxg-list"></span>
 			<div class="head-list-content">
 				<ul>
@@ -24,16 +23,44 @@
 			</div>
 		</header>
 		
-		<!--内容-->
 		<div class="bxg-content">
-			
-			<div>
-				<p class="bxg-congratulation">恭喜您，设置成功!</p>
-				<p class="bxg-fail-tip">能量满满快去购物吧</p>
+			<div class="bill-user">
+				<div class="user-info bxg-clear">
+					<div class="user-img">
+						<img src="http://img.zhonghuasuan.com/mall/goods/2016/05/11/2116412711.jpg_350x350.jpg" />
+					</div>
+					<div class="user-name">
+						季伟（*伟）
+					</div>
+				</div>
+				<div class="bill-price">-11.00</div>
+				<div class="bill-status">交易成功</div>
 			</div>
-			<div class="set-success-img"></div>
-			<a href="index.html" class="bxg-submit">返回首页</a>
-		
+			
+			<div class="bill-content">
+				<ul>
+					<li class="bxg-between">
+						<span>付款方式</span>
+						<span>账户余额</span>
+					</li>
+					<li class="bxg-between">
+						<span>对方账户</span>
+						<span>季节（*伟）</span>
+					</li>
+					<li class="bxg-between">
+						<span>账单分类</span>
+						<span>某某服饰</span>
+					</li>
+					<li class="bxg-between">
+						<span>创建时间</span>
+						<span>2017-08-18 23:42</span>
+					</li>
+					<li class="bxg-between">
+						<span>订单号</span>
+						<span>201711132000400111005600443314</span>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
 		<script type="text/javascript">

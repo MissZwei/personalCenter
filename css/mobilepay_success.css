@@ -28,11 +28,17 @@ body {
   color: #333;
   text-align: center;
 }
-.mobilepay-img {
+.mobilepay-success > div:first-child {
   margin: 0 auto 0.625rem;
   width: 4.93055556rem;
   height: 4.48611111rem;
+}
+.mobilepay-success-img {
   background: url(../images/mobilepay_success.png) no-repeat;
+  background-size: 4.93055556rem 4.48611111rem;
+}
+.mobilepay-fail-img {
+  background: url(../images/mobilepay_fail.png) no-repeat;
   background-size: 4.93055556rem 4.48611111rem;
 }
 .mobilepay-success > div:last-child {

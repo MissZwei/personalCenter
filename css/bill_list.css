@@ -1,0 +1,51 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.month-day {
+  padding: 0 0.41666667rem;
+  height: 1.04166667rem;
+  line-height: 1.04166667rem;
+  font-size: 0.47222222rem;
+}
+.bill-month ul li {
+  padding: 0.20833333rem 0.41666667rem;
+  background: #fff;
+  border-top: 1px solid #F0F0F2;
+}
+.bill-month ul li:first-child {
+  border-top: 0;
+}
+.user-img {
+  width: 1.05555556rem;
+  height: 1.05555556rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-img img {
+  width: 100%;
+  height: 100%;
+}
+.bill-info {
+  width: 7.69444444rem;
+  font-size: 0.38888889rem;
+  color: #333;
+  line-height: 0.52777778rem;
+}
+.bill-info > div:last-child {
+  font-size: 0.36111111rem;
+  color: #a7a7a7;
+}

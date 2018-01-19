@@ -40,6 +40,7 @@ function cancelCollect(_this){
 //找相似
 function getSimilar(_this){
 	var goodsId = $(_this).parents('li').attr('data-goodsId');
+	window.location.href = "similar.html";
 //	$.ajax({
 //		type:"get",
 //		data:{},

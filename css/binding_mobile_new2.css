@@ -1,0 +1,78 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.bxg-submit {
+  margin: 1.11111111rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #fff;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.amend-mobile {
+  padding: 0 0.41666667rem;
+  font-size: 0.41666667rem;
+  color: #999;
+  background: #fff;
+}
+.amend-mobile ul li {
+  position: relative;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+}
+.amend-mobile ul li:first-child {
+  border-bottom: 1px solid #F0F0F2;
+}
+.amend-mobile ul li input {
+  font-size: 0.41666667rem;
+  border: none;
+}
+.amend-mobile ul li button {
+  position: absolute;
+  right: 0;
+  top: 0.27777778rem;
+  padding: 0 0.20833333rem;
+  height: 0.83333333rem;
+  font-size: 0.36111111rem;
+  color: #fff;
+  border: none;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.amend-mobile ul li button.noclick {
+  color: #fff;
+  background: #ccc;
+}

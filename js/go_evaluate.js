@@ -45,6 +45,6 @@ $(function(){
 	});
 	
 	$(".evaluate-publish").click(function(){
-		
+		window.location.href = "evaluate_success.html"
 	});
 })

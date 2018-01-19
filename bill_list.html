@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>账单明细</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/bill_list.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			账单
+			<span class="bxg-head-icon bxg-list"></span>
+			<div class="head-list-content">
+				<ul>
+					<li><a href="notice.html" title=""><i class="bxg-collection-icon news-icon"></i>消息<b>5</b></a></li>
+					<li><a href="index.html" title=""><i class="bxg-collection-icon index-icon"></i>首页</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="bxg-content">
+			<div class="bill-month">
+				<div class="month-day">本月</div>
+				<ul>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>2017-10-6 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="bill-month">
+				<div class="month-day">12月</div>
+				<ul>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>昨天 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_show_detail.html" class="bxg-between">
+							<div class="user-img">
+								<img src="">
+							</div>
+							<div class="bill-info">
+								<div class="bxg-between"><span>季伟</span><span>-11</span></div>
+								<div class="bxg-between"><span>2017-10-6 19:28:45</span><span>订单关闭</span></div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script>
+			$(function(){
+				$(".bxg-list").click(function(){
+					$(".head-list-content").toggle();
+				});
+			})
+		</script>
+	</body>
+</html>

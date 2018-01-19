@@ -1,0 +1,43 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 2.5rem;
+}
+.pay-status {
+  margin: 0 auto;
+}
+.pay-success {
+  width: 5.88888889rem;
+  height: 5.11111111rem;
+  background: url(../images/pay_success_img.png) no-repeat;
+  background-size: 5.88888889rem 5.11111111rem;
+}
+.pay-fail {
+  width: 6rem;
+  height: 4.95833333rem;
+  background: url(../images/pay_fail_img.png) no-repeat;
+  background-size: 6rem 4.95833333rem;
+}
+.pay-tip {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  font-size: 0.55555556rem;
+  text-align: center;
+}
+.bxg-submit {
+  margin: 0.69444444rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.bxg-submit a {
+  display: block;
+  color: #fff;
+}
