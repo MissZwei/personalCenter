@@ -1,0 +1,177 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.bxg-alert-tip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.34375rem;
+  margin-top: -0.4rem;
+  width: 4.6875rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.40625rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.125rem;
+}
+.withdraw-icon {
+  background: url(../images/user_withdraw_icon.png) no-repeat;
+  background-size: 9.06944444rem 1.875rem;
+}
+.withdraw-type {
+  padding: 0.27777778rem 0.41666667rem;
+  font-size: 0.38888889rem;
+  color: #5e5e5e;
+}
+.withdraw-go {
+  margin-bottom: 0.13888889rem;
+  padding: 0.41666667rem;
+  width: 8.63888889rem;
+  height: 1.875rem;
+  background-position: 0 0;
+}
+.withdraw-sel > div:last-child {
+  margin-top: 0.66666667rem;
+  width: 0.29166667rem;
+  height: 0.54166667rem;
+  background-position: -8.68055556rem 0 !important;
+}
+.withdraw-go .type-img {
+  width: 1.04166667rem;
+  height: 1.04166667rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.withdraw-go .type-img img {
+  width: 100%;
+  height: 100%;
+}
+.withdraw-go .type-info {
+  width: 6.25rem;
+  color: #fff;
+}
+.withdraw-go .type-info > div:first-child {
+  margin-bottom: 0.20833333rem;
+}
+.withdraw-go .type-info small {
+  font-size: 0.33333333rem;
+}
+.withdraw-money {
+  padding: 0 0.41666667rem;
+  font-size: 0.41666667rem;
+  background: #fff;
+  color: #868686;
+}
+.withdraw-money ul li {
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+}
+.withdraw-money ul li:first-child {
+  border-bottom: 1px solid #d2d2d2;
+}
+.withdraw-money ul li span {
+  margin-right: 0.11111111rem;
+  display: inline-block;
+  width: 2.08333333rem;
+  text-align: right;
+}
+.withdraw-money ul li input {
+  font-size: 0.41666667rem;
+  color: #868686;
+  border: none;
+  background: none;
+}
+.withdraw-money ul li:last-child {
+  position: relative;
+}
+.all-withdraw {
+  position: absolute;
+  top: 0.27777778rem;
+  right: 0;
+  width: 2.30555556rem;
+  height: 0.83333333rem;
+  color: #fff;
+  font-size: 0.36111111rem;
+  border: none;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.withdraw-pass {
+  margin-top: 0.41666667rem;
+  padding: 0 0.41666667rem;
+  height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  font-size: 0.41666667rem;
+  color: #868686;
+  background: #fff;
+}
+.withdraw-pass .pass-inp {
+  margin-top: 0.20833333rem;
+  width: 6.80555556rem;
+}
+.withdraw-pass .pass-inp input {
+  margin-right: 0.13888889rem;
+  float: left;
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  font-size: 0.69444444rem;
+  text-align: center;
+}
+.withdraw-tip {
+  padding: 0 0.41666667rem;
+  height: 0.97222222rem;
+  line-height: 0.97222222rem;
+  font-size: 0.41666667rem;
+  color: #aaa;
+}
+.bxg-submit {
+  margin: 0.69444444rem auto 0;
+  width: 9.02777778rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.5rem;
+  background: #12B7F5;
+  border-radius: 0.13888889rem;
+}
+.withdraw-tip a {
+  display: block;
+  text-align: right;
+  font-size: 0.36111111rem;
+  color: #12B7F5;
+}
+.bxg-saveTip {
+  display: table;
+  margin: 0.83333333rem auto 0;
+  line-height: 0.44444444rem;
+  font-size: 0.33333333rem;
+  color: #12B7F5;
+}
+.bxg-saveTip span {
+  float: left;
+  margin-right: 0.13888889rem;
+  display: inline-block;
+  width: 0.38888889rem;
+  height: 0.44444444rem;
+  background-position: -8.66666667rem -0.54166667rem;
+}

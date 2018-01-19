@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>提现</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="public/css/reset.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/mobile_keyboard.css" />
+		<link rel="stylesheet" href="css/user_withdraw.css" />
+		<script type="text/javascript" src="public/js/public.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="bxg-header">
+			<a class="bxg-head-icon bxg-back" href="javascript:history.go(-1);"></a>
+			提现
+			<span class="bxg-head-icon bxg-list"></span>
+			<div class="head-list-content">
+				<ul>
+					<li><a href="notice.html" title=""><i class="bxg-collection-icon news-icon"></i>消息<b>5</b></a></li>
+					<li><a href="index.html" title=""><i class="bxg-collection-icon index-icon"></i>首页</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<div class="bxg-content">
+			<!--提现方式-->
+			<div class="withdraw-type">
+				<a href="" class="withdraw-sel bxg-between">
+					<div class="withdraw-go withdraw-icon bxg-between">
+						<div class="type-img">
+							<img src=""/>
+						</div>
+						<div class="type-info">
+							<div>中国工商银行<small>（尾号0381）</small></div>
+							<div>孙嵘</div>
+						</div>
+					</div>
+					<div class="withdraw-icon"></div>
+				</a>
+				<div>提现银行卡为绑定的投资银行卡</div>
+			</div>
+			
+			<div class="withdraw-money">
+				<ul>
+					<li>
+						<span>可提现金额</span>
+						<input type="text" name="mybalance" value="0.00元" disabled="disabled"/>			
+					</li>
+					<li>
+						<span>提现金额</span>
+						<input type="text" name="withdrawMoney" value="输入提现金额"/>
+						<button class="all-withdraw">全部提现</button>
+					</li>
+				</ul>
+			</div>
+			<div class="withdraw-pass bxg-between">
+				<span>交易密码</span>
+				<div class="pass-inp bxg-clear">
+					<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+	            	<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+	            	<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+	            	<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+	            	<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+	           	 	<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
+				</div>
+			</div>
+			<div class="withdraw-tip">
+				单笔提现额度999,999元，低于100元一次提现
+			</div>
+			<div class="bxg-submit">确定提现</div>
+			<div class="withdraw-tip"><a href="amend_paypw.html">忘记交易密码?</a></div>
+			<div class="bxg-saveTip">
+				<span class="withdraw-icon"></span>
+				安全为您保驾护航
+			</div>
+		</div>
+		<div class="bxg-alert-tip"></div>
+		<div class="bxg-keyboard"></div>
+		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/mobile_keyboard.js" ></script>
+		<script type="text/javascript" src="js/user_withdraw.js" ></script>
+	</body>
+</html>

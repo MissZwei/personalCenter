@@ -28,7 +28,7 @@
 			
 			<div class="bxg-send">正在为您发送到<span>135****5105</span>验证码</div>
 				
-			<div class="bxg-import bxg-clear"> 
+			<div class="bxg-import pass-inp bxg-clear"> 
 				<input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
 	            <input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
 	            <input readonly class="pass" type="password" maxlength="1" value="" disabled="disabled">
@@ -45,6 +45,7 @@
 		</div>
 		<div class="bxg-keyboard"></div>
 		<script type="text/javascript" src="public/js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/mobile_keyboard.js" ></script>
       	<script type="text/javascript">
       		$(function(){
 	      		$(".bxg-list").click(function(){
@@ -92,78 +93,8 @@
 //						
 //					}
 //				});
-				var passwords = $('.bxg-import input');
-				var num,index=0;	
-				var keyboard = '\
-					<div class="keyboard">\
-						<ul id="keyboard">\
-							<li class="symbol"><span class="off">1</span></li>\
-							<li class="symbol"><span class="off">2</span></li>\
-							<li class="symbol"><span class="off">3</span></li>\
-							<li class="symbol"><span class="off">4</span></li>\
-							<li class="symbol"><span class="off">5</span></li>\
-							<li class="symbol"><span class="off">6</span></li>\
-							<li class="symbol"><span class="off">7</span></li>\
-							<li class="symbol"><span class="off">8</span></li>\
-							<li class="symbol"><span class="off">9</span></li>\
-							<li class="key-delete">删除</li>\
-							<li class="symbol"><span class="off">0</span></li>\
-							<li class="key-ok">完成</li>\
-						</ul>\
-					</div>\
-				';
-				$(".bxg-keyboard").html(keyboard);
-				$(".bxg-import").click(function(){
-					$(".bxg-keyboard").show();
-				});
-				$('#keyboard li').click(function(){
-					//如果是取消	
-					if ($(this).hasClass('key-ok')) {
-						$(".bxg-keyboard").hide();
-						$("input.pass").val('');
-						index = 0;
-				        return false;
-				    }
-					//如果是删除
-					if ($(this).hasClass('key-delete')) {
-			        	$(passwords.eq([--index%6])).val('');
-			        	if($(passwords.eq(0)).val()==''){
-			        		index = 0;
-			        	}
-			            return false;
-			        }
-					
-					if($(this).hasClass('symbol')){
-						num = $(this).text();
-//						console.log(num);
-						$(passwords.eq([index++%6])).val(num);
-						
-						if($(passwords.eq(5)).val()!=''){
-			        		index = 0;
-			        		var pass='';
-			        		passwords.each(function(){
-			        			pass+=$(this).val();
-			        		});
-//			        		$.ajax({
-//			        			type:"post",
-//			        			data:{pass:pass},
-//			        			url:"",
-//			        			success:function(){
-//			        				
-//			        			},
-//			        			error:function(){
-//			        				
-//			        			}
-//			        		});
-			        	}
-						
-					}
-					
-				});
 				
-				
-				
-				
+
       		});
       	</script>
 	</body>

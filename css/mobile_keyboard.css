@@ -1,3 +1,6 @@
+.bxg-keyboard {
+  display: none;
+}
 .keyboard {
   position: fixed;
   bottom: 0;
