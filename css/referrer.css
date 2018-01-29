@@ -1,0 +1,86 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.referrer-address {
+  position: relative;
+  width: 10rem;
+  height: 8.91666667rem;
+  background: url(../images/referrer_bg.png) no-repeat;
+  background-size: 10rem 8.91666667rem;
+}
+.sum-people {
+  position: absolute;
+  top: 3.61111111rem;
+  left: 4.16666667rem;
+  color: #12B7F5;
+}
+.people-address {
+  font-size: 0.41666667rem;
+  color: #12B7F5;
+}
+.people-address > div {
+  position: absolute;
+}
+.people-address > div:nth-child(2n) {
+  right: 0.90277778rem;
+}
+.people-address > div:nth-child(2n-1) {
+  left: 0.90277778rem;
+}
+.people-address > div:nth-child(1),
+.people-address > div:nth-child(2) {
+  top: 1.66666667rem;
+}
+.people-address > div:nth-child(3),
+.people-address > div:nth-child(4) {
+  top: 3.65277778rem;
+}
+.people-address > div:nth-child(5),
+.people-address > div:nth-child(6) {
+  top: 5.69444444rem;
+}
+.referrer-list {
+  height: 4.16666667rem;
+  font-size: 0.38888889rem;
+  color: #505050;
+  overflow: scroll;
+}
+.referrer-list ul li {
+  padding: 0.20833333rem 0.41666667rem;
+  background: #fff;
+}
+.referrer-list ul li > div {
+  float: left;
+  line-height: 0.97222222rem;
+}
+.referrer-list ul li > div:last-child {
+  float: right;
+}
+.referrer-list ul li > div:nth-child(2) {
+  margin: 0 0.41666667rem;
+  width: 2.77777778rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.referrer-list .user-img {
+  width: 0.97222222rem;
+  height: 0.97222222rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #12B7F5;
+}
+.referrer-list .user-img img {
+  width: 100%;
+  height: 100%;
+}
+.load-all {
+  text-align: center;
+  color: #999;
+}

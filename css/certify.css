@@ -1,0 +1,34 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.11111111rem;
+}
+.bxg-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify ;
+  justify-content: space-between;
+}
+.certify-status {
+  color: #12B7F5!important;
+}
+.certify-img {
+  padding: 0.13888889rem 0.41666667rem;
+}
+.certify-img > div {
+  float: left;
+  width: 3.93055556rem;
+  height: 2.63888889rem;
+  border-radius: 0.27777778rem;
+  overflow: hidden;
+}
+.certify-img > div img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,33 @@
+body {
+  background: #F0F0F2;
+}
+.bxg-set-list {
+  background: none!important;
+}
+.bxg-set-list ul {
+  margin-top: 0.20833333rem;
+}
+.show-file {
+  margin-top: 1.11111111rem;
+}
+.show-file ul {
+  padding: 0.13888889rem 0.41666667rem;
+}
+.show-file ul li {
+  margin-top: 0.13888889rem;
+  margin-right: 0.13888889rem;
+  float: left;
+  width: 4.51388889rem;
+  height: 5.27777778rem;
+}
+.show-file ul li:nth-child(2n) {
+  margin-right: 0;
+}
+.show-file ul li img {
+  width: 100%;
+  height: 100%;
+}
+.show-file ul li:last-child {
+  background: url(../images/scan_upload.png) no-repeat;
+  background-size: 4.51388889rem 5.27777778rem;
+}

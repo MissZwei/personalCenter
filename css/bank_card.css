@@ -1,0 +1,66 @@
+body {
+  background: #f0f0f2;
+}
+.bxg-content {
+  position: relative;
+  margin-top: 1.25rem;
+}
+.add-card {
+  position: absolute;
+  top: 0.1875rem;
+  right: 0.41666667rem;
+  width: 0.73611111rem;
+  height: 0.73611111rem;
+  background-position: -3.01388889rem 0;
+}
+.card-list {
+  margin-bottom: 0.83333333rem;
+}
+.bank-card {
+  margin: 0.13888889rem auto 0;
+  padding: 0.41666667rem 0.69444444rem;
+  width: 9.19444444rem;
+  height: 4.16666667rem;
+  font-size: 0.41666667rem;
+  color: #fff;
+  background: #f25d5d;
+  border-radius: 0.13888889rem;
+}
+.bank-card > div:first-child img {
+  margin-right: 0.27777778rem;
+  float: left;
+  width: 0.94444444rem;
+  height: 0.94444444rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.bank-card > div:first-child {
+  line-height: 0.94444444rem;
+}
+.bank-card > div:nth-child(2) {
+  line-height: 1.38888889rem;
+  font-size: 0.77777778rem;
+  text-align: center;
+}
+.bank-card > div:nth-child(3) {
+  float: right;
+  width: 1.80555556rem;
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+  text-align: center;
+  color: #f25d5d;
+  background: #fff;
+  border-radius: 0.16666667rem;
+}
+.bxg-tip {
+  position: fixed;
+  bottom: 0;
+  margin-top: 4.16666667rem;
+  width: 10rem;
+  height: 0.69444444rem;
+  line-height: 0.69444444rem;
+  font-size: 0.36111111rem;
+  text-align: center;
+  color: #12B7F5;
+  background: #F0F0F2;
+}

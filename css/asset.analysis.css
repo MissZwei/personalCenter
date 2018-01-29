@@ -38,9 +38,12 @@ body {
   margin-top: 0.13888889rem;
 }
 .bxg-asset-chart {
-  width: 100%;
-  height: 3.85180556rem;
-  text-align: center;
+  width: 100%!important;
+  height: 5.55555556rem !important;
+}
+.bxg-asset-chart > div {
+  overflow: none;
+  width: 100%!important;
 }
 .bxg-asset-list {
   margin-top: 0.13888889rem;
@@ -65,7 +68,7 @@ body {
   float: right;
 }
 .bxg-cir-icon {
-  margin: 0.30555556rem 0.41666667rem 0.30555556rem 0;
+  margin: 0.30555556rem 0.41666667rem 0 0;
   float: left;
   display: block;
   width: 0.51388889rem;
